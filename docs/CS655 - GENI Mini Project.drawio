@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-15T04:55:16.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36 Edg/86.0.622.68" etag="RXJspS_QmnzSc05AiA_g" version="13.9.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-15T05:14:52.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36 Edg/86.0.622.68" etag="mUCLdXGVLKoTjQkp2_80" version="13.9.1" type="github" pages="2">
   <diagram id="QzmgXXAo4VwA-1DjOfG2" name="Architecture Diagram">
-    <mxGraphModel dx="1293" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1293" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,11 +35,8 @@
         <mxCell id="m7dSKkvTJnaMtns3MKiU-17" value="- Submit jobs&lt;br&gt;- Query jobs result" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="130" y="420" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m7dSKkvTJnaMtns3MKiU-18" value="MariaDB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" parent="1" vertex="1">
-          <mxGeometry x="50" y="210" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="m7dSKkvTJnaMtns3MKiU-20" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" parent="1" vertex="1">
-          <mxGeometry x="220" y="210" width="150" height="60" as="geometry" />
+        <mxCell id="m7dSKkvTJnaMtns3MKiU-18" value="MariaDB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;align=center;" parent="1" vertex="1">
+          <mxGeometry x="50" y="210" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m7dSKkvTJnaMtns3MKiU-21" value="Job Manager" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;arcSize=5;" parent="1" vertex="1">
           <mxGeometry x="50" y="285" width="320" height="50" as="geometry" />
@@ -72,7 +69,7 @@
           <mxGeometry x="425" y="407.5" width="205" height="90" as="geometry" />
         </mxCell>
         <mxCell id="jvKtw1fGomuDU6FK7ucb-5" value="Image Recognition&amp;nbsp; Component" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="950" y="271" width="120" height="230" as="geometry" />
+          <mxGeometry x="950" y="271" width="110" height="230" as="geometry" />
         </mxCell>
         <mxCell id="jvKtw1fGomuDU6FK7ucb-6" value="Feed image" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.55;dx=38.45;notch=0;rounded=0;labelBackgroundColor=none;strokeWidth=2;fillColor=none;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="785" y="296" width="150" height="90" as="geometry" />
