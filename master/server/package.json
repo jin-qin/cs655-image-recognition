@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for image recognition system, including job manager and restufl services",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@types/koa": "^2.11.6",
+    "koa": "^2.13.0"
+  }
+}
