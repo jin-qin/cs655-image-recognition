@@ -59,7 +59,7 @@ function JobBoard() {
 
         <JobBoardTable 
           isJobItemsLoading={isJobItemsLoading} 
-          refreshJobTable={refreshJobTable}
+          setJobItemsLoading={setJobItemsLoading}
           setAlertModalVisible={setAlertModalVisible}
           setDeleteJobParams={setDeleteJobParams}
         />
@@ -92,13 +92,13 @@ function JobBoard() {
 
 interface JobBoardTableProps {
   isJobItemsLoading: Boolean;
-  refreshJobTable: any;
+  setJobItemsLoading: any;
   setAlertModalVisible: any
   setDeleteJobParams: any
 }
 
 function JobBoardTable(props: JobBoardTableProps) {
-  const { isJobItemsLoading, refreshJobTable, setAlertModalVisible, setDeleteJobParams } = props;
+  const { isJobItemsLoading, setJobItemsLoading, setAlertModalVisible, setDeleteJobParams } = props;
   const [jobItems, setJobItems] = useState(null);
 
   useEffect(() => {
@@ -111,7 +111,7 @@ function JobBoardTable(props: JobBoardTableProps) {
         item_count++;
         return JobBoardTableItem({item_count, item, setAlertModalVisible, setDeleteJobParams});
       });
-      refreshJobTable();
+      setJobItemsLoading(false);
       setJobItems(items);
     });
   });
