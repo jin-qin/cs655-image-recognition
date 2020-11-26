@@ -42,10 +42,10 @@ class WorkerManager {
 
             if (ret.success) {
                 ctx.status = 200;
-                ctx.body = { 'status': 'success' };
+                ctx.body = { 'id': worker_id, 'result': 'success' };
             } else {
                 ctx.status = 400;
-                ctx.body = { 'status': 'error' };
+                ctx.body = { 'result': 'error' };
                 console.warn(`register worker node failed due to ${ret.result}`)
             }
         });

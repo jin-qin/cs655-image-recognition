@@ -46,10 +46,10 @@ class JobManager {
             const ret = await this.get_job(ctx.params.id);
             if (ret.success) {
                 ctx.status = 200;
-                ctx.body = { 'result': ret.result, 'status': 'success' };
+                ctx.body = { 'data': ret.result, 'result': 'success' };
             } else {
                 ctx.status = 400;
-                ctx.body = { 'status': 'error' };
+                ctx.body = { 'result': 'error' };
                 console.warn(`get job failed due to ${ret.result}`)
             }
         });
@@ -59,7 +59,7 @@ class JobManager {
             const ret = await this.get_all_jobs();
             if (ret.success) {
                 ctx.status = 200;
-                ctx.body = { 'result': ret.result, 'status': 'success' };
+                ctx.body = { 'data': ret.result, 'result': 'success' };
             } else {
                 ctx.status = 400;
                 ctx.body = { 'status': 'error' };
@@ -77,7 +77,7 @@ class JobManager {
                 ctx.body = { 'id': job_id };
             } else {
                 ctx.status = 400;
-                ctx.body = { 'status': 'error' };
+                ctx.body = { 'result': 'error' };
                 console.warn(`enqueue job failed due to ${ret.result}`)
             }
         });
@@ -92,10 +92,10 @@ class JobManager {
 
             if (ret.success) {
                 ctx.status = 200;
-                ctx.body = { 'status': 'success' };
+                ctx.body = { 'result': 'success' };
             } else {
                 ctx.status = 400;
-                ctx.body = { 'status': 'error' };
+                ctx.body = { 'result': 'error' };
                 console.warn(`update job failed due to ${ret.result}`)
             }
         });
@@ -106,10 +106,10 @@ class JobManager {
 
             if (ret.success) {
                 ctx.status = 200;
-                ctx.body = { 'status': 'success' };
+                ctx.body = { 'result': 'success' };
             } else {
                 ctx.status = 400;
-                ctx.body = { 'status': 'error' };
+                ctx.body = { 'result': 'error' };
                 console.warn(`delete job failed due to ${ret.result}`)
             }
         });
@@ -120,10 +120,10 @@ class JobManager {
 
             if (ret.success) {
                 ctx.status = 200;
-                ctx.body = { 'status': 'success' };
+                ctx.body = { 'result': 'success' };
             } else {
                 ctx.status = 400;
-                ctx.body = { 'status': 'error' };
+                ctx.body = { 'result': 'error' };
                 console.warn(`clear jobs failed due to ${ret.result}`)
             }
         });
