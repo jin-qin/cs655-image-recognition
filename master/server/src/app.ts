@@ -5,12 +5,14 @@ import WorkerManager from './worker_manager';
 import DBHelper from './util/db_helper';
 import config from './config/app-config.json';
 import bodyParser from 'koa-bodyparser';
+import cors from '@koa/cors';
 
 const app = new Koa();
 const job_mgr = new JobManager();
 const worker_mgr = new WorkerManager();
 
 app.use(bodyParser())
+   .use(cors())
    .use(job_mgr.get_router().routes())
    .use(job_mgr.get_router().allowedMethods())
    .use(worker_mgr.get_router().routes())
