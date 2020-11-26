@@ -1,0 +1,13 @@
+{
+    "app": {
+        "listen_port": 5000,
+        "maximum_worker": 100
+    },
+    "db": {
+        "db_addr": "192.168.1.85",
+        "db_port": 3386,
+        "db_user": "root",
+        "db_pwd": "test",
+        "db_name": "img_recog"
+    }
+}
