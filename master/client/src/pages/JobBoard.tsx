@@ -165,13 +165,26 @@ function JobBoardTableItem(props: JobBoardTableItemProps) {
     setAlertModalVisible(true);
   }
 
+  const options = {
+    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+    hour12: false,
+    timeZoneName:'short'
+  };
+
+  const localTime = (dt?: string, opt?: Intl.DateTimeFormatOptions | undefined) => {
+    return dt ? (new Date(dt)).toLocaleString('en-US', opt) : dt;
+  };
+  
+  const submit_time = localTime(item.submit_time, options);
+  const finish_time = localTime(item.finish_time, options);
+
   return (
     <tr key={item_count}>
       <td>{item_count}</td>
       <td>{item.job_id}</td>
       <td><Badge variant={styleMap.get(item.status)}>{item.status}</Badge></td>
-      <td>{item.submit_time}</td>
-      <td>{item.finish_time}</td>
+      <td>{submit_time}</td>
+      <td>{finish_time}</td>
       <td><Button variant='danger' size='sm' onClick = { () => tryDeleteItem() }>DELETE</Button></td>
     </tr>
   );
