@@ -13,8 +13,14 @@ class DBHelper {
         const db_user = config.db.db_user;
         const db_pwd = config.db.db_pwd;
         const db_name = config.db.db_name;
-        this.db_pool = mariadb.createPool({host: db_addr, port: db_port, 
-            user: db_user, password: db_pwd, database: db_name, connectionLimit: 10});
+        this.db_pool = mariadb.createPool({
+            host: db_addr,
+            port: db_port, 
+            user: db_user,
+            password: db_pwd,
+            database: db_name,
+            connectionLimit: 100,
+            timezone: "+00:00"});
     }
 
     public static get_instance() {
