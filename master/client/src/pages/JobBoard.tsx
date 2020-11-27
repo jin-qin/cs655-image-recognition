@@ -52,40 +52,40 @@ function JobBoard() {
 
   return (
     <div className='JobBoard-Layout'>
-        <div className='JobBoard-Title'>
-          <h1>Image Recognition System - Job Board</h1>
-          <Button variant='primary' size='lg' onClick={refreshJobTable}>REFRESH</Button>
-        </div>
+      <div className='JobBoard-Title'>
+        <h1>Image Recognition System - Job Board</h1>
+        <Button variant='primary' size='lg' onClick={refreshJobTable}>REFRESH</Button>
+      </div>
 
-        <JobBoardTable 
-          isJobItemsLoading={isJobItemsLoading} 
-          setJobItemsLoading={setJobItemsLoading}
-          setAlertModalVisible={setAlertModalVisible}
-          setDeleteJobParams={setDeleteJobParams}
-        />
-        
-        <div className='JobBoard-Actions'>
-          <LinkContainer to="/job_submit">
-            <Button variant='primary' size='lg'>SUBMIT A NEW JOB</Button>
-          </LinkContainer>
+      <JobBoardTable 
+        isJobItemsLoading={isJobItemsLoading} 
+        setJobItemsLoading={setJobItemsLoading}
+        setAlertModalVisible={setAlertModalVisible}
+        setDeleteJobParams={setDeleteJobParams}
+      />
+      
+      <div className='JobBoard-Actions'>
+        <LinkContainer to="/job_submit">
+          <Button variant='primary' size='lg'>SUBMIT A NEW JOB</Button>
+        </LinkContainer>
 
-          <Button variant='danger' size='lg' onClick={tryDeleteAllItems}>DELETE ALL JOBS</Button>
-        </div>
+        <Button variant='danger' size='lg' onClick={tryDeleteAllItems}>DELETE ALL JOBS</Button>
+      </div>
 
-        <Modal show={showAlertModal} onHide={() => setAlertModalVisible(false)}>
-          <Modal.Header closeButton>
-            <Modal.Title>Are you sure?</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>Please be careful to delete the job(s)!</Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={() => setAlertModalVisible(false)}>
-              Cancel
-            </Button>
-            <Button variant="danger" onClick={handleDelete}>
-              Delete
-            </Button>
-          </Modal.Footer>
-        </Modal>
+      <Modal show={showAlertModal} onHide={() => setAlertModalVisible(false)}>
+        <Modal.Header closeButton>
+          <Modal.Title>Are you sure?</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Please be careful to delete the job(s)!</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={() => setAlertModalVisible(false)}>
+            Cancel
+          </Button>
+          <Button variant="danger" onClick={handleDelete}>
+            Delete
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
