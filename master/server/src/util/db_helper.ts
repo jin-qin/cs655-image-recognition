@@ -20,7 +20,7 @@ class DBHelper {
             password: db_pwd,
             database: db_name,
             connectionLimit: 100,
-            timezone: "+00:00"});
+            timezone: 'Etc/GMT0'});
     }
 
     public static get_instance() {

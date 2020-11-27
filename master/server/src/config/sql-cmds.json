@@ -1,9 +1,10 @@
 {
     "jobs": {
-        "create_job_queue": "CREATE TABLE IF NOT EXISTS job_queue (job_id CHAR(36) NOT NULL PRIMARY KEY, worker_id CHAR(36), status CHAR(8) NOT NULL, submit_time DATETIME(2), finish_time DATETIME(2), result CHAR(64))",
+        "create_job_queue": "CREATE TABLE IF NOT EXISTS job_queue (job_id CHAR(36) NOT NULL PRIMARY KEY, worker_id CHAR(36), status CHAR(8) NOT NULL, submit_time DATETIME(2), finish_time DATETIME(2), result CHAR(64), img_name CHAR(40))",
         "get_job": "SELECT * from job_queue WHERE job_id=?",
+        "get_jobs": "SELECT * from job_queue WHERE job_id IN (?)",
         "get_all_jobs": "SELECT * from job_queue",
-        "insert_job": "INSERT IGNORE INTO job_queue (job_id, status, submit_time) VALUES (?)",
+        "insert_job": "INSERT IGNORE INTO job_queue (job_id, status, submit_time, img_name) VALUES (?)",
         "update_job": "UPDATE job_queue SET status=?, finish_time=?, result=? WHERE job_id=?",
         "delete_jobs": "DELETE IGNORE FROM job_queue WHERE (job_id) IN (?)",
         "clear_jobs": "DELETE IGNORE FROM job_queue"

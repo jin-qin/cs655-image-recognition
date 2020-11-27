@@ -1,7 +1,8 @@
 {
     "app": {
         "listen_port": 5000,
-        "maximum_worker": 100
+        "maximum_worker": 100,
+        "upload_dir": "./uploads/imgs/"
     },
     "db": {
         "db_addr": "192.168.1.85",

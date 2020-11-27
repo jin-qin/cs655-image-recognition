@@ -1,6 +1,6 @@
 import Koa from 'koa';
 import Router from '@koa/router';
-import sql_cmds from './config/sql_cmds.json'
+import sql_cmds from './config/sql-cmds.json'
 import DBHelper from './util/db_helper';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -23,14 +23,6 @@ class WorkerManager {
 
     public get_router() {
         return this.router;
-    }
-
-    public routes() {
-        return this.router.routes();
-    }
-
-    public allowed_methods() {
-        return this.router.allowedMethods();
     }
 
     private setup_routes() {
