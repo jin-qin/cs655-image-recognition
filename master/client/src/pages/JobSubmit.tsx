@@ -1,7 +1,8 @@
-import React, { useState, useRef} from 'react';
+import React, { useState, useRef, useCallback} from 'react';
 import './JobSubmit.css';
 import { Button, Modal } from 'react-bootstrap';
 import config from '../config/app-config.json';
+import { useDropzone } from 'react-dropzone'
 
 function JobSubmit() {
   const [showInfoModal, setShowInfoModal] = useState({ visibility: false, info: '', title: '' });
@@ -44,7 +45,7 @@ function JobSubmit() {
       </div>
 
       <div className='JobSubmit-ImagePreview'>
-        {image.preview ? (<img src={image.preview} alt='' />) : (<h2>Drag and drop one image here</h2>)}
+        <Dropzone image={image} setImage={setImage}/>
       </div>
 
       <div className='JobSubmit-Actions'>
@@ -72,6 +73,34 @@ function JobSubmit() {
       </Modal>
     </div>
   );
+}
+
+interface DropzoneProps {
+  image: {preview: string, raw: Blob},
+  setImage: any
+}
+
+function Dropzone(props: DropzoneProps) {
+  const { image, setImage } = props;
+  const onDrop = useCallback(acceptedFiles => {
+    if (acceptedFiles == null || acceptedFiles.length <= 0) return;
+    setImage({preview: URL.createObjectURL(acceptedFiles[0]), raw: acceptedFiles[0]})
+  }, [setImage])
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({onDrop})
+
+  return (
+    <div {...getRootProps({className: 'JobSubmit-Dropzone'})}>
+      <input {...getInputProps()} />
+      { image.preview ?
+          <img height='80%' src={image.preview} alt='' />:
+          (
+            isDragActive ?
+            <h2>Drop the files here ...</h2> :
+            <h2>Drag and drop some files here, or click to select files</h2>
+          )
+      }
+    </div>
+  )
 }
 
 export default JobSubmit;
