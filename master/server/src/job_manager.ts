@@ -5,7 +5,7 @@ import config from './config/app-config.json';
 import sql_cmds from './config/sql-cmds.json'
 import DBHelper from './util/db_helper';
 import {get_date_time} from './util/misc';
-import multer from 'koa-multer';
+import multer, { MulterIncomingMessage } from 'koa-multer';
 import path from 'path';
 import fs from 'fs';
 
@@ -36,7 +36,8 @@ class JobManager {
             filename: (_req, file, cb) => {
                 cb(null, uuidv4() + path.extname(file.originalname))
             }
-        })
+        });
+        
         this.upload = multer({ storage: storage });
 
         this.setup_routes();
@@ -80,6 +81,11 @@ class JobManager {
             if (file.size <= 0) {
                 ctx.status = 400;
                 ctx.body = { 'result': 'error', 'msg': 'empty file is not acceptable.'};
+
+                fs.unlink(config.app.upload_dir + file.filename, (err) => {
+                    if (err != null) console.warn(err);
+                });
+
                 return;
             }
 
