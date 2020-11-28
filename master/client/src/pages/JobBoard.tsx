@@ -72,11 +72,11 @@ function JobBoard() {
         <Button variant='danger' size='lg' onClick={tryDeleteAllItems}>DELETE ALL JOBS</Button>
       </div>
 
-      <Modal show={showAlertModal} onHide={() => setAlertModalVisible(false)}>
+      <Modal show={showAlertModal} onHide={() => setAlertModalVisible(false)} centered>
         <Modal.Header closeButton>
           <Modal.Title>Are you sure?</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Please be careful to delete the job(s)!</Modal.Body>
+        <Modal.Body>Please be careful to delete the job(s)! This operation cannot be recovered!</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={() => setAlertModalVisible(false)}>
             Cancel

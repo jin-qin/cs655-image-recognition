@@ -1,9 +1,11 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef} from 'react';
 import './JobSubmit.css';
-import { Button} from 'react-bootstrap';
+import { Button, Modal } from 'react-bootstrap';
 import config from '../config/app-config.json';
 
 function JobSubmit() {
+  const [showInfoModal, setShowInfoModal] = useState({ visibility: false, info: '', title: '' });
+
   const [image, setImage] = useState<{preview: string, raw: Blob}>({preview: '', raw: new Blob()});
 
   const inputFileRef = useRef<HTMLInputElement>(null);
@@ -16,7 +18,7 @@ function JobSubmit() {
       inputFileRef.current?.click(); 
   };
 
-  const onUploadFile = async (e : React.MouseEvent<HTMLElement, MouseEvent>) => {
+  const onUploadFile = async (e: React.MouseEvent<HTMLElement, MouseEvent>) => {
     e.preventDefault();
     const formData = new FormData();
     formData.append('image', image.raw);
@@ -28,9 +30,9 @@ function JobSubmit() {
     .then(res => res.json())
     .then(rsp => {
       if (rsp.result === 'success') {
-        console.log(rsp.id);
+        setShowInfoModal({ visibility: true, info: 'Successfully submitted a job!', title: 'Congratulations!' });
       } else {
-        console.log(rsp.msg);
+        setShowInfoModal({ visibility: true, info: rsp.msg, title: 'Oops!' });
       }
     });
   };
@@ -57,7 +59,17 @@ function JobSubmit() {
           style={{display: 'none'}} />
       </div>
       
-    
+      <Modal show={showInfoModal.visibility} onHide={() => setShowInfoModal({ visibility: false, info: '', title: '' })} centered>
+        <Modal.Header closeButton>
+          <Modal.Title>{showInfoModal.title}</Modal.Title>
+        </Modal.Header>
+          <Modal.Body>{showInfoModal.info}</Modal.Body>
+        <Modal.Footer>
+          <Button variant="info" onClick={() => setShowInfoModal({ visibility: false, info: '', title: '' })}>
+            Ok
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
