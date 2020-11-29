@@ -52,40 +52,40 @@ function JobBoard() {
 
   return (
     <div className='JobBoard-Layout'>
-        <div className='JobBoard-Title'>
-          <h1>Image Recognition System - Job Board</h1>
-          <Button variant='primary' size='lg' onClick={refreshJobTable}>REFRESH</Button>
-        </div>
+      <div className='JobBoard-Title'>
+        <h1>Image Recognition System - Job Board</h1>
+        <Button variant='primary' size='lg' onClick={refreshJobTable}>REFRESH</Button>
+      </div>
 
-        <JobBoardTable 
-          isJobItemsLoading={isJobItemsLoading} 
-          setJobItemsLoading={setJobItemsLoading}
-          setAlertModalVisible={setAlertModalVisible}
-          setDeleteJobParams={setDeleteJobParams}
-        />
-        
-        <div className='JobBoard-Actions'>
-          <LinkContainer to="/job_submit">
-            <Button variant='primary' size='lg'>SUBMIT A NEW JOB</Button>
-          </LinkContainer>
+      <JobBoardTable 
+        isJobItemsLoading={isJobItemsLoading} 
+        setJobItemsLoading={setJobItemsLoading}
+        setAlertModalVisible={setAlertModalVisible}
+        setDeleteJobParams={setDeleteJobParams}
+      />
+      
+      <div className='JobBoard-Actions'>
+        <LinkContainer to="/job_submit">
+          <Button variant='primary' size='lg'>SUBMIT A NEW JOB</Button>
+        </LinkContainer>
 
-          <Button variant='danger' size='lg' onClick={tryDeleteAllItems}>DELETE ALL JOBS</Button>
-        </div>
+        <Button variant='danger' size='lg' onClick={tryDeleteAllItems}>DELETE ALL JOBS</Button>
+      </div>
 
-        <Modal show={showAlertModal} onHide={() => setAlertModalVisible(false)}>
-          <Modal.Header closeButton>
-            <Modal.Title>Are you sure?</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>Please be careful to delete the job(s)!</Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={() => setAlertModalVisible(false)}>
-              Cancel
-            </Button>
-            <Button variant="danger" onClick={handleDelete}>
-              Delete
-            </Button>
-          </Modal.Footer>
-        </Modal>
+      <Modal show={showAlertModal} onHide={() => setAlertModalVisible(false)} centered>
+        <Modal.Header closeButton>
+          <Modal.Title>Are you sure?</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Please be careful to delete the job(s)! This operation cannot be recovered!</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={() => setAlertModalVisible(false)}>
+            Cancel
+          </Button>
+          <Button variant="danger" onClick={handleDelete}>
+            Delete
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
@@ -165,13 +165,26 @@ function JobBoardTableItem(props: JobBoardTableItemProps) {
     setAlertModalVisible(true);
   }
 
+  const options = {
+    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+    hour12: false,
+    timeZoneName:'short'
+  };
+
+  const localTime = (dt?: string, opt?: Intl.DateTimeFormatOptions | undefined) => {
+    return dt ? (new Date(dt)).toLocaleString('en-US', opt) : dt;
+  };
+  
+  const submit_time = localTime(item.submit_time, options);
+  const finish_time = localTime(item.finish_time, options);
+
   return (
     <tr key={item_count}>
       <td>{item_count}</td>
       <td>{item.job_id}</td>
       <td><Badge variant={styleMap.get(item.status)}>{item.status}</Badge></td>
-      <td>{item.submit_time}</td>
-      <td>{item.finish_time}</td>
+      <td>{submit_time}</td>
+      <td>{finish_time}</td>
       <td><Button variant='danger' size='sm' onClick = { () => tryDeleteItem() }>DELETE</Button></td>
     </tr>
   );
