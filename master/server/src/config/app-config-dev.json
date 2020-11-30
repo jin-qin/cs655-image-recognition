@@ -5,9 +5,9 @@
         "upload_dir": "./uploads/imgs/"
     },
     "db": {
-        "db_addr": "localhost",
-        "db_port": 3306,
-        "db_user": "test",
+        "db_addr": "192.168.1.85",
+        "db_port": 3386,
+        "db_user": "root",
         "db_pwd": "test",
         "db_name": "img_recog"
     }

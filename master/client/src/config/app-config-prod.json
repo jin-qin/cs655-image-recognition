@@ -1,0 +1,5 @@
+{
+    "app": {
+        "server_addr": "http://pcvm3-23.instageni.cenic.net:5000"
+    }
+}
