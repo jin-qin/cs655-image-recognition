@@ -23,3 +23,6 @@ Sudo apt install libgl1-mesa-glx
 
 ### Checkpoint example
 wget https://storage.googleapis.com/mobilenet_v3/checkpoints/v3-large_224_1.0_float.tgz
+
+### How to run 
+python3 tf_weights_to_pth.py --tf_checkpoint_path xxx/v3-large_224_1.0_float/ema/model-540000 --image_path ./test/cat.jpg
