@@ -4,7 +4,12 @@
 run `yarn build` in the root directory.
 
 ## **RUN**
-run `yarn start` in the root directory.
+
+### **Development**
+run `yarn start-dev` in the root directory.
+
+### **Production**
+run `yarn start-prod` in the root directory.
 
 ## **API definitions**
 * GET `/jobs/item/:id`
