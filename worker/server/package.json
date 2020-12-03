@@ -1,0 +1,27 @@
+{
+  "name": "worker-server",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "license": "MIT",
+  "scripts": {
+    "start-dev": "./start-dev.sh",
+    "start-prod": "./start-prod.sh",
+    "build": "./build.sh"
+  },
+  "dependencies": {
+    "@koa/multer": "^3.0.0",
+    "@koa/router": "^10.0.0",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/koa": "^2.11.6",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-multer": "^1.0.0",
+    "@types/koa__router": "^8.0.3",
+    "@types/node-fetch": "^2.5.7",
+    "@types/uuid": "^8.3.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-multer": "^1.0.2",
+    "node-fetch": "^2.6.1",
+    "uuid": "^8.3.1"
+  }
+}

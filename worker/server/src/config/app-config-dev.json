@@ -1,0 +1,8 @@
+{
+    "app": {
+        "listen_port": 6000,
+        "upload_dir": "./uploads/imgs/",
+        "master_server_addr": "192.168.1.113",
+        "master_server_port": 5000
+    }
+}
