@@ -8,6 +8,8 @@ import {get_date_time} from './util/misc';
 import multer, { MulterIncomingMessage } from 'koa-multer';
 import path from 'path';
 import fs from 'fs';
+import fetch from 'node-fetch';
+import FormData from 'form-data'; 
 
 enum JobStatus {
     QUEUED = "QUEUED",
@@ -16,18 +18,23 @@ enum JobStatus {
     SUCCESS = "SUCCESS",
 }
 
+enum WorkerStatus {
+    IDLE = "IDLE",
+    BUSY = "BUSY",
+    ERROR = "ERROR",
+    STOPPED = "STOPPED",
+}
+
 class JobManager {
     private router: Router;
-    private max_num_worker: number;
-    private cur_num_worker: number;
     private upload: multer.Instance;
+
+    private interval_timer!: NodeJS.Timeout;
     
     constructor() {
         this.router = new Router({
             'prefix': '/jobs'
         });
-        this.max_num_worker = config.app.maximum_worker;
-        this.cur_num_worker = 0;
         const storage = multer.diskStorage({
             destination: (_req, _file, cb) => {
                 fs.mkdirSync(config.app.upload_dir, { recursive: true })
@@ -40,12 +47,51 @@ class JobManager {
         
         this.upload = multer({ storage: storage });
 
+        this.setup_timer();
         this.setup_routes();
         this.check_create_job_queue_table();
     }
 
     public get_router() {
         return this.router;
+    }
+
+    public terminate() {
+        clearInterval(this.interval_timer);
+    }
+
+    private setup_timer() {
+        this.interval_timer = setInterval(async () => {
+            await this.poll_worker_status();
+            await this.schedule_next_job();
+        }, 500);
+    }
+
+    private async poll_worker_status() {
+        const ret = await this.get_all_workers();
+        if (!ret.success) {
+            console.warn(`failed to get all worker records due to ${ret.result}`);
+            return;
+        }
+
+        for (let row of ret.result) {
+            fetch(`http://${row.ip_addr}:${row.port}/status`)
+                .then(rsp => rsp.json())
+                .then(json_data => {
+                    this.update_worker(json_data.status, row.ip_addr);
+                })
+                .catch(err => {
+                    console.warn(`cannot get the worker status due to ${err}`);
+                    this.update_worker(WorkerStatus.ERROR, row.ip_addr);
+                });
+        }
+    }
+
+    private async schedule_next_job() {
+        const {success, job_id, img_name, msg} = await this.get_queued_job();
+        if (!success) return;
+
+        await this.schedule_job(job_id, config.app.upload_dir + img_name);
     }
 
     private setup_routes() {
@@ -99,14 +145,6 @@ class JobManager {
                 return;
             }
 
-            const ret_schedule = await this.schedule_job(job_id);
-            if (!ret_schedule.success) {
-                ctx.status = 400;
-                ctx.body = { 'result': 'error', 'msg': 'failed to schedule the job!'};
-                console.warn(`schedule job failed due to ${ret_schedule.result}`);
-                return;
-            }
-
             ctx.status = 201;
             ctx.body = { 'result': 'success', 'id': job_id };
         });
@@ -114,10 +152,14 @@ class JobManager {
         // worker will call this callback api to update job's data
         this.router.put('/update', async (ctx: Koa.Context) => {
             const params = ctx.request.body;
-            const ret = await this.update_job(params.job_id,
-                                              params.job_status,
-                                              params.job_finish_time,
-                                              params.job_result);
+            const ret = await this.update_job_result(params.job_id,
+                                                     params.job_status,
+                                                     params.job_finish_time,
+                                                     params.job_result);
+            
+            
+            const worker_ip = ctx.request.ip.replace('::ffff:', '');
+            await this.update_worker(WorkerStatus.IDLE, worker_ip);
 
             if (ret.success) {
                 ctx.status = 200;
@@ -213,10 +255,14 @@ class JobManager {
         return await DBHelper.query(sql_cmds.jobs.insert_job, [[job_id, job_status, get_date_time(), img_name]]);
     }
 
-    private async update_job(
+    private async update_job_result(
         job_id: string, job_status: string, 
         job_finish_time: string, job_result: string) {
         return await DBHelper.query(sql_cmds.jobs.update_job, [job_status, job_finish_time, job_result, job_id]);
+    }
+
+    private async update_job_worker(job_id: string, status: string, worker_id: string) {
+        return await DBHelper.query(sql_cmds.jobs.update_job_worker, [worker_id, status, job_id]);
     }
 
     private async delete_jobs(job_ids: string[]) {
@@ -227,10 +273,58 @@ class JobManager {
         return await DBHelper.query(sql_cmds.jobs.clear_jobs);
     }
 
-    private async schedule_job(job_id: string) {
-        // TODO, schedule a job to a worker.
+    // schedule a job to a worker
+    private async schedule_job(job_id: string, img_path: string) {
+        const {success, worker_id, ip, port, msg} = await this.get_idle_worker();
+        if (!success) {
+            return {success: false, result: msg};
+        }
 
-        return {success: true, result: ''};
+        console.log(`schedule ${job_id} to worker ${worker_id} on image ${img_path}`);
+
+        const form = new FormData();
+        form.append('job_id', job_id);
+        form.append('image', fs.createReadStream(img_path));
+
+        const rsp = await fetch(`http://${ip}:${port}/schedule`, {method: 'POST', body: form});
+        const rsp_data = await rsp.json();
+        if (rsp.status == 201) {
+            this.update_job_worker(job_id, JobStatus.RUNNING, worker_id);
+            return {success: true, result: rsp_data};
+        }
+
+        return {success: false, result: rsp_data};
+    }
+
+    private async get_idle_worker() {
+        const ret = await DBHelper.query(sql_cmds.workers.get_idle_worker);
+        if (!ret.success || ret.result.length <= 0) {
+            return {success: false, ip: '', port: '', msg: 'no available worker'};
+        }
+
+        return {success: true, worker_id: ret.result[0].worker_id, ip: ret.result[0].ip_addr, port: ret.result[0].port, msg: ''};
+    }
+
+    private async update_worker(status: string, ip: string) {
+        const ret = await DBHelper.query(sql_cmds.workers.update_worker, [status, ip]);
+        if (!ret.success) {
+            return {success: false};
+        }
+
+        return {success: true};
+    }
+
+    private async get_all_workers() {
+        return await DBHelper.query(sql_cmds.workers.get_all_workers);
+    }
+
+    private async get_queued_job() {
+        const ret = await DBHelper.query(sql_cmds.jobs.get_queued_job);
+        if (!ret.success || ret.result.length <= 0) {
+            return {success: false, job_id: '', img_path: '', msg: 'no queued job'};
+        }
+
+        return {success: true, job_id: ret.result[0].job_id, img_name: ret.result[0].img_name, msg: ''};
     }
 
     private gen_job_id(): string {

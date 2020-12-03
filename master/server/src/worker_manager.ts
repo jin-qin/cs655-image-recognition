@@ -5,8 +5,8 @@ import DBHelper from './util/db_helper';
 import { v4 as uuidv4 } from 'uuid';
 
 enum WorkerStatus {
-    STARTING = "STARTING",
-    RUNNING = "RUNNING",
+    IDLE = "IDLE",
+    BUSY = "BUSY",
     ERROR = "ERROR",
     STOPPED = "STOPPED",
 }
@@ -28,9 +28,11 @@ class WorkerManager {
     private setup_routes() {
         // worker call this api to register itself into the master
         this.router.post('/register', async (ctx: Koa.Context) => {
-            const params = ctx.request.body;
+            const port = ctx.request.body.port;
+            const ip = ctx.request.ip.replace('::ffff:', '');
             const worker_id = this.gen_worker_id();
-            const ret = await this.register_worker(worker_id, params.worker_ip);
+            console.log(worker_id, ip, ctx.request.body)
+            const ret = await this.register_worker(worker_id, ip, port);
 
             if (ret.success) {
                 ctx.status = 200;
@@ -53,13 +55,13 @@ class WorkerManager {
         }
     }
 
-    private async register_worker(worker_id: string, worker_ip: string) {
+    private async register_worker(worker_id: string, worker_ip: string, port: number) {
         const is_worker_exists = await this.check_worker_exists(worker_ip);
         if (is_worker_exists) {
             return { result: `${worker_ip} is existed`, success: false};
         }
 
-        return await DBHelper.query(sql_cmds.workers.insert_worker, [[worker_id, worker_ip, WorkerStatus.STARTING]]);
+        return await DBHelper.query(sql_cmds.workers.insert_worker, [[worker_id, worker_ip, port, WorkerStatus.IDLE]]);
     }
 
     private async check_worker_exists(worker_ip: string) {
@@ -70,7 +72,7 @@ class WorkerManager {
         }
 
         console.warn(`get worker data failed due to ${ret.result}`);
-        return 0;
+        return false;
     }
 
     private gen_worker_id(): string {

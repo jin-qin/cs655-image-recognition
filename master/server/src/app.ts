@@ -27,6 +27,7 @@ app.listen(port, () => {
 // handle ctrl+c signal in terminal
 process.on('SIGINT', () => {
     DBHelper.close_db_conn();
+    job_mgr.terminate();
     console.log('Server terminated');
     process.exit(1);
-})
+});

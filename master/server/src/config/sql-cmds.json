@@ -4,14 +4,19 @@
         "get_job": "SELECT * from job_queue WHERE job_id=?",
         "get_jobs": "SELECT * from job_queue WHERE job_id IN (?)",
         "get_all_jobs": "SELECT * from job_queue",
+        "get_queued_job": "SELECT * from job_queue WHERE status='QUEUED' LIMIT 1",
         "insert_job": "INSERT IGNORE INTO job_queue (job_id, status, submit_time, img_name) VALUES (?)",
         "update_job": "UPDATE job_queue SET status=?, finish_time=?, result=? WHERE job_id=?",
+        "update_job_worker": "UPDATE job_queue SET worker_id=?, status=? WHERE job_id=?",
         "delete_jobs": "DELETE IGNORE FROM job_queue WHERE (job_id) IN (?)",
         "clear_jobs": "DELETE IGNORE FROM job_queue"
     },
     "workers": {
-        "create_worker_queue": "CREATE TABLE IF NOT EXISTS worker_queue (worker_id CHAR(36) NOT NULL PRIMARY KEY, ip_addr CHAR(16) NOT NULL, status CHAR(8) NOT NULL)",
+        "create_worker_queue": "CREATE TABLE IF NOT EXISTS worker_queue (worker_id CHAR(36) NOT NULL PRIMARY KEY, ip_addr CHAR(16) NOT NULL, port INT NOT NULL, status CHAR(8) NOT NULL)",
         "get_worker": "SELECT * from worker_queue WHERE ip_addr=?",
-        "insert_worker": "INSERT IGNORE INTO worker_queue (worker_id, ip_addr, status) VALUES (?)"
+        "get_all_workers": "SELECT * from worker_queue",
+        "get_idle_worker": "SELECT * from worker_queue WHERE status='IDLE' LIMIT 1",
+        "insert_worker": "INSERT IGNORE INTO worker_queue (worker_id, ip_addr, port, status) VALUES (?)",
+        "update_worker": "UPDATE worker_queue SET status=? WHERE ip_addr=?"
     }
 }
