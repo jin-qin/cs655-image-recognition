@@ -3,7 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
+    padding-left: 10vmin;
+    padding-right: 10vmin;
 }
 
 .JobBoard-Title {
@@ -31,4 +33,12 @@
     align-items: center;
     width: 100%;
     margin: 1vmin;
+}
+
+.JobBoard-RefreshButton {
+    width: 5vmax;
+    height: 5vmax;
+    max-width: 36px;
+    max-height: 36px;
+    cursor: pointer;
 }

@@ -3,7 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
+    padding-left: 10vmin;
+    padding-right: 10vmin;
 }
 
 .JobSubmit-Title {
@@ -44,4 +46,8 @@
     align-items: center;
     width: 100vmin;
     margin-top: 5vmin;
+}
+
+.JobSubmit-Button {
+    min-width: 30vmin;
 }

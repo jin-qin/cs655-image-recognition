@@ -49,8 +49,8 @@ function JobSubmit() {
       </div>
 
       <div className='JobSubmit-Actions'>
-        <Button variant='primary' size='lg' onClick={onChooseFileBtnBlick}>Open the file browser</Button>
-        <Button variant='success' size='lg' onClick={onUploadFile}>Submit</Button>
+        <Button className='JobSubmit-Button' variant='primary' size='lg' onClick={onChooseFileBtnBlick}>Open the file browser</Button>
+        <Button className='JobSubmit-Button' variant='success' size='lg' onClick={onUploadFile}>Submit</Button>
 
         <input 
           type="file"
@@ -86,7 +86,8 @@ function Dropzone(props: DropzoneProps) {
     if (acceptedFiles == null || acceptedFiles.length <= 0) return;
     setImage({preview: URL.createObjectURL(acceptedFiles[0]), raw: acceptedFiles[0]})
   }, [setImage])
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({onDrop})
+
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({onDrop, multiple: false})
 
   return (
     <div {...getRootProps({className: 'JobSubmit-Dropzone'})}>
@@ -95,8 +96,8 @@ function Dropzone(props: DropzoneProps) {
           <img height='80%' src={image.preview} alt='' />:
           (
             isDragActive ?
-            <h2>Drop the files here ...</h2> :
-            <h2>Drag and drop some files here, or click to select files</h2>
+            <h3>Drop the file here ...</h3> :
+            <h3>Drag and drop a file here, or click to select.</h3>
           )
       }
     </div>
