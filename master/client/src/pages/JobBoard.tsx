@@ -217,8 +217,8 @@ function RefreshButton(props: RefreshButtonProps) {
         setRefreshBtnSpin(true);
         const timer = setInterval(() => {
           if (!isJobItemsLoading) {
-            setRefreshBtnSpin(false);
             clearInterval(timer);
+            setRefreshBtnSpin(false);
           }
         }, 1000);
       }}
