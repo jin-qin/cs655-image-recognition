@@ -1,10 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import './JobBoard.css';
-
 import { Button, Table, Badge, Modal} from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-
 import config from '../config/app-config.json';
+import refresh_icon from '../assets/images/btn_refresh.svg';
 
 function JobBoard() {
   const [isJobItemsLoading, setJobItemsLoading] = useState(true);
@@ -54,7 +53,10 @@ function JobBoard() {
     <div className='JobBoard-Layout'>
       <div className='JobBoard-Title'>
         <h1>Image Recognition System - Job Board</h1>
-        <Button variant='primary' size='lg' onClick={refreshJobTable}>REFRESH</Button>
+        <RefreshButton
+          isJobItemsLoading={isJobItemsLoading}
+          refreshJobTable={refreshJobTable}
+        />
       </div>
 
       <JobBoardTable 
@@ -113,6 +115,10 @@ function JobBoardTable(props: JobBoardTableProps) {
       });
       setJobItemsLoading(false);
       setJobItems(items);
+    })
+    .catch(e => {
+      console.log(e);
+      setJobItemsLoading(false);
     });
   });
 
@@ -187,6 +193,36 @@ function JobBoardTableItem(props: JobBoardTableItemProps) {
       <td>{finish_time}</td>
       <td><Button variant='danger' size='sm' onClick = { () => tryDeleteItem() }>DELETE</Button></td>
     </tr>
+  );
+}
+
+interface RefreshButtonProps {
+  isJobItemsLoading: boolean,
+  refreshJobTable: any
+}
+function RefreshButton(props: RefreshButtonProps) {
+  const {isJobItemsLoading, refreshJobTable} = props;
+
+  const [isRefreshBtnSpin, setRefreshBtnSpin] = useState(false);
+
+  return (
+    <img
+      alt='refresh'
+      src={refresh_icon}
+      className={isRefreshBtnSpin ? 'JobBoard-RefreshButton-spin' : 'JobBoard-RefreshButton'}
+      onClick={ () => {
+        refreshJobTable();
+        
+        // delay 1 second to stop the spin animation
+        setRefreshBtnSpin(true);
+        const timer = setInterval(() => {
+          if (!isJobItemsLoading) {
+            setRefreshBtnSpin(false);
+            clearInterval(timer);
+          }
+        }, 1000);
+      }}
+    />
   );
 }
 

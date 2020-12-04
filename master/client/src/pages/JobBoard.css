@@ -42,3 +42,18 @@
     max-height: 36px;
     cursor: pointer;
 }
+
+.JobBoard-RefreshButton-spin {
+    width: 5vmax;
+    height: 5vmax;
+    max-width: 36px;
+    max-height: 36px;
+    cursor: pointer;
+
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
