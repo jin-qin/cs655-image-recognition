@@ -32,6 +32,7 @@
     "start-dev": "./start-dev.sh",
     "start-prod": "./start-prod.sh",
     "build": "./build.sh",
+    "deploy": "./deploy.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
