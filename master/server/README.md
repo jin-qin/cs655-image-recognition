@@ -20,8 +20,7 @@ run `yarn start-prod` in the root directory.
   ```
   {
       "result": "success",
-      "data":
-      {
+      "data": {
           "job_id": "23bfbad2-a529-4bb4-b3c8-224a886e20be",
           "worker_id": null,
           "status": "QUEUED",
@@ -40,26 +39,25 @@ run `yarn start-prod` in the root directory.
   ```
   {
       "result": "success",
-      "data":
-      [
-      {
-          "job_id": "23bfbad2-a529-4bb4-b3c8-224a886e20be",
-          "worker_id": null,
-          "status": "QUEUED",
-          "submit_time": "2020-12-05T01:30:17.070Z",
-          "finish_time": null,
-          "result": null,
-          "img_name": "8b69bad9-ef6c-446f-81c8-6b69d0bc1eee.jpg"
-      },
-      {
-          "job_id": "4a22886e-4bb4-b3c8-3bc8-4a82286e20be",
-          "worker_id": null,
-          "status": "QUEUED",
-          "submit_time": "2020-12-04T01:30:17.070Z",
-          "finish_time": null,
-          "result": null,
-          "img_name": "8b69bad9-ef6c-446f-81c8-6b69d0bc1ebc.jpg"
-      }
+      "data": [
+          {
+              "job_id": "23bfbad2-a529-4bb4-b3c8-224a886e20be",
+              "worker_id": null,
+              "status": "QUEUED",
+              "submit_time": "2020-12-05T01:30:17.070Z",
+              "finish_time": null,
+              "result": null,
+              "img_name": "8b69bad9-ef6c-446f-81c8-6b69d0bc1eee.jpg"
+          },
+          {
+              "job_id": "4a22886e-4bb4-b3c8-3bc8-4a82286e20be",
+              "worker_id": null,
+              "status": "QUEUED",
+              "submit_time": "2020-12-04T01:30:17.070Z",
+              "finish_time": null,
+              "result": null,
+              "img_name": "8b69bad9-ef6c-446f-81c8-6b69d0bc1ebc.jpg"
+          }
       ]
   }
   ```
