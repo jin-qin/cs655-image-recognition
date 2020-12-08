@@ -5,6 +5,7 @@
         "get_jobs": "SELECT * from job_queue WHERE job_id IN (?)",
         "get_all_jobs": "SELECT * from job_queue",
         "get_queued_job": "SELECT * from job_queue WHERE status='QUEUED' LIMIT 1",
+        "get_jobs_no_finish": "SELECT * from job_queue WHERE status='QUEUED' AND status='RUNNING' LIMIT 1",
         "insert_job": "INSERT IGNORE INTO job_queue (job_id, status, submit_time, img_name) VALUES (?)",
         "update_job": "UPDATE job_queue SET status=?, finish_time=?, result=? WHERE job_id=?",
         "update_job_worker": "UPDATE job_queue SET worker_id=?, status=? WHERE job_id=?",

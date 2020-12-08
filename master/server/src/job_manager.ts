@@ -120,6 +120,19 @@ class JobManager {
                 console.warn(`get all jobs failed due to ${ret.result}`)
             }
         });
+
+        // client call this api to check if all the jobs finished
+        this.router.get('/all_finished', async (ctx: Koa.Context) => {
+            const ret = await this.check_all_jobs_finished();
+            if (ret.success) {
+                ctx.status = 200;
+                ctx.body = { 'result': 'success', 'finished': ret.finished };
+            } else {
+                ctx.status = 400;
+                ctx.body = { 'status': 'error' };
+                console.warn(`get all jobs failed due to ${ret.msg}`)
+            }
+        });
         
         // client call this api to submit a new job
         this.router.post('/submit', this.upload.single('image'), async (ctx: Koa.Context) => {
@@ -246,8 +259,16 @@ class JobManager {
         return await DBHelper.query(sql_cmds.jobs.get_jobs, [job_ids]);
     }
 
-    private async get_all_jobs(){
+    private async get_all_jobs() {
         return await DBHelper.query(sql_cmds.jobs.get_all_jobs);
+    }
+
+    private async check_all_jobs_finished() {
+        const ret = await DBHelper.query(sql_cmds.jobs.get_jobs_no_finish);
+        if (ret.success) {
+            return { sucecss: true,  finished: ret.result.length > 0 }
+        }
+        return { success: false, msg: ret.result }
     }
 
     private async enqueue_job(job_id: string, img_name: string) {
