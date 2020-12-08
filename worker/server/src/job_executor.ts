@@ -82,7 +82,7 @@ class JobExecutor {
         });
 
         this.router.get('/status', async (ctx: Koa.Context) => {
-            console.log(`status: request for current status: ${this.is_busy}`);
+            // console.log(`status: request for current status: ${this.is_busy ? WorkerStatus.BUSY : WorkerStatus.IDLE}`);
 
             ctx.status = 200;
             ctx.body = { 'result': 'success', 'status': this.is_busy ? WorkerStatus.BUSY : WorkerStatus.IDLE };
@@ -92,7 +92,7 @@ class JobExecutor {
     private async execute_job(job_id: string, img_path: string) {
         this.is_busy = true;
 
-        console.log(`executing job ${job_id}, image: ${img_path}, busy: ${this.is_busy}`);
+        console.log(`executing job ${job_id}, image: ${img_path}, busy: ${this.is_busy ? WorkerStatus.BUSY : WorkerStatus.IDLE}`);
 
         const prc = spawn('python3',  [config.app.model_runner, img_path]);
     
