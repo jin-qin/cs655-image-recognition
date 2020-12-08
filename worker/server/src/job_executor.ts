@@ -80,12 +80,12 @@ class JobExecutor {
     private async execute_job(job_id: string, img_path: string) {
         this.is_busy = true;
 
-        const prc = spawn('python3',  ['../../test.py', 'test']);
+        const prc = spawn('python3',  [config.app.model_runner, img_path]);
     
         prc.stdout.setEncoding('utf8');
 
         prc.stdout.on('data', (data) => {
-            update_job_result(job_id, JobStatus.SUCCESS, get_date_time(), data);
+            update_job_result(job_id, JobStatus.SUCCESS, get_date_time(), `${parseInt(data)}`);
         });
 
         prc.on('close', (code) => {

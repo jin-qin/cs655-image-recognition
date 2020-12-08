@@ -1,0 +1,169 @@
+<rspec xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/request.xsd" type="request">
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="server" component_manager_id="urn:publicid:IDN+instageni.cenic.net+authority+cm" component_id="urn:publicid:IDN+instageni.cenic.net+node+pc3" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45575" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/Xen-VM.svg"/>
+    <routable_control_ip xmlns="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"/>
+    </sliver_type>
+    <services>
+      <emulab:imageable available="true"/>
+      <login authentication="ssh-keys" hostname="pcvm3-23.instageni.cenic.net" port="22" username="tolik"/>
+      <login authentication="ssh-keys" hostname="pcvm3-23.instageni.cenic.net" port="22" username="qinjin"/>
+      <login authentication="ssh-keys" hostname="pcvm3-23.instageni.cenic.net" port="22" username="matta"/>
+      <login authentication="ssh-keys" hostname="pcvm3-23.instageni.cenic.net" port="22" username="yutian12"/>
+      <login authentication="ssh-keys" hostname="pcvm3-23.instageni.cenic.net" port="22" username="yujuex"/>
+      <login authentication="ssh-keys" hostname="pcvm3-23.instageni.cenic.net" port="22" username="shuoliao"/>
+      <emulab:console server="vhost3.shared-nodes.emulab-ops.instageni.cenic.net"/>
+    </services>
+    <interface client_id="interface-0" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45583" mac_address="0296fa526d1d">
+      <ip address="10.10.1.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-2" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45586" mac_address="025d9976eb40">
+      <ip address="10.10.2.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-4" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45589" mac_address="02c7a1c05b4d">
+      <ip address="10.10.3.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-6" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45592" mac_address="02d6ee376787">
+      <ip address="10.10.4.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-8" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45595" mac_address="0249da91fcf2">
+      <ip address="10.10.5.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-23" hardware_type="pcvm"/>
+    <host name="server.GENI-Mini-Project.ch-geni-net.instageni.cenic.net" ipv4="204.102.244.57"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="worker-1" component_manager_id="urn:publicid:IDN+instageni.cenic.net+authority+cm" component_id="urn:publicid:IDN+instageni.cenic.net+node+pc3" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45576" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/Xen-VM.svg"/>
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"/>
+    </sliver_type>
+    <services>
+      <emulab:imageable available="true"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27611" username="tolik"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27611" username="qinjin"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27611" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27611" username="yutian12"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27611" username="yujuex"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27611" username="shuoliao"/>
+      <emulab:console server="vhost3.shared-nodes.emulab-ops.instageni.cenic.net"/>
+    </services>
+    <interface client_id="interface-1" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45584" mac_address="028ee082fd56">
+      <ip address="10.10.1.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-24" hardware_type="pcvm"/>
+    <host name="worker-1.GENI-Mini-Project.ch-geni-net.instageni.cenic.net"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="worker-2" component_manager_id="urn:publicid:IDN+instageni.cenic.net+authority+cm" component_id="urn:publicid:IDN+instageni.cenic.net+node+pc3" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45577" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/Xen-VM.svg"/>
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"/>
+    </sliver_type>
+    <services>
+      <emulab:imageable available="true"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27612" username="tolik"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27612" username="qinjin"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27612" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27612" username="yutian12"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27612" username="yujuex"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27612" username="shuoliao"/>
+      <emulab:console server="vhost3.shared-nodes.emulab-ops.instageni.cenic.net"/>
+    </services>
+    <interface client_id="interface-3" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45587" mac_address="02f0ee7882f6">
+      <ip address="10.10.2.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-25" hardware_type="pcvm"/>
+    <host name="worker-2.GENI-Mini-Project.ch-geni-net.instageni.cenic.net"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="worker-3" component_manager_id="urn:publicid:IDN+instageni.cenic.net+authority+cm" component_id="urn:publicid:IDN+instageni.cenic.net+node+pc3" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45578" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/Xen-VM.svg"/>
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"/>
+    </sliver_type>
+    <services>
+      <emulab:imageable available="true"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27613" username="tolik"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27613" username="qinjin"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27613" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27613" username="yutian12"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27613" username="yujuex"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27613" username="shuoliao"/>
+      <emulab:console server="vhost3.shared-nodes.emulab-ops.instageni.cenic.net"/>
+    </services>
+    <interface client_id="interface-5" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45590" mac_address="02c814ba369b">
+      <ip address="10.10.3.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-26" hardware_type="pcvm"/>
+    <host name="worker-3.GENI-Mini-Project.ch-geni-net.instageni.cenic.net"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="worker-4" component_manager_id="urn:publicid:IDN+instageni.cenic.net+authority+cm" component_id="urn:publicid:IDN+instageni.cenic.net+node+pc3" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45579" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/Xen-VM.svg"/>
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"/>
+    </sliver_type>
+    <services>
+      <emulab:imageable available="true"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27614" username="tolik"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27614" username="qinjin"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27614" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27614" username="yutian12"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27614" username="yujuex"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27614" username="shuoliao"/>
+      <emulab:console server="vhost3.shared-nodes.emulab-ops.instageni.cenic.net"/>
+    </services>
+    <interface client_id="interface-7" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45593" mac_address="0279ce0a0872">
+      <ip address="10.10.4.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-27" hardware_type="pcvm"/>
+    <host name="worker-4.GENI-Mini-Project.ch-geni-net.instageni.cenic.net"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="worker-5" component_manager_id="urn:publicid:IDN+instageni.cenic.net+authority+cm" component_id="urn:publicid:IDN+instageni.cenic.net+node+pc3" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45580" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/Xen-VM.svg"/>
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"/>
+    </sliver_type>
+    <services>
+      <emulab:imageable available="true"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27615" username="tolik"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27615" username="qinjin"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27615" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27615" username="yutian12"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27615" username="yujuex"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.cenic.net" port="27615" username="shuoliao"/>
+      <emulab:console server="vhost3.shared-nodes.emulab-ops.instageni.cenic.net"/>
+    </services>
+    <interface client_id="interface-9" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45596" mac_address="02fca8b9aaaa">
+      <ip address="10.10.5.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-28" hardware_type="pcvm"/>
+    <host name="worker-5.GENI-Mini-Project.ch-geni-net.instageni.cenic.net"/>
+  </node>
+  <link client_id="link-0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45582">
+    <interface_ref client_id="interface-0" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45583"/>
+    <interface_ref client_id="interface-1" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45584"/>
+    <component_manager name="urn:publicid:IDN+instageni.cenic.net+authority+cm"/>
+  </link>
+  <link client_id="link-1" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45585">
+    <interface_ref client_id="interface-2" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45586"/>
+    <interface_ref client_id="interface-3" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45587"/>
+    <component_manager name="urn:publicid:IDN+instageni.cenic.net+authority+cm"/>
+  </link>
+  <link client_id="link-2" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45588">
+    <interface_ref client_id="interface-4" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45589"/>
+    <interface_ref client_id="interface-5" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45590"/>
+    <component_manager name="urn:publicid:IDN+instageni.cenic.net+authority+cm"/>
+  </link>
+  <link client_id="link-3" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45591">
+    <interface_ref client_id="interface-6" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45592"/>
+    <interface_ref client_id="interface-7" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45593"/>
+    <component_manager name="urn:publicid:IDN+instageni.cenic.net+authority+cm"/>
+  </link>
+  <link client_id="link-4" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45594">
+    <interface_ref client_id="interface-8" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45595"/>
+    <interface_ref client_id="interface-9" component_id="urn:publicid:IDN+instageni.cenic.net+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.cenic.net+sliver+45596"/>
+    <component_manager name="urn:publicid:IDN+instageni.cenic.net+authority+cm"/>
+  </link>
+  <rs:site_info xmlns:rs="http://www.protogeni.net/resources/rspec/ext/site-info/1">
+    <rs:location country="" latitude="34.048810" longitude="-118.259457"/>
+  </rs:site_info>
+</rspec>

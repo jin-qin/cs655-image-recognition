@@ -101,7 +101,7 @@ interface JobBoardTableProps {
 
 function JobBoardTable(props: JobBoardTableProps) {
   const { isJobItemsLoading, setJobItemsLoading, setAlertModalVisible, setDeleteJobParams } = props;
-  const [jobItems, setJobItems] = useState(null);
+  const [jobItems, setJobItems] = useState<JSX.Element[]>(() => ([<></>]));
 
   useEffect(() => {
     if (!isJobItemsLoading) return;

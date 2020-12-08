@@ -1,8 +1,16 @@
 # **CS655 Image Recognition System**
 
-## **Demo**
-### Job Board
-![](./docs/demos/demo-job-board.gif)
+## **Master Server API documentation**
 
-### Job Submit
-![](./docs/demos/demo-job-submit.gif)
+[Master Server API documentation](./master/server/README.md)
+
+## **Worker Server API documentation**
+
+[Worker Server API documentation](./worker/server/README.md)
+
+## **Demo**
+### **Job Board**
+<!-- ![](./docs/demos/demo-job-board.gif) -->
+
+### **Job Submit**
+<!-- ![](./docs/demos/demo-job-submit.gif) -->

@@ -2,7 +2,8 @@
     "app": {
         "listen_port": 6000,
         "upload_dir": "./uploads/imgs/",
-        "master_server_addr": "192.168.1.113",
-        "master_server_port": 5000
+        "master_server_addr": "pcvm3-23.instageni.cenic.net",
+        "master_server_port": 5000,
+        "model_runner": "run_mobilenet_v2.py"
     }
 }
