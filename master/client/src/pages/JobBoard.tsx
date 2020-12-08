@@ -14,6 +14,10 @@ function JobBoard() {
 
   const [deleteJobParams, setDeleteJobParams] = useState({job_id:'', is_delete_all: false});
 
+  setInterval(() => {
+    refreshJobTable()
+  }, 5000);
+
   const deleteItem = (jobID: string) => {
     fetch(`${config.app.server_addr}/jobs/del/${jobID}`, { method: 'DELETE' })
     .then(res => res.json())

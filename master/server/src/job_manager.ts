@@ -116,7 +116,7 @@ class JobManager {
                 ctx.body = { 'data': ret.result, 'result': 'success' };
             } else {
                 ctx.status = 400;
-                ctx.body = { 'status': 'error' };
+                ctx.body = { 'result': 'error' };
                 console.warn(`get all jobs failed due to ${ret.result}`)
             }
         });
@@ -129,7 +129,7 @@ class JobManager {
                 ctx.body = { 'result': 'success', 'finished': ret.finished };
             } else {
                 ctx.status = 400;
-                ctx.body = { 'status': 'error' };
+                ctx.body = { 'result': 'error' };
                 console.warn(`get all jobs finished status failed due to ${ret.msg}`)
             }
         });

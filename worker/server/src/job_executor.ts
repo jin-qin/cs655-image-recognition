@@ -82,8 +82,6 @@ class JobExecutor {
         });
 
         this.router.get('/status', async (ctx: Koa.Context) => {
-            // console.log(`status: request for current status: ${this.is_busy ? WorkerStatus.BUSY : WorkerStatus.IDLE}`);
-
             ctx.status = 200;
             ctx.body = { 'result': 'success', 'status': this.is_busy ? WorkerStatus.BUSY : WorkerStatus.IDLE };
         });
