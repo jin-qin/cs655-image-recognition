@@ -14,10 +14,6 @@ function JobBoard() {
 
   const [deleteJobParams, setDeleteJobParams] = useState({job_id:'', is_delete_all: false});
 
-  setInterval(() => {
-    refreshJobTable()
-  }, 5000);
-
   const deleteItem = (jobID: string) => {
     fetch(`${config.app.server_addr}/jobs/del/${jobID}`, { method: 'DELETE' })
     .then(res => res.json())
@@ -105,26 +101,35 @@ interface JobBoardTableProps {
 
 function JobBoardTable(props: JobBoardTableProps) {
   const { isJobItemsLoading, setJobItemsLoading, setAlertModalVisible, setDeleteJobParams } = props;
-  const [jobItems, setJobItems] = useState<JSX.Element[]>(() => ([<></>]));
-
+  const [jobItems, setJobItems] = useState(null);
+  
   useEffect(() => {
-    if (!isJobItemsLoading) return;
-    fetch(`${config.app.server_addr}/jobs/all`)
-    .then(res => res.json())
-    .then((rsp) => {
-      let item_count = 0;
-      const items = rsp.data.map((item: {job_id:string; status:string; submit_time:string; finish_time:string}) => {
-        item_count++;
-        return JobBoardTableItem({item_count, item, setAlertModalVisible, setDeleteJobParams});
+    const fetch_jobs_data = () => {
+      fetch(`${config.app.server_addr}/jobs/all`)
+      .then(res => res.json())
+      .then((rsp) => {
+        let item_count = 0;
+        const items = rsp.data.map((item: {job_id:string; status:string; submit_time:string; finish_time:string}) => {
+          item_count++;
+          return JobBoardTableItem({item_count, item, setAlertModalVisible, setDeleteJobParams});
+        });
+        setJobItemsLoading(false);
+        setJobItems(items);
+      })
+      .catch(e => {
+        console.log(e);
+        setJobItemsLoading(false);
       });
-      setJobItemsLoading(false);
-      setJobItems(items);
-    })
-    .catch(e => {
-      console.log(e);
-      setJobItemsLoading(false);
-    });
-  });
+    };
+
+    if (isJobItemsLoading)
+      fetch_jobs_data();
+
+    const interval = setTimeout(() => setJobItemsLoading(true), 2000);
+
+    return () => clearInterval(interval);
+
+  }, [isJobItemsLoading, setJobItemsLoading, setAlertModalVisible, setDeleteJobParams]);
 
   return(
     <div className='JobBoard-Board'>
