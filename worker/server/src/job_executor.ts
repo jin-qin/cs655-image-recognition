@@ -51,6 +51,10 @@ class JobExecutor {
 
     private setup_routes() {
         this.router.post('/schedule', this.upload.single('image'), async (ctx: Koa.Context) => {
+            const { body } = (ctx.req as any);
+
+            console.log(`schedule: request for scheduling job: ${body.job_id}`);
+
             const { file } = (ctx.req as any);
             if (file.size <= 0) {
                 ctx.status = 400;
@@ -63,7 +67,13 @@ class JobExecutor {
                 return;
             }
 
-            const { body } = (ctx.req as any);
+            if (this.is_busy) {
+                ctx.status = 400;
+                ctx.body = { 'result': 'error', 'msg': 'worker is busy'};
+                return;
+            }
+
+            console.log(`schedule: valid job`);
 
             this.execute_job(body.job_id, file.path);
 
@@ -72,6 +82,8 @@ class JobExecutor {
         });
 
         this.router.get('/status', async (ctx: Koa.Context) => {
+            console.log(`status: request for current status: ${this.is_busy}`);
+
             ctx.status = 200;
             ctx.body = { 'result': 'success', 'status': this.is_busy ? WorkerStatus.BUSY : WorkerStatus.IDLE };
         });
@@ -79,6 +91,8 @@ class JobExecutor {
 
     private async execute_job(job_id: string, img_path: string) {
         this.is_busy = true;
+
+        console.log(`executing job ${job_id}, image: ${img_path}, busy: ${this.is_busy}`);
 
         const prc = spawn('python3',  [config.app.model_runner, img_path]);
     
@@ -89,10 +103,9 @@ class JobExecutor {
         });
 
         prc.on('close', (code) => {
+            this.is_busy = false;
             if (code == 0) { return; }
         });
-
-        this.is_busy = false;
     }
 }
 
