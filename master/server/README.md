@@ -62,7 +62,7 @@ run `yarn start-prod` in the root directory.
   }
   ```
 * POST `/jobs/submit`
-  * description: get the details of a specific job by `:id`.
+  * description: submit a new job by uploading an image
   * POST header: multipart/form-data
   * POST body: "image": image binary data.
   * status code: `201` (success) | `400` (error)
