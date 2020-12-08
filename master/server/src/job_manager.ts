@@ -130,7 +130,7 @@ class JobManager {
             } else {
                 ctx.status = 400;
                 ctx.body = { 'status': 'error' };
-                console.warn(`get all jobs failed due to ${ret.msg}`)
+                console.warn(`get all jobs finished status failed due to ${ret.msg}`)
             }
         });
         
@@ -266,9 +266,9 @@ class JobManager {
     private async check_all_jobs_finished() {
         const ret = await DBHelper.query(sql_cmds.jobs.get_jobs_no_finish);
         if (ret.success) {
-            return { sucecss: true,  finished: ret.result.length > 0 }
+            return { success: true,  finished: ret.result.length <= 0, msg: '' }
         }
-        return { success: false, msg: ret.result }
+        return { success: false, finished: null,  msg: ret.result }
     }
 
     private async enqueue_job(job_id: string, img_name: string) {
