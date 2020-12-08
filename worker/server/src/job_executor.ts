@@ -70,6 +70,10 @@ class JobExecutor {
             if (this.is_busy) {
                 ctx.status = 400;
                 ctx.body = { 'result': 'error', 'msg': 'worker is busy'};
+
+                fs.unlink(config.app.upload_dir + file.filename, (err) => {
+                    if (err != null) console.warn(err);
+                });
                 return;
             }
 
