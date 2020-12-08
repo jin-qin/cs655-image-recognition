@@ -103,7 +103,7 @@ class JobExecutor {
         prc.on('close', (code) => {
             this.is_busy = false;
 
-            fs.unlink(config.app.upload_dir + img_path, (err) => {
+            fs.unlink(img_path, (err) => {
                 if (err != null) console.warn(err);
             });
 
