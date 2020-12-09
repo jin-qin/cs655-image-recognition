@@ -99,9 +99,10 @@ class JobExecutor {
         const prc = spawn('python3',  [config.app.model_runner, img_path]);
     
         prc.stdout.setEncoding('utf8');
-
+        
         prc.stdout.on('data', (data) => {
-            update_job_result(job_id, JobStatus.SUCCESS, get_date_time(), `${parseInt(data)}`);
+            const result =  parseInt(data);
+            update_job_result(job_id, result != -1 ? JobStatus.SUCCESS : JobStatus.ERROR, get_date_time(), `${result}`);
         });
 
         prc.on('close', (code) => {
