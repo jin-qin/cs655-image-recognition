@@ -2,7 +2,8 @@ import { v4 as uuidv4 } from 'uuid';
 import Koa from 'koa';
 import Router from '@koa/router';
 import config from './config/app-config.json';
-import sql_cmds from './config/sql-cmds.json'
+import sql_cmds from './config/sql-cmds.json';
+import synset_map from './data/sysnet_map.json';
 import DBHelper from './util/db_helper';
 import {get_date_time, get_timestamp, date2timestamp} from './util/misc';
 import multer, { MulterIncomingMessage } from 'koa-multer';
@@ -197,7 +198,6 @@ class JobManager {
                                                      params.job_finish_time,
                                                      params.job_result);
             
-            
             const worker_ip = ctx.request.ip.replace('::ffff:', '');
             await this.update_worker(WorkerStatus.IDLE, worker_ip);
 
@@ -306,7 +306,7 @@ class JobManager {
     private async update_job_result(
         job_id: string, job_status: string, 
         job_finish_time: string, job_result: string) {
-        return await DBHelper.query(sql_cmds.jobs.update_job, [job_status, job_finish_time, job_result, job_id]);
+        return await DBHelper.query(sql_cmds.jobs.update_job, [job_status, job_finish_time, job_result, synset_map[job_result].desc, job_id]);
     }
 
     private async update_job_worker(job_id: string, status: string, worker_id: string, schedule_time: string) {

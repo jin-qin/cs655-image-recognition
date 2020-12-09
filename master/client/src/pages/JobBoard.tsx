@@ -14,6 +14,8 @@ function JobBoard() {
 
   const [deleteJobParams, setDeleteJobParams] = useState({job_id:'', is_delete_all: false});
 
+  const [jobResultWidgetData, setJobResultWidgetData] = useState<JobResultWidgetProps>({item: null, pos: {x:0, y:0}, show: false});
+
   const deleteItem = (jobID: string) => {
     fetch(`${config.app.server_addr}/jobs/del/${jobID}`, { method: 'DELETE' })
     .then(res => res.json())
@@ -64,6 +66,7 @@ function JobBoard() {
         setJobItemsLoading={setJobItemsLoading}
         setAlertModalVisible={setAlertModalVisible}
         setDeleteJobParams={setDeleteJobParams}
+        setJobResultWidgetData={setJobResultWidgetData}
       />
       
       <div className='JobBoard-Actions'>
@@ -88,19 +91,37 @@ function JobBoard() {
           </Button>
         </Modal.Footer>
       </Modal>
+
+      <JobResultWidget 
+        item={jobResultWidgetData.item}
+        pos={jobResultWidgetData.pos}
+        show={jobResultWidgetData.show}
+      />
     </div>
   );
 }
 
 interface JobBoardTableProps {
-  isJobItemsLoading: Boolean;
-  setJobItemsLoading: any;
-  setAlertModalVisible: any
-  setDeleteJobParams: any
+  isJobItemsLoading: boolean,
+  setJobItemsLoading: any,
+  setAlertModalVisible: any,
+  setDeleteJobParams: any,
+  setJobResultWidgetData: any
+}
+
+interface JobBoardItemData {
+  job_id:string;
+  status:string;
+  submit_time:string;
+  schedule_time:string;
+  finish_time:string;
+  img_name:string;
+  result:string;
+  description:string
 }
 
 function JobBoardTable(props: JobBoardTableProps) {
-  const { isJobItemsLoading, setJobItemsLoading, setAlertModalVisible, setDeleteJobParams } = props;
+  const { isJobItemsLoading, setJobItemsLoading, setAlertModalVisible, setDeleteJobParams, setJobResultWidgetData } = props;
   const [jobItems, setJobItems] = useState(null);
   
   useEffect(() => {
@@ -112,23 +133,23 @@ function JobBoardTable(props: JobBoardTableProps) {
         // if statuses are same, sort by date time descendingly
         // otherwise, running jobs are first, then queued jobs, then finished jobs (success or error)
         const jobs = rsp.data.sort((n1: any, n2: any) => {
-          if (n1['status'] == n2['status']) {
+          if (n1['status'] === n2['status']) {
             const ts1 = Date.parse(n1['submit_time']);
-	    const ts2 = Date.parse(n2['submit_time']);
-	    return ts1 > ts2 ? -1 : (ts1 == ts2 ? 0 : 0);
+            const ts2 = Date.parse(n2['submit_time']);
+            return ts1 > ts2 ? -1 : (ts1 === ts2 ? 0 : 0);
           }
 
-          if (n1['status'] == 'RUNNING') return -1;
-          if (n1['status'] == 'ERROR' && n2['status'] != 'RUNNING') return -1;
-	  if (n1['status'] == 'QUEUED' && n2['status'] == 'SUCCESS') return -1;
-	  
-	  return 1;
+          if (n1['status'] === 'RUNNING') return -1;
+          if (n1['status'] === 'ERROR' && n2['status'] !== 'RUNNING') return -1;
+          if (n1['status'] === 'QUEUED' && n2['status'] === 'SUCCESS') return -1;
+          
+          return 1;
         });
 
         let item_count = 0;
-        const items = jobs.map((item: {job_id:string; status:string; submit_time:string; finish_time:string}) => {
+        const items = jobs.map((item: JobBoardItemData) => {
           item_count++;
-          return JobBoardTableItem({item_count, item, setAlertModalVisible, setDeleteJobParams});
+          return JobBoardTableItem({item_count, item, setAlertModalVisible, setDeleteJobParams, setJobResultWidgetData});
         });
         setJobItemsLoading(false);
         setJobItems(items);
@@ -146,7 +167,7 @@ function JobBoardTable(props: JobBoardTableProps) {
 
     return () => clearInterval(interval);
 
-  }, [isJobItemsLoading, setJobItemsLoading, setAlertModalVisible, setDeleteJobParams]);
+  }, [isJobItemsLoading, setJobItemsLoading, setAlertModalVisible, setDeleteJobParams, setJobResultWidgetData]);
 
   return(
     <div className='JobBoard-Board'>
@@ -157,6 +178,7 @@ function JobBoardTable(props: JobBoardTableProps) {
             <th>Job ID</th>
             <th>Status</th>
             <th>Submitted Time</th>
+            <th>Schedule Time</th>
             <th>Finish Time</th>
             <th>Action</th>
           </tr>
@@ -172,18 +194,14 @@ function JobBoardTable(props: JobBoardTableProps) {
 
 interface JobBoardTableItemProps {
   item_count: number, 
-  item: {
-    job_id:string;
-    status:string;
-    submit_time:string;
-    finish_time:string
-  }, 
-  setAlertModalVisible: any
-  setDeleteJobParams: any
+  item: JobBoardItemData,
+  setAlertModalVisible: any,
+  setDeleteJobParams: any,
+  setJobResultWidgetData: any
 }
 
 function JobBoardTableItem(props: JobBoardTableItemProps) {
-  const {item_count, item, setAlertModalVisible, setDeleteJobParams} = props;
+  const {item_count, item, setAlertModalVisible, setDeleteJobParams, setJobResultWidgetData} = props;
 
   const styleMap = new Map([
     ['QUEUED', 'info'],
@@ -195,7 +213,12 @@ function JobBoardTableItem(props: JobBoardTableItemProps) {
   const tryDeleteItem = () => {
     setDeleteJobParams({job_id: item.job_id, is_delete_all: false});
     setAlertModalVisible(true);
-  }
+  };
+
+  const setShowJobResultWidget = (e: any, item: JobBoardItemData, show: boolean) => {
+    console.log(e.clientX, e.clientY)
+    setJobResultWidgetData({item: item, pos: {x: e.clientX, y: e.clientY}, show: show});
+  };
 
   const options = {
     timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
@@ -208,17 +231,38 @@ function JobBoardTableItem(props: JobBoardTableItemProps) {
   };
   
   const submit_time = localTime(item.submit_time, options);
+  const schedule_time = localTime(item.schedule_time, options);
   const finish_time = localTime(item.finish_time, options);
 
   return (
     <tr key={item_count}>
       <td>{item_count}</td>
-      <td>{item.job_id}</td>
+      <td className='JobBoard-Item-JobID' 
+          onMouseMove = { (e) => setShowJobResultWidget(e, item, true) } 
+          onMouseOut = { (e) => setShowJobResultWidget(e, item, false) }>
+            {item.job_id}
+      </td>
       <td><Badge variant={styleMap.get(item.status)}>{item.status}</Badge></td>
       <td>{submit_time}</td>
+      <td>{schedule_time}</td>
       <td>{finish_time}</td>
       <td><Button variant='danger' size='sm' onClick = { () => tryDeleteItem() }>DELETE</Button></td>
     </tr>
+  );
+}
+
+interface JobResultWidgetProps {
+  item: JobBoardItemData | null,
+  pos: {x: number, y: number},
+  show: boolean
+}
+function JobResultWidget(props: JobResultWidgetProps) {
+  const {item, pos, show} = props;
+  return (
+    <div className='JobBoard-JobResultWidget' style={ {left: `${pos.x}px`, top: `${pos.y - 50}px`, visibility: show ? 'visible' : 'hidden', opacity: show ? 1 : 0} }>
+      <img alt='' src={`${config.app.server_addr}/imgs/${item?.img_name}`}></img>
+      <p>{item?.description}</p>
+    </div>
   );
 }
 

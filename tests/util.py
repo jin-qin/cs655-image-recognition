@@ -38,5 +38,27 @@ def get_sysnset_map(meta_file: str, synset_words_mapping_file: str):
     
     return synset_map
 
+def get_synset_details_map(meta_file: str, synset_words_mapping_file: str):
+    metadata = load_imagenet_meta(meta_file)
+
+    d = metadata[:, 0]
+    wnid_map = {}
+    desc = {}
+    for r in d:
+        if r[0][0][0] > 1000: continue
+        wnid_map[r[1][0]] = r[0][0][0]
+        desc[r[1][0]] = r[3][0]
+
+    synset_map = {-1: {'code': -1, 'desc': ''}}
+
+    import csv
+    with open(synset_words_mapping_file, newline='') as csvfile:
+        csvreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        for id, line in enumerate(csvreader):
+            id_imgnet = wnid_map[line[0]]
+            synset_map[id] = { 'code': int(id_imgnet), 'desc': desc[line[0]]}
+    
+    return synset_map
+
 def is_predict_correct(ground_truth: list, img_idx: int, imgnet_label: int):
     return ground_truth[img_idx] == imgnet_label

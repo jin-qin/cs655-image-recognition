@@ -53,6 +53,38 @@
     animation: spin 1s infinite linear;
 }
 
+.JobBoard-Item-JobID {
+    cursor: pointer;
+}
+
+.JobBoard-JobResultWidget {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 1vmin;
+    padding: 2vmin;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.JobBoard-JobResultWidget img {
+    margin-right: 2vmin;
+    border-radius: 1vmin;
+    max-width: 20vmin;
+}
+
+.JobBoard-JobResultWidget p {
+    margin-top: 1vmin;
+    max-width: 20vmin;
+    margin-bottom: 1vmin;
+}
+
 @keyframes spin {
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}

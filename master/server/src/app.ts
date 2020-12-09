@@ -17,7 +17,8 @@ app.use(bodyParser())
    .use(job_mgr.get_router().allowedMethods())
    .use(worker_mgr.get_router().routes())
    .use(worker_mgr.get_router().allowedMethods())
-   .use(serve(__dirname + '/public'));
+   .use(serve(__dirname + '/public'))
+   .use(serve(__dirname + '/uploads'));
 
 const port  = config.app.listen_port;
 app.listen(port, () => {

@@ -19,19 +19,23 @@ with open('results.csv', 'r') as csvfile:
 
 fig, ax = plt.subplots(2, 2, figsize=(20,20))
 ax[0, 0].plot(loss_rates, goodputs, '.-')
-ax[0, 0].set_ylabel('requests / sec')
-ax[0, 0].set_xlabel('Goodput')
+ax[0, 0].set_ylabel('Goodput (requests / sec)')
+ax[0, 0].set_xlabel('Loss rate')
+ax[0, 0].set_title('Goodput to loss rate')
 
 ax[0, 1].plot(loss_rates, throughputs, '.-')
-ax[0, 1].set_ylabel('requests / sec')
-ax[0, 1].set_xlabel('Throughput')
+ax[0, 1].set_ylabel('Throughput （requests / sec)')
+ax[0, 1].set_xlabel('Loss rate')
+ax[0, 1].set_title('Throughput to loss rate')
 
 ax[1, 0].plot(loss_rates, avg_times, '.-')
-ax[1, 0].set_ylabel('seconds')
-ax[1, 0].set_xlabel('Average job execution time')
+ax[1, 0].set_ylabel('Average job execution time (seconds)')
+ax[1, 0].set_xlabel('Loss rate')
+ax[1, 0].set_title('Average job execution time to loss rate')
 
 ax[1, 1].plot(loss_rates, np.array(accuracies) * 100, '.-')
-ax[1, 1].set_ylabel('percent')
-ax[1, 1].set_xlabel('Accuracy')
+ax[1, 1].set_ylabel('Accuracy (%)')
+ax[1, 1].set_xlabel('Loss rate')
+ax[1, 1].set_title('Accuracy to loss rate')
 
 fig.savefig('all_results.jpg')
