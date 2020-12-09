@@ -10,11 +10,18 @@ The general purpose of this project is to implement an image recognition service
 * We can learn how to deploy a deep learning model.
 * We can get familiar with **TypeScript** by using it to build all the JavaScript applications.
 
+## **Assumptions**
+* Maximum Query Per Second (QPS)
+  * 100 QPS
+* Users cannot attack our network, neither adding traffic nor disable the network.
+* Users will not do stress testing on our APIs, they can only access the service from the web front-end user interface.
+
+
 ## **Main Features**
 * Fully scalable system, you can add or remove any number of worker nodes at any time, the system will keep stable.
 * Restful APIs.
-* SPA impelmentation for the web interface.
-* Fast prediction, benifit of using MobileNet.
+* SPA implementation for the web interface.
+* Fast prediction, beneifit of using MobileNet.
 * Automatically reschedule a job if its worker is down.
 
 ## **Design & Setup**
