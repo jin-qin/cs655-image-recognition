@@ -82,8 +82,7 @@ The general purpose of this project is to implement an image recognition service
 
 
 
-## **Working Demo Video**
-TODO
+## [**Working Demo Video**](./docs/demo.mp4)
 
 ## **Reproduce the results**
 * Put `tests` directory into any machine which you want to perform testing procedure on.
