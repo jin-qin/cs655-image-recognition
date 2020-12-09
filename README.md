@@ -10,6 +10,13 @@ The general purpose of this project is to implement an image recognition service
 * We can learn how to deploy a deep learning model.
 * We can get familiar with **TypeScript** by using it to build all the JavaScript applications.
 
+## **Main Features**
+* Fully scalable system, you can add or remove any number of worker nodes at any time, the system will keep stable.
+* Restful APIs.
+* SPA impelmentation for the web interface.
+* Fast prediction, benifit of using MobileNet.
+* Automatically reschedule a job if its worker is down.
+
 ## **Design & Setup**
 * Setup diagram
   ![](./docs/Deployment%20Diagram.png)
@@ -27,9 +34,64 @@ The general purpose of this project is to implement an image recognition service
 
 ## **Execution & results**
 * Configuration & usage
-  * See **Step-by-Step Instructions** below.
+  * See [**Step-by-Step Instructions**](#step-by-step-instructions) below.
 * Metrics, graphs and analysis
-  * TO DO
+  * Metrics:
+    * We measured the throughput (number of HTTP requests per second), goodput, accuracy, average job execution time over the loss rates = [0 , 0.067, 0.13, 0.2, 0.27, 0.33, 0.4, 0.47, 0.53, 0.6], and tested with 1000 images per loss rate.
+    * The loss rates were set on the link between client and the master node.
+  * Graph: coming soon
+  * Analysis: coming sson
+
+## **Working Demo Video**
+TODO
+
+## **Reproduce the results**
+* Put `tests` directory into any machine which you want to perform testing procedure on.
+* Setup the experiment environment.
+  ```bash
+  sudo bash ./tests/setup_tests.sh
+  ```
+* Run the testing script (**don't forget** to change the host address, port, images directory path inside the `start_test.py` file).
+  ```bash
+  python3 start_test.py
+  ```
+  This script will upload all the images in the images directory to the master server over the loss rates = [0 , 0.067, 0.13, 0.2, 0.27, 0.33, 0.4, 0.47, 0.53, 0.6], it will suspend after finishing each testing turn on each loss rate, after you setting up the loss rate on the link, manually press any key to continue the next turn.
+* Generate the plots from the testing results.
+  ```bash
+  pyton3 gen_plots.py
+  ```
+
+## **Future Work**
+Though we did a great job, due to the limited time, there are still many points that we can improve this system:
+* Containerize the model prediction component.
+* Consider the security circumstance, add the credential feature.
+* Add the user system.
+* Add the admin dashboard to display statistics.
+* Submit multiple jobs (images) at one time.
+* Design or find a better cluster management system to monitor each worker's and master's statistics, also, provide a interface to add worker automatically instead of in a manually way.
+* Give a better UX design.
+* ...
+
+## **Conclusion**
+
+## **Division of Labor**
+* Server (Jing)
+  * Front-end web user interface
+  * Back-end job manager
+  * Back-end RESTful APIs
+  * Database design
+* Worker (Shuo)
+  * Worker service
+  * Worker registration
+  * Callback to server
+  * Model deployment
+* Testing (Tian, Yujue)
+  * Get the testing data set
+  * Write scripts to test all the images automatically
+  * Gather testing results
+  * Data visualization(Tian, Yujue)
+* Project report (Tian, Shuo, Jing, Yujue)
+
 
 ## **Master Server API documentation**
 
@@ -64,6 +126,7 @@ The general purpose of this project is to implement an image recognition service
   * `./master/setup_master.sh`
 * Setup worker nodes environments:
   * `./worker/setup_worker.sh`
+* Set your master node's port (default is 5000) and Database host address (we simply put the database inside the master node), you can set them in **master** server config file: [app-config-prod.json](./master/server/src/config/app-config-prod.json)
 * Build & Run **master** node first:
   ```bash
   ./master/build_master.sh
@@ -76,9 +139,13 @@ The general purpose of this project is to implement an image recognition service
   ```
 
 ## **How to use**
-
-## **Experiments**
-
+* Open your browser
+* Type in the master server's address followed by the port number 5000
+* You will see a Job Board first.
+* You can submit a job by click the blue `SUBMIT A NEW JOB` button.
+* You can choose an image from your local machine.
+* Click `SUBMIT`
+* Back to the Job Board and wait for the result.
 ## **Demo**
 ### **Job Board**
 <!-- ![](./docs/demos/demo-job-board.gif) -->

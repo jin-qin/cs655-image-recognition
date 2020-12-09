@@ -56,7 +56,8 @@ def test_code(imgs_paths, gt, synste_map):
                 imgs_idx_map[job_id] = idx
                 valid_http_req = valid_http_req + 1
         except:
-            pass
+            time.sleep(5)
+
     req_duration = time.time() - ts_req_st
     print('') # new line
 
@@ -78,10 +79,10 @@ def test_code(imgs_paths, gt, synste_map):
                 print('') # new line
                 print('all jobs finished!')
                 break
-            
-            time.sleep(5)
         except:
             pass
+
+        time.sleep(5)
             
     # all job finished, get all jobs results
     url_get_all_jobs =' http://{}:{}/jobs/all'.format(HOST, PORT)
@@ -91,7 +92,7 @@ def test_code(imgs_paths, gt, synste_map):
             if res.status_code != 200: continue
             break
         except:
-            pass
+            time.sleep(5)
     
     print('got all the jobs\'results')
 
