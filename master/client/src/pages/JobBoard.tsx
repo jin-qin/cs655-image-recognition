@@ -217,7 +217,7 @@ function JobBoardTableItem(props: JobBoardTableItemProps) {
   };
 
   const setShowJobResultWidget = (e: any, item: JobBoardItemData, show: boolean) => {
-    setJobResultWidgetData({item: item, pos: {x: e.clientX, y: e.clientY}, show: show});
+    setJobResultWidgetData({item: item, pos: {x: e.pageX, y: e.pageY}, show: show});
   };
 
   const options = {
@@ -235,10 +235,9 @@ function JobBoardTableItem(props: JobBoardTableItemProps) {
   const finish_time = localTime(item.finish_time, options);
 
   return (
-    <tr key={item_count}>
+    <tr className='JobBoard-Item-JobID' key={item_count}>
       <td>{item_count}</td>
-      <td className='JobBoard-Item-JobID' 
-          onMouseMove = { (e) => setShowJobResultWidget(e, item, true) } 
+      <td onMouseMove = { (e) => setShowJobResultWidget(e, item, true) } 
           onMouseOut = { (e) => setShowJobResultWidget(e, item, false) }>
             {item.job_id}
       </td>
