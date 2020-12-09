@@ -46,7 +46,8 @@ The general purpose of this project is to implement an image recognition service
   * Metrics:
     * We measured the throughput (number of HTTP requests per second), goodput, accuracy, average job execution time over the loss rates = [0 , 0.067, 0.13, 0.2, 0.27, 0.33, 0.4, 0.47, 0.53, 0.6], and tested with 100 images per loss rate.
     * The loss rates were set on the link between client and the master node.
-  * Graph: coming soon
+  * Graph: 
+    ![](./tests/all_results.jpg)
   * Analysis: coming sson
 
 ## **Working Demo Video**
