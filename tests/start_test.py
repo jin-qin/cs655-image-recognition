@@ -169,5 +169,5 @@ if __name__ == '__main__':
     with open('results.csv', 'w') as csvfile:
         csvwriter = csv.writer(csvfile, delimiter=' ', quotechar='|')
         for i in range(len(loss_rates)):
-            csvwriter.writerow([loss_rates[i], goodputs[i], throughputs[i], accuracies[i], avg_times[i]])
+            csvwriter.writerow([loss_rates[i], goodputs[i], throughputs[i], accuracies[i], avg_times[i]], total_runtime)
     
