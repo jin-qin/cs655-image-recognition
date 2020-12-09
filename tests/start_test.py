@@ -13,7 +13,8 @@ IMG_DIR = '/opt/client/data/val_img'
 GROUND_TRUTH_FILE = './data/ILSVRC2012_validation_ground_truth.txt'
 IMGNET_META_FILE = './data/meta.mat'
 SYNSET_WORDS_MAP_FILE = './data/synset_words.txt'
-
+HOST = 'pcvm3-23.instageni.cenic.net'
+PORT = 5000
 
 def date2ts(iso_date):
     '''
@@ -37,7 +38,7 @@ def test_code(imgs_paths, gt, synste_map):
     adapter = requests.adapters.HTTPAdapter(pool_maxsize=100)
     sess.mount('http://', adapter)
     
-    url_submit = 'http://pcvm3-23.instageni.cenic.net:5000/jobs/submit'
+    url_submit = 'http://{}:{}/jobs/submit'.format(HOST, PORT)
     
     print('start uploading {} images ...'.format(len(imgs_paths)))
     ts_req_st = time.time()
@@ -62,7 +63,7 @@ def test_code(imgs_paths, gt, synste_map):
     print('upload finished')
 
     # checking if all jobs finished every 5 seconds
-    url_check_all_finished = 'http://pcvm3-23.instageni.cenic.net:5000/jobs/all_finished'
+    url_check_all_finished = 'http://{}:{}/jobs/all_finished'.format(HOST, PORT)
     check_count = 0
     while True:
         try:
@@ -83,7 +84,7 @@ def test_code(imgs_paths, gt, synste_map):
             pass
             
     # all job finished, get all jobs results
-    url_get_all_jobs =' http://pcvm3-23.instageni.cenic.net:5000/jobs/all'
+    url_get_all_jobs =' http://{}:{}/jobs/all'.format(HOST, PORT)
     while True:
         try:
             res = sess.get(url_get_all_jobs)
@@ -139,7 +140,7 @@ if __name__ == '__main__':
         print('----------------------------------------------------------')
         print("start a new turn on loss rate: {:.2f}".format(loss * 100))
 
-        url = 'http://pcvm3-23.instageni.cenic.net:5000/jobs/clear'
+        url = 'http://{}:{}/jobs/clear'.format(HOST, PORT)
         res = requests.delete(url)
         avg_time, accuracy, valid_http_req, total_http_req, req_duration = test_code(imgs_paths, gt, synset_map)
         goodput = valid_http_req / req_duration
