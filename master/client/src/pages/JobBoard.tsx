@@ -108,8 +108,25 @@ function JobBoardTable(props: JobBoardTableProps) {
       fetch(`${config.app.server_addr}/jobs/all`)
       .then(res => res.json())
       .then((rsp) => {
+        // first, sort data based on date time and job status
+        // if statuses are same, sort by date time descendingly
+        // otherwise, running jobs are first, then queued jobs, then finished jobs (success or error)
+        const jobs = rsp.data.sort((n1: any, n2: any) => {
+          if (n1['status'] == n2['status']) {
+            const ts1 = Date.parse(n1['submit_time']);
+	    const ts2 = Date.parse(n2['submit_time']);
+	    return ts1 > ts2 ? -1 : (ts1 == ts2 ? 0 : 0);
+          }
+
+          if (n1['status'] == 'RUNNING') return -1;
+          if (n1['status'] == 'ERROR' && n2['status'] != 'RUNNING') return -1;
+	  if (n1['status'] == 'QUEUED' && n2['status'] == 'SUCCESS') return -1;
+	  
+	  return 1;
+        });
+
         let item_count = 0;
-        const items = rsp.data.map((item: {job_id:string; status:string; submit_time:string; finish_time:string}) => {
+        const items = jobs.map((item: {job_id:string; status:string; submit_time:string; finish_time:string}) => {
           item_count++;
           return JobBoardTableItem({item_count, item, setAlertModalVisible, setDeleteJobParams});
         });
