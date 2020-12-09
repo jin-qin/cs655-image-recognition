@@ -48,7 +48,16 @@ The general purpose of this project is to implement an image recognition service
     * The loss rates were set on the link between client and the master node.
   * Graph: 
     ![](./tests/all_results.jpg)
-  * Analysis: coming sson
+  * Analysis: 
+    * In the goodput graph, it indicates that with the loss rate increasing, goodput is smaller. When the loss rate gets larger, there are more packets lost during the transmission and then total time will increase. Thus, the goodput becomes smaller.
+    * In the throughput graph, it also indicates that with the loss rate increasing, throughput is smaller. The reason is same as goodput.
+    * In our project, we set timeout of http as 3 seconds. When loss rate is over 0.4, goodput becomes smaller than throughput, which means under this condition, there exists timeout http request. Thus, goodput will be smaller than throughput.
+    * In average job execution time graph, we can see that verage job execution time changes in a small range, because the job execution time is not affected by the loss rate. 
+    * In accracy graph, we can see that accracy changes a little when the loss rate get larger and changes start after loss rate reaching 0.4. Becuase as we mentioned above, when loss rate is over 0.4, there exists timeout requests, some job can not be submitted to worker and then the total number of photos tested decreased. Thus, the accracy will changes.
+## **Conclusion and extensions**
+
+Loss rate does significantly influence the goodput and throughput because if some job got lost, the valid request for image recognition will decrease and total request time will increase. However, the change in the loss rate doesn’t significantly affect the trend of average job execution time because it only takes valid jobs into account; the lost job won’t affect the normal execution of valid jobs. Also Loss rate doesn’t drastically affect the accuracy of image recognition, since accuracy only considers the result of recognizing valid jobs submitted, ignoring those lost jobs.
+
 
 ## **Working Demo Video**
 TODO
