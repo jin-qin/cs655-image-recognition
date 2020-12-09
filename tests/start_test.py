@@ -155,7 +155,7 @@ if __name__ == '__main__':
         print('valid requests: {}'.format(valid_http_req))
         print('total requests: {}'.format(total_http_req))
         print('goodput: {} sec'.format(goodput))
-        print('throughput: {} sec'.fomrat(throughput))
+        print('throughput: {} sec'.format(throughput))
 
         print("finish this turn")
         print('----------------------------------------------------------')
