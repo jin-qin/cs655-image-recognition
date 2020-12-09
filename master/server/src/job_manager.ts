@@ -4,7 +4,7 @@ import Router from '@koa/router';
 import config from './config/app-config.json';
 import sql_cmds from './config/sql-cmds.json'
 import DBHelper from './util/db_helper';
-import {get_date_time} from './util/misc';
+import {get_date_time, get_timestamp, date2timestamp} from './util/misc';
 import multer, { MulterIncomingMessage } from 'koa-multer';
 import path from 'path';
 import fs from 'fs';
@@ -30,6 +30,7 @@ class JobManager {
     private upload: multer.Instance;
 
     private interval_timer!: NodeJS.Timeout;
+    private JOB_TIMEOUT = 10; // job timeout, seconds
     
     constructor() {
         this.router = new Router({
@@ -63,6 +64,7 @@ class JobManager {
     private setup_timer() {
         this.interval_timer = setInterval(async () => {
             await this.poll_worker_status();
+            await this.reset_timeout_jobs();
             await this.schedule_next_job();
         }, 500);
     }
@@ -85,6 +87,27 @@ class JobManager {
                     this.update_worker(WorkerStatus.ERROR, row.ip_addr);
                 });
         }
+    }
+
+    private async reset_timeout_jobs() {
+        const ret = await this.get_running_jobs();
+        if (!ret.success) {
+            console.warn(`reset_timeout_jobs: failed to get running jobs due to ${ret.result}`);
+            return;
+        }
+
+        let jobs_id : string[] = [];
+        for (let job of ret.result) {
+            const duration = get_timestamp() - date2timestamp(job.schedule_time);
+            if (duration >= this.JOB_TIMEOUT * 1000) {
+                console.log(`reset_timeout_jobs:: found timeout job: ${job.job_id}, job elapses: ${duration} ms`);
+                jobs_id.push(job.job_id);
+            }
+        }
+
+        if (jobs_id.length <= 0) return;
+
+        this.reset_jobs(jobs_id);
     }
 
     private async schedule_next_job() {
@@ -282,8 +305,8 @@ class JobManager {
         return await DBHelper.query(sql_cmds.jobs.update_job, [job_status, job_finish_time, job_result, job_id]);
     }
 
-    private async update_job_worker(job_id: string, status: string, worker_id: string) {
-        return await DBHelper.query(sql_cmds.jobs.update_job_worker, [worker_id, status, job_id]);
+    private async update_job_worker(job_id: string, status: string, worker_id: string, schedule_time: string) {
+        return await DBHelper.query(sql_cmds.jobs.update_job_worker, [worker_id, schedule_time, status, job_id]);
     }
 
     private async delete_jobs(job_ids: string[]) {
@@ -310,7 +333,8 @@ class JobManager {
         const rsp = await fetch(`http://${ip}:${port}/schedule`, {method: 'POST', body: form});
         const rsp_data = await rsp.json();
         if (rsp.status == 201) {
-            this.update_job_worker(job_id, JobStatus.RUNNING, worker_id);
+            const schedule_time = get_date_time();
+            this.update_job_worker(job_id, JobStatus.RUNNING, worker_id, schedule_time);
             return {success: true, result: rsp_data};
         }
 
@@ -342,10 +366,18 @@ class JobManager {
     private async get_queued_job() {
         const ret = await DBHelper.query(sql_cmds.jobs.get_queued_job);
         if (!ret.success || ret.result.length <= 0) {
-            return {success: false, job_id: '', img_path: '', msg: 'no queued job'};
+            return {success: false, job_id: '', img_path: '', msg: ret.success ? 'no queued job' : ret.result};
         }
 
         return {success: true, job_id: ret.result[0].job_id, img_name: ret.result[0].img_name, msg: ''};
+    }
+
+    private async get_running_jobs() {
+        return await DBHelper.query(sql_cmds.jobs.get_running_jobs);
+    }
+
+    private async reset_jobs(job_ids: string[]) {
+        return await DBHelper.query(sql_cmds.jobs.reset_jobs, [job_ids]);
     }
 
     private gen_job_id(): string {
