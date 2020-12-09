@@ -117,6 +117,7 @@ interface JobBoardItemData {
   finish_time:string;
   img_name:string;
   result:string;
+  category:string;
   description:string
 }
 
@@ -216,7 +217,6 @@ function JobBoardTableItem(props: JobBoardTableItemProps) {
   };
 
   const setShowJobResultWidget = (e: any, item: JobBoardItemData, show: boolean) => {
-    console.log(e.clientX, e.clientY)
     setJobResultWidgetData({item: item, pos: {x: e.clientX, y: e.clientY}, show: show});
   };
 
@@ -260,8 +260,13 @@ function JobResultWidget(props: JobResultWidgetProps) {
   const {item, pos, show} = props;
   return (
     <div className='JobBoard-JobResultWidget' style={ {left: `${pos.x}px`, top: `${pos.y - 50}px`, visibility: show ? 'visible' : 'hidden', opacity: show ? 1 : 0} }>
-      <img alt='' src={`${config.app.server_addr}/imgs/${item?.img_name}`}></img>
-      <p>{item?.description}</p>
+      <div className='JobBoard-JobResultWidget-Left'>
+        <img alt='' src={`${config.app.server_addr}/imgs/${item?.img_name}`}></img>
+        <p>{item?.category}</p>
+      </div>
+      <div className='JobBoard-JobResultWidget-Right'>
+        <p>{item?.description}</p>
+      </div>
     </div>
   );
 }

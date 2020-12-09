@@ -43,10 +43,12 @@ def get_synset_details_map(meta_file: str, synset_words_mapping_file: str):
 
     d = metadata[:, 0]
     wnid_map = {}
+    category = {}
     desc = {}
     for r in d:
         if r[0][0][0] > 1000: continue
         wnid_map[r[1][0]] = r[0][0][0]
+        category[r[1][0]] = r[2][0]
         desc[r[1][0]] = r[3][0]
 
     synset_map = {-1: {'code': -1, 'desc': ''}}
@@ -56,7 +58,7 @@ def get_synset_details_map(meta_file: str, synset_words_mapping_file: str):
         csvreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
         for id, line in enumerate(csvreader):
             id_imgnet = wnid_map[line[0]]
-            synset_map[id] = { 'code': int(id_imgnet), 'desc': desc[line[0]]}
+            synset_map[id] = { 'code': int(id_imgnet), 'cat':category[line[0]], 'desc': desc[line[0]]}
     
     return synset_map
 

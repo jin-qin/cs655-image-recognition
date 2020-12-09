@@ -306,7 +306,13 @@ class JobManager {
     private async update_job_result(
         job_id: string, job_status: string, 
         job_finish_time: string, job_result: string) {
-        return await DBHelper.query(sql_cmds.jobs.update_job, [job_status, job_finish_time, job_result, synset_map[job_result].desc, job_id]);
+        
+        //@ts-expect-error: expect behavior.
+        const cat = synset_map[job_result].cat
+        //@ts-expect-error: expect behavior.
+        const desc = synset_map[job_result].desc;
+
+        return await DBHelper.query(sql_cmds.jobs.update_job, [job_status, job_finish_time, job_result, cat, desc, job_id]);
     }
 
     private async update_job_worker(job_id: string, status: string, worker_id: string, schedule_time: string) {

@@ -5,4002 +5,5002 @@
     },
     "0": {
         "code": 449,
+        "cat": "tench, Tinca tinca",
         "desc": "freshwater dace-like game fish of Europe and western Asia noted for ability to survive outside water"
     },
     "1": {
         "code": 450,
+        "cat": "goldfish, Carassius auratus",
         "desc": "small golden or orange-red freshwater fishes of Eurasia used as pond or aquarium fishes"
     },
     "2": {
         "code": 442,
+        "cat": "great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias",
         "desc": "large aggressive shark widespread in warm seas; known to attack humans"
     },
     "3": {
         "code": 443,
+        "cat": "tiger shark, Galeocerdo cuvieri",
         "desc": "large dangerous warm-water shark with striped or spotted body"
     },
     "4": {
         "code": 444,
+        "cat": "hammerhead, hammerhead shark",
         "desc": "medium-sized live-bearing shark with eyes at either end of a flattened hammer-shaped head; worldwide in warm waters; can be dangerous"
     },
     "5": {
         "code": 445,
+        "cat": "electric ray, crampfish, numbfish, torpedo",
         "desc": "any sluggish bottom-dwelling ray of the order Torpediniformes having a rounded body and electric organs on each side of the head capable of emitting strong electric discharges"
     },
     "6": {
         "code": 446,
+        "cat": "stingray",
         "desc": "large venomous ray with large barbed spines near the base of a thin whiplike tail capable of inflicting severe wounds"
     },
     "7": {
         "code": 383,
+        "cat": "cock",
         "desc": "adult male bird"
     },
     "8": {
         "code": 384,
+        "cat": "hen",
         "desc": "adult female bird"
     },
     "9": {
         "code": 385,
+        "cat": "ostrich, Struthio camelus",
         "desc": "fast-running African flightless bird with two-toed feet; largest living bird"
     },
     "10": {
         "code": 386,
+        "cat": "brambling, Fringilla montifringilla",
         "desc": "Eurasian finch"
     },
     "11": {
         "code": 387,
+        "cat": "goldfinch, Carduelis carduelis",
         "desc": "small European finch having a crimson face and yellow-and-black wings"
     },
     "12": {
         "code": 388,
+        "cat": "house finch, linnet, Carpodacus mexicanus",
         "desc": "small finch originally of the western United States and Mexico"
     },
     "13": {
         "code": 389,
+        "cat": "junco, snowbird",
         "desc": "small North American finch seen chiefly in winter"
     },
     "14": {
         "code": 390,
+        "cat": "indigo bunting, indigo finch, indigo bird, Passerina cyanea",
         "desc": "small deep blue North American bunting"
     },
     "15": {
         "code": 391,
+        "cat": "robin, American robin, Turdus migratorius",
         "desc": "large American thrush having a rust-red breast and abdomen"
     },
     "16": {
         "code": 392,
+        "cat": "bulbul",
         "desc": "nightingale spoken of in Persian poetry"
     },
     "17": {
         "code": 393,
+        "cat": "jay",
         "desc": "crested largely blue bird"
     },
     "18": {
         "code": 394,
+        "cat": "magpie",
         "desc": "long-tailed black-and-white crow that utters a raucous chattering call"
     },
     "19": {
         "code": 395,
+        "cat": "chickadee",
         "desc": "any of various small grey-and-black songbirds of North America"
     },
     "20": {
         "code": 396,
+        "cat": "water ouzel, dipper",
         "desc": "small stocky diving bird without webbed feet; frequents fast-flowing streams and feeds along the bottom"
     },
     "21": {
         "code": 397,
+        "cat": "kite",
         "desc": "any of several small graceful hawks of the family Accipitridae having long pointed wings and feeding on insects and small animals"
     },
     "22": {
         "code": 398,
+        "cat": "bald eagle, American eagle, Haliaeetus leucocephalus",
         "desc": "a large eagle of North America that has a white head and dark wings and body"
     },
     "23": {
         "code": 399,
+        "cat": "vulture",
         "desc": "any of various large diurnal birds of prey having naked heads and weak claws and feeding chiefly on carrion"
     },
     "24": {
         "code": 400,
+        "cat": "great grey owl, great gray owl, Strix nebulosa",
         "desc": "large dish-faced owl of northern North America and western Eurasia"
     },
     "25": {
         "code": 494,
+        "cat": "European fire salamander, Salamandra salamandra",
         "desc": "a kind of European salamander"
     },
     "26": {
         "code": 495,
+        "cat": "common newt, Triturus vulgaris",
         "desc": "small semiaquatic salamander"
     },
     "27": {
         "code": 496,
+        "cat": "eft",
         "desc": "a newt in its terrestrial stage of development"
     },
     "28": {
         "code": 497,
+        "cat": "spotted salamander, Ambystoma maculatum",
         "desc": "glossy black North American salamander with yellow spots"
     },
     "29": {
         "code": 498,
+        "cat": "axolotl, mud puppy, Ambystoma mexicanum",
         "desc": "larval salamander of mountain lakes of Mexico that usually lives without metamorphosing"
     },
     "30": {
         "code": 499,
+        "cat": "bullfrog, Rana catesbeiana",
         "desc": "largest North American frog; highly aquatic with a deep-pitched voice"
     },
     "31": {
         "code": 500,
+        "cat": "tree frog, tree-frog",
         "desc": "any of various Old World arboreal frogs distinguished from true frogs by adhesive suckers on the toes"
     },
     "32": {
         "code": 501,
+        "cat": "tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui",
         "desc": "western North American frog with a taillike copulatory organ"
     },
     "33": {
         "code": 458,
+        "cat": "loggerhead, loggerhead turtle, Caretta caretta",
         "desc": "very large carnivorous sea turtle; wide-ranging in warm open seas"
     },
     "34": {
         "code": 459,
+        "cat": "leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea",
         "desc": "wide-ranging marine turtle with flexible leathery carapace; largest living turtle"
     },
     "35": {
         "code": 460,
+        "cat": "mud turtle",
         "desc": "bottom-dwelling freshwater turtle inhabiting muddy rivers of North America and Central America"
     },
     "36": {
         "code": 461,
+        "cat": "terrapin",
         "desc": "any of various edible North American web-footed turtles living in fresh or brackish water"
     },
     "37": {
         "code": 462,
+        "cat": "box turtle, box tortoise",
         "desc": "chiefly terrestrial turtle of North America; shell can be closed tightly"
     },
     "38": {
         "code": 463,
+        "cat": "banded gecko",
         "desc": "any of several geckos with dark bands across the body and differing from typical geckos in having movable eyelids; of United States southwest and Florida Gulf Coast"
     },
     "39": {
         "code": 464,
+        "cat": "common iguana, iguana, Iguana iguana",
         "desc": "large herbivorous tropical American arboreal lizards with a spiny crest along the back; used as human food in Central America and South America"
     },
     "40": {
         "code": 465,
+        "cat": "American chameleon, anole, Anolis carolinensis",
         "desc": "small arboreal tropical American insectivorous lizards with the ability to change skin color"
     },
     "41": {
         "code": 466,
+        "cat": "whiptail, whiptail lizard",
         "desc": "any of numerous very agile and alert New World lizards"
     },
     "42": {
         "code": 467,
+        "cat": "agama",
         "desc": "small terrestrial lizard of warm regions of the Old World"
     },
     "43": {
         "code": 468,
+        "cat": "frilled lizard, Chlamydosaurus kingi",
         "desc": "large arboreal insectivorous Australian lizard with a ruff of skin around the neck"
     },
     "44": {
         "code": 469,
+        "cat": "alligator lizard",
         "desc": "slim short-limbed lizard having a distinctive fold on each side that permits expansion; of western North America"
     },
     "45": {
         "code": 470,
+        "cat": "Gila monster, Heloderma suspectum",
         "desc": "large orange and black lizard of southwestern United States; not dangerous unless molested"
     },
     "46": {
         "code": 471,
+        "cat": "green lizard, Lacerta viridis",
         "desc": "a common Eurasian lizard about a foot long"
     },
     "47": {
         "code": 472,
+        "cat": "African chameleon, Chamaeleo chamaeleon",
         "desc": "a chameleon found in Africa"
     },
     "48": {
         "code": 473,
+        "cat": "Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis",
         "desc": "the largest lizard in the world (10 feet); found on Indonesian islands"
     },
     "49": {
         "code": 475,
+        "cat": "African crocodile, Nile crocodile, Crocodylus niloticus",
         "desc": "a dangerous crocodile widely distributed in Africa"
     },
     "50": {
         "code": 476,
+        "cat": "American alligator, Alligator mississipiensis",
         "desc": "large alligator of the southeastern United States"
     },
     "51": {
         "code": 474,
+        "cat": "triceratops",
         "desc": "huge ceratopsian dinosaur having three horns and the neck heavily armored with a very solid frill"
     },
     "52": {
         "code": 477,
+        "cat": "thunder snake, worm snake, Carphophis amoenus",
         "desc": "small reddish wormlike snake of eastern United States"
     },
     "53": {
         "code": 478,
+        "cat": "ringneck snake, ring-necked snake, ring snake",
         "desc": "any of numerous small nonvenomous North American snakes with a yellow or orange ring around the neck"
     },
     "54": {
         "code": 479,
+        "cat": "hognose snake, puff adder, sand viper",
         "desc": "harmless North American snake with upturned nose; may spread its head and neck or play dead when disturbed"
     },
     "55": {
         "code": 480,
+        "cat": "green snake, grass snake",
         "desc": "either of two North American chiefly insectivorous snakes that are green in color"
     },
     "56": {
         "code": 481,
+        "cat": "king snake, kingsnake",
         "desc": "any of numerous nonvenomous North American constrictors; feed on other snakes and small mammals"
     },
     "57": {
         "code": 482,
+        "cat": "garter snake, grass snake",
         "desc": "any of numerous nonvenomous longitudinally-striped viviparous North American and Central American snakes"
     },
     "58": {
         "code": 483,
+        "cat": "water snake",
         "desc": "any of various mostly harmless snakes that live in or near water"
     },
     "59": {
         "code": 484,
+        "cat": "vine snake",
         "desc": "slender arboreal snake found from southern Arizona to Bolivia"
     },
     "60": {
         "code": 485,
+        "cat": "night snake, Hypsiglena torquata",
         "desc": "nocturnal prowler of western United States and Mexico"
     },
     "61": {
         "code": 486,
+        "cat": "boa constrictor, Constrictor constrictor",
         "desc": "very large boa of tropical America and West Indies"
     },
     "62": {
         "code": 487,
+        "cat": "rock python, rock snake, Python sebae",
         "desc": "very large python of tropical and southern Africa"
     },
     "63": {
         "code": 488,
+        "cat": "Indian cobra, Naja naja",
         "desc": "a cobra of tropical Africa and Asia"
     },
     "64": {
         "code": 489,
+        "cat": "green mamba",
         "desc": "green phase of the black mamba"
     },
     "65": {
         "code": 490,
+        "cat": "sea snake",
         "desc": "any of numerous venomous aquatic viviparous snakes having a fin-like tail; of warm littoral seas; feed on fish which they immobilize with quick-acting venom"
     },
     "66": {
         "code": 491,
+        "cat": "horned viper, cerastes, sand viper, horned asp, Cerastes cornutus",
         "desc": "highly venomous viper of northern Africa and southwestern Asia having a horny spine above each eye"
     },
     "67": {
         "code": 492,
+        "cat": "diamondback, diamondback rattlesnake, Crotalus adamanteus",
         "desc": "large deadly rattlesnake with diamond-shaped markings"
     },
     "68": {
         "code": 493,
+        "cat": "sidewinder, horned rattlesnake, Crotalus cerastes",
         "desc": "small pale-colored desert rattlesnake of southwestern United States; body moves in an s-shaped curve"
     },
     "69": {
         "code": 601,
+        "cat": "trilobite",
         "desc": "an extinct arthropod that was abundant in Paleozoic times; had an exoskeleton divided into three parts"
     },
     "70": {
         "code": 602,
+        "cat": "harvestman, daddy longlegs, Phalangium opilio",
         "desc": "spiderlike arachnid with a small rounded body and very long thin legs"
     },
     "71": {
         "code": 603,
+        "cat": "scorpion",
         "desc": "arachnid of warm dry regions having a long segmented tail ending in a venomous stinger"
     },
     "72": {
         "code": 604,
+        "cat": "black and gold garden spider, Argiope aurantia",
         "desc": "a widely distributed North American garden spider"
     },
     "73": {
         "code": 605,
+        "cat": "barn spider, Araneus cavaticus",
         "desc": "an orange and tan spider with darkly banded legs that spins an orb web daily; \"the barn spider was made famous in E. B. White's book `Charlotte's Web'\""
     },
     "74": {
         "code": 606,
+        "cat": "garden spider, Aranea diademata",
         "desc": "a spider common in European gardens"
     },
     "75": {
         "code": 607,
+        "cat": "black widow, Latrodectus mactans",
         "desc": "venomous New World spider; the female is black with an hourglass-shaped red mark on the underside of the abdomen"
     },
     "76": {
         "code": 608,
+        "cat": "tarantula",
         "desc": "large hairy tropical spider with fangs that can inflict painful but not highly venomous bites"
     },
     "77": {
         "code": 609,
+        "cat": "wolf spider, hunting spider",
         "desc": "ground spider that hunts its prey instead of using a web"
     },
     "78": {
         "code": 610,
+        "cat": "tick",
         "desc": "any of two families of small parasitic arachnids with barbed proboscis; feed on blood of warm-blooded animals"
     },
     "79": {
         "code": 611,
+        "cat": "centipede",
         "desc": "chiefly nocturnal predacious arthropod having a flattened body of 15 to 173 segments each with a pair of legs, the foremost pair being modified as prehensors"
     },
     "80": {
         "code": 401,
+        "cat": "black grouse",
         "desc": "grouse of which the male is bluish-black"
     },
     "81": {
         "code": 402,
+        "cat": "ptarmigan",
         "desc": "large Arctic and subarctic grouse with feathered feet and usually white winter plumage"
     },
     "82": {
         "code": 403,
+        "cat": "ruffed grouse, partridge, Bonasa umbellus",
         "desc": "valued as a game bird in eastern United States and Canada"
     },
     "83": {
         "code": 404,
+        "cat": "prairie chicken, prairie grouse, prairie fowl",
         "desc": "brown mottled North American grouse of western prairies"
     },
     "84": {
         "code": 405,
+        "cat": "peacock",
         "desc": "male peafowl; having a crested head and very large fanlike tail marked with iridescent eyes or spots"
     },
     "85": {
         "code": 406,
+        "cat": "quail",
         "desc": "small gallinaceous game birds"
     },
     "86": {
         "code": 407,
+        "cat": "partridge",
         "desc": "small Old World gallinaceous game birds"
     },
     "87": {
         "code": 408,
+        "cat": "African grey, African gray, Psittacus erithacus",
         "desc": "commonly domesticated grey parrot with red-and-black tail and white face; native to equatorial Africa"
     },
     "88": {
         "code": 409,
+        "cat": "macaw",
         "desc": "long-tailed brilliantly colored parrot of Central America and South America; among the largest and showiest of parrots"
     },
     "89": {
         "code": 410,
+        "cat": "sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita",
         "desc": "white cockatoo with a yellow erectile crest"
     },
     "90": {
         "code": 411,
+        "cat": "lorikeet",
         "desc": "any of various small lories"
     },
     "91": {
         "code": 412,
+        "cat": "coucal",
         "desc": "Old World ground-living cuckoo having a long dagger-like hind claw"
     },
     "92": {
         "code": 413,
+        "cat": "bee eater",
         "desc": "colorful chiefly tropical Old World bird having a strong graceful flight; feeds on especially bees"
     },
     "93": {
         "code": 414,
+        "cat": "hornbill",
         "desc": "bird of tropical Africa and Asia having a very large bill surmounted by a bony protuberance; related to kingfishers"
     },
     "94": {
         "code": 415,
+        "cat": "hummingbird",
         "desc": "tiny American bird having brilliant iridescent plumage and long slender bills; wings are specialized for vibrating flight"
     },
     "95": {
         "code": 416,
+        "cat": "jacamar",
         "desc": "tropical American insectivorous bird having a long sharp bill and iridescent green or bronze plumage"
     },
     "96": {
         "code": 417,
+        "cat": "toucan",
         "desc": "brilliantly colored arboreal fruit-eating bird of tropical America having a very large thin-walled beak"
     },
     "97": {
         "code": 418,
+        "cat": "drake",
         "desc": "adult male of a wild or domestic duck"
     },
     "98": {
         "code": 419,
+        "cat": "red-breasted merganser, Mergus serrator",
         "desc": "widely distributed merganser of America and Europe"
     },
     "99": {
         "code": 420,
+        "cat": "goose",
         "desc": "web-footed long-necked typically gregarious migratory aquatic birds usually larger and less aquatic than ducks"
     },
     "100": {
         "code": 421,
+        "cat": "black swan, Cygnus atratus",
         "desc": "large Australian swan having black plumage and a red bill"
     },
     "101": {
         "code": 214,
+        "cat": "tusker",
         "desc": "any mammal with prominent tusks (especially an elephant or wild boar)"
     },
     "102": {
         "code": 215,
+        "cat": "echidna, spiny anteater, anteater",
         "desc": "a burrowing monotreme mammal covered with spines and having a long snout and claws for hunting ants and termites; native to Australia"
     },
     "103": {
         "code": 217,
+        "cat": "platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus",
         "desc": "small densely furred aquatic monotreme of Australia and Tasmania having a broad bill and tail and webbed feet; only species in the family Ornithorhynchidae"
     },
     "104": {
         "code": 216,
+        "cat": "wallaby, brush kangaroo",
         "desc": "any of various small or medium-sized kangaroos; often brightly colored"
     },
     "105": {
         "code": 213,
+        "cat": "koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus",
         "desc": "sluggish tailless Australian arboreal marsupial with grey furry ears and coat; feeds on eucalyptus leaves and bark"
     },
     "106": {
         "code": 218,
+        "cat": "wombat",
         "desc": "burrowing herbivorous Australian marsupials about the size of a badger"
     },
     "107": {
         "code": 647,
+        "cat": "jellyfish",
         "desc": "any of numerous usually marine and free-swimming coelenterates that constitute the sexually reproductive forms of hydrozoans and scyphozoans"
     },
     "108": {
         "code": 648,
+        "cat": "sea anemone, anemone",
         "desc": "marine polyps that resemble flowers but have oral rings of tentacles; differ from corals in forming no hard skeleton"
     },
     "109": {
         "code": 649,
+        "cat": "brain coral",
         "desc": "massive reef-building coral having a convoluted and furrowed surface"
     },
     "110": {
         "code": 650,
+        "cat": "flatworm, platyhelminth",
         "desc": "parasitic or free-living worms having a flattened body"
     },
     "111": {
         "code": 651,
+        "cat": "nematode, nematode worm, roundworm",
         "desc": "unsegmented worms with elongated rounded body pointed at both ends; mostly free-living but some are parasitic"
     },
     "112": {
         "code": 652,
+        "cat": "conch",
         "desc": "any of various edible tropical marine gastropods of the genus Strombus having a brightly-colored spiral shell with large outer lip"
     },
     "113": {
         "code": 653,
+        "cat": "snail",
         "desc": "freshwater or marine or terrestrial gastropod mollusk usually having an external enclosing spiral shell"
     },
     "114": {
         "code": 654,
+        "cat": "slug",
         "desc": "any of various terrestrial gastropods having an elongated slimy body and no external shell"
     },
     "115": {
         "code": 655,
+        "cat": "sea slug, nudibranch",
         "desc": "any of various marine gastropods of the suborder Nudibranchia having a shell-less and often beautifully colored body"
     },
     "116": {
         "code": 656,
+        "cat": "chiton, coat-of-mail shell, sea cradle, polyplacophore",
         "desc": "primitive elongated bilaterally symmetrical marine mollusk having a mantle covered with eight calcareous plates"
     },
     "117": {
         "code": 226,
+        "cat": "chambered nautilus, pearly nautilus, nautilus",
         "desc": "cephalopod of the Indian and Pacific oceans having a spiral shell with pale pearly partitions"
     },
     "118": {
         "code": 613,
+        "cat": "Dungeness crab, Cancer magister",
         "desc": "small edible crab of Pacific coast of North America"
     },
     "119": {
         "code": 614,
+        "cat": "rock crab, Cancer irroratus",
         "desc": "crab of eastern coast of North America"
     },
     "120": {
         "code": 615,
+        "cat": "fiddler crab",
         "desc": "burrowing crab of American coastal regions having one claw much enlarged in the male"
     },
     "121": {
         "code": 616,
+        "cat": "king crab, Alaska crab, Alaskan king crab, Alaska king crab, Paralithodes camtschatica",
         "desc": "large edible crab of northern Pacific waters especially along the coasts of Alaska and Japan"
     },
     "122": {
         "code": 617,
+        "cat": "American lobster, Northern lobster, Maine lobster, Homarus americanus",
         "desc": "lobster of Atlantic coast of America"
     },
     "123": {
         "code": 618,
+        "cat": "spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish",
         "desc": "large edible marine crustacean having a spiny carapace but lacking the large pincers of true lobsters"
     },
     "124": {
         "code": 619,
+        "cat": "crayfish, crawfish, crawdad, crawdaddy",
         "desc": "small freshwater decapod crustacean that resembles a lobster"
     },
     "125": {
         "code": 620,
+        "cat": "hermit crab",
         "desc": "small soft-bodied marine crustaceans living in cast-off shells of gastropods"
     },
     "126": {
         "code": 612,
+        "cat": "isopod",
         "desc": "any of various small terrestrial or aquatic crustaceans with seven pairs of legs adapted for crawling"
     },
     "127": {
         "code": 422,
+        "cat": "white stork, Ciconia ciconia",
         "desc": "the common stork of Europe; white with black wing feathers and a red bill"
     },
     "128": {
         "code": 423,
+        "cat": "black stork, Ciconia nigra",
         "desc": "Old World stork that is glossy black above and white below"
     },
     "129": {
         "code": 424,
+        "cat": "spoonbill",
         "desc": "wading birds having a long flat bill with a tip like a spoon"
     },
     "130": {
         "code": 425,
+        "cat": "flamingo",
         "desc": "large pink to scarlet web-footed wading bird with down-bent bill; inhabits brackish lakes"
     },
     "131": {
         "code": 427,
+        "cat": "little blue heron, Egretta caerulea",
         "desc": "small bluish-grey heron of the western hemisphere"
     },
     "132": {
         "code": 426,
+        "cat": "American egret, great white heron, Egretta albus",
         "desc": "a common egret of the genus Egretta found in America; it is a variety of the Old World white egret Casmerodius albus"
     },
     "133": {
         "code": 428,
+        "cat": "bittern",
         "desc": "relatively small compact tawny-brown heron with nocturnal habits and a booming cry; found in marshes"
     },
     "134": {
         "code": 429,
+        "cat": "crane",
         "desc": "large long-necked wading bird of marshes and plains in many parts of the world"
     },
     "135": {
         "code": 430,
+        "cat": "limpkin, Aramus pictus",
         "desc": "wading bird of Florida, Cuba and Jamaica having a drooping bill and a distinctive wailing call"
     },
     "136": {
         "code": 438,
+        "cat": "European gallinule, Porphyrio porphyrio",
         "desc": "purple gallinule of southern Europe"
     },
     "137": {
         "code": 431,
+        "cat": "American coot, marsh hen, mud hen, water hen, Fulica americana",
         "desc": "a coot found in North America"
     },
     "138": {
         "code": 432,
+        "cat": "bustard",
         "desc": "large heavy-bodied chiefly terrestrial game bird capable of powerful swift flight; classified with wading birds but frequents grassy steppes"
     },
     "139": {
         "code": 433,
+        "cat": "ruddy turnstone, Arenaria interpres",
         "desc": "common Arctic turnstone that winters in South America and Australia"
     },
     "140": {
         "code": 434,
+        "cat": "red-backed sandpiper, dunlin, Erolia alpina",
         "desc": "small common sandpiper that breeds in northern or Arctic regions and winters in southern United States or Mediterranean regions"
     },
     "141": {
         "code": 435,
+        "cat": "redshank, Tringa totanus",
         "desc": "a common Old World wading bird with long red legs"
     },
     "142": {
         "code": 436,
+        "cat": "dowitcher",
         "desc": "shorebird of the sandpiper family that resembles a snipe"
     },
     "143": {
         "code": 437,
+        "cat": "oystercatcher, oyster catcher",
         "desc": "black-and-white shorebird with stout legs and bill; feed on oysters etc."
     },
     "144": {
         "code": 439,
+        "cat": "pelican",
         "desc": "large long-winged warm-water seabird having a large bill with a distensible pouch for fish"
     },
     "145": {
         "code": 440,
+        "cat": "king penguin, Aptenodytes patagonica",
         "desc": "large penguin on islands bordering the Antarctic Circle"
     },
     "146": {
         "code": 441,
+        "cat": "albatross, mollymawk",
         "desc": "large web-footed birds of the southern hemisphere having long narrow wings; noted for powerful gliding flight"
     },
     "147": {
         "code": 6,
+        "cat": "grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus",
         "desc": "medium-sized greyish-black whale of the northern Pacific"
     },
     "148": {
         "code": 22,
+        "cat": "killer whale, killer, orca, grampus, sea wolf, Orcinus orca",
         "desc": "predatory black-and-white toothed whale with large dorsal fin; common in cold seas"
     },
     "149": {
         "code": 193,
+        "cat": "dugong, Dugong dugon",
         "desc": "sirenian tusked mammal found from eastern Africa to Australia; the flat tail is bilobate"
     },
     "150": {
         "code": 14,
+        "cat": "sea lion",
         "desc": "any of several large eared seals of the northern Pacific related to fur seals but lacking their valuable coat"
     },
     "151": {
         "code": 173,
+        "cat": "Chihuahua",
         "desc": "an old breed of tiny short-haired dog with protruding eyes from Mexico held to antedate Aztec civilization"
     },
     "152": {
         "code": 99,
+        "cat": "Japanese spaniel",
         "desc": "breed of toy dogs originating in Japan having a silky black-and-white or red-and-white coat"
     },
     "153": {
         "code": 87,
+        "cat": "Maltese dog, Maltese terrier, Maltese",
         "desc": "breed of toy dogs having a long straight silky white coat"
     },
     "154": {
         "code": 69,
+        "cat": "Pekinese, Pekingese, Peke",
         "desc": "a Chinese breed of small short-legged dogs with a long silky coat and broad flat muzzle"
     },
     "155": {
         "code": 116,
+        "cat": "Shih-Tzu",
         "desc": "a Chinese breed of small dog similar to a Pekingese"
     },
     "156": {
         "code": 198,
+        "cat": "Blenheim spaniel",
         "desc": "red-and-white variety of English toy spaniel"
     },
     "157": {
         "code": 43,
+        "cat": "papillon",
         "desc": "small slender toy spaniel with erect ears and a black-spotted brown to white coat"
     },
     "158": {
         "code": 89,
+        "cat": "toy terrier",
         "desc": "a small active dog"
     },
     "159": {
         "code": 200,
+        "cat": "Rhodesian ridgeback",
         "desc": "a powerful short-haired African hunting dog having a crest of reversed hair along the spine"
     },
     "160": {
         "code": 98,
+        "cat": "Afghan hound, Afghan",
         "desc": "tall graceful breed of hound with a long silky coat; native to the Near East"
     },
     "161": {
         "code": 161,
+        "cat": "basset, basset hound",
         "desc": "smooth-haired breed of hound with short legs and long ears"
     },
     "162": {
         "code": 132,
+        "cat": "beagle",
         "desc": "a small short-legged smooth-coated breed of hound"
     },
     "163": {
         "code": 32,
+        "cat": "bloodhound, sleuthhound",
         "desc": "a breed of large powerful hound of European origin having very acute smell and used in tracking"
     },
     "164": {
         "code": 180,
+        "cat": "bluetick",
         "desc": "a very fast American hound; white mottled with bluish grey"
     },
     "165": {
         "code": 42,
+        "cat": "black-and-tan coonhound",
         "desc": "American breed of large powerful hound dogs used for hunting raccoons and other game"
     },
     "166": {
         "code": 18,
+        "cat": "Walker hound, Walker foxhound",
         "desc": "an American breed of foxhound"
     },
     "167": {
         "code": 207,
+        "cat": "English foxhound",
         "desc": "an English breed slightly larger than the American foxhounds originally used to hunt in packs"
     },
     "168": {
         "code": 181,
+        "cat": "redbone",
         "desc": "a speedy red or red-and-tan American hound"
     },
     "169": {
         "code": 105,
+        "cat": "borzoi, Russian wolfhound",
         "desc": "tall fast-moving dog breed"
     },
     "170": {
         "code": 77,
+        "cat": "Irish wolfhound",
         "desc": "large breed of hound with a rough thick coat"
     },
     "171": {
         "code": 189,
+        "cat": "Italian greyhound",
         "desc": "a toy dog developed from the greyhound"
     },
     "172": {
         "code": 20,
+        "cat": "whippet",
         "desc": "small slender dog of greyhound type developed in England"
     },
     "173": {
         "code": 204,
+        "cat": "Ibizan hound, Ibizan Podenco",
         "desc": "breed of slender agile medium-sized hound found chiefly in the Balearic Islands; said to have been bred originally by the Pharaohs of ancient Egypt"
     },
     "174": {
         "code": 63,
+        "cat": "Norwegian elkhound, elkhound",
         "desc": "breed of compact medium-sized dog with a heavy grey coat developed in Norway for hunting elk"
     },
     "175": {
         "code": 31,
+        "cat": "otterhound, otter hound",
         "desc": "hardy British hound having long pendulous ears and a thick coarse shaggy coat with an oily undercoat; bred for hunting otters"
     },
     "176": {
         "code": 66,
+        "cat": "Saluki, gazelle hound",
         "desc": "old breed of tall swift keen-eyed hunting dogs resembling greyhounds; from Egypt and southwestern Asia"
     },
     "177": {
         "code": 21,
+        "cat": "Scottish deerhound, deerhound",
         "desc": "very large and tall rough-coated dog bred for hunting deer; known as the royal dog of Scotland"
     },
     "178": {
         "code": 25,
+        "cat": "Weimaraner",
         "desc": "large breed of hound having a smooth greyish coat; originated in Germany"
     },
     "179": {
         "code": 45,
+        "cat": "Staffordshire bullterrier, Staffordshire bull terrier",
         "desc": "English breed of strong stocky dog having a broad skull and smooth coat"
     },
     "180": {
         "code": 170,
+        "cat": "American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier",
         "desc": "American breed of muscular terriers with a short close-lying stiff coat"
     },
     "181": {
         "code": 119,
+        "cat": "Bedlington terrier",
         "desc": "a light terrier groomed to resemble a lamb"
     },
     "182": {
         "code": 210,
+        "cat": "Border terrier",
         "desc": "small rough-coated terrier of British origin"
     },
     "183": {
         "code": 107,
+        "cat": "Kerry blue terrier",
         "desc": "an Irish breed of medium-sized terriers with a silky blue-grey coat"
     },
     "184": {
         "code": 126,
+        "cat": "Irish terrier",
         "desc": "medium-sized breed with a wiry brown coat; developed in Ireland"
     },
     "185": {
         "code": 88,
+        "cat": "Norfolk terrier",
         "desc": "English breed of small terrier with a straight wiry grizzled coat and dropped ears"
     },
     "186": {
         "code": 145,
+        "cat": "Norwich terrier",
         "desc": "English breed of small short-legged terrier with a straight wiry red or grey or black-and-tan coat and erect ears"
     },
     "187": {
         "code": 59,
+        "cat": "Yorkshire terrier",
         "desc": "very small breed having a long glossy coat of bluish-grey and tan"
     },
     "188": {
         "code": 160,
+        "cat": "wire-haired fox terrier",
         "desc": "a fox terrier with wiry hair"
     },
     "189": {
         "code": 152,
+        "cat": "Lakeland terrier",
         "desc": "breed of wire-haired terrier originally from the Lake District of England and used for hunting"
     },
     "190": {
         "code": 72,
+        "cat": "Sealyham terrier, Sealyham",
         "desc": "a wire-haired terrier with short legs that was first bred in Sealyham"
     },
     "191": {
         "code": 33,
+        "cat": "Airedale, Airedale terrier",
         "desc": "breed of large wiry-coated terrier bred in Yorkshire"
     },
     "192": {
         "code": 91,
+        "cat": "cairn, cairn terrier",
         "desc": "small rough-haired breed of terrier from Scotland"
     },
     "193": {
         "code": 4,
+        "cat": "Australian terrier",
         "desc": "small greyish wire-haired breed of terrier from Australia similar to the cairn"
     },
     "194": {
         "code": 27,
+        "cat": "Dandie Dinmont, Dandie Dinmont terrier",
         "desc": "a breed of small terrier with long wiry coat and drooping ears"
     },
     "195": {
         "code": 113,
+        "cat": "Boston bull, Boston terrier",
         "desc": "small pug-faced American terrier breed having a smooth brindle or black coat with white markings"
     },
     "196": {
         "code": 123,
+        "cat": "miniature schnauzer",
         "desc": "a small schnauzer"
     },
     "197": {
         "code": 36,
+        "cat": "giant schnauzer",
         "desc": "a large schnauzer"
     },
     "198": {
         "code": 156,
+        "cat": "standard schnauzer",
         "desc": "a medium-sized schnauzer"
     },
     "199": {
         "code": 109,
+        "cat": "Scotch terrier, Scottish terrier, Scottie",
         "desc": "old Scottish breed of small long-haired usually black terrier with erect tail and ears"
     },
     "200": {
         "code": 158,
+        "cat": "Tibetan terrier, chrysanthemum dog",
         "desc": "breed of medium-sized terriers bred in Tibet resembling Old English sheepdogs with fluffy curled tails"
     },
     "201": {
         "code": 131,
+        "cat": "silky terrier, Sydney silky",
         "desc": "Australian breed of toy dogs having a silky blue coat"
     },
     "202": {
         "code": 26,
+        "cat": "soft-coated wheaten terrier",
         "desc": "Irish breed of medium-sized terrier with an abundant coat any shade of wheat and very hairy head and muzzle"
     },
     "203": {
         "code": 71,
+        "cat": "West Highland white terrier",
         "desc": "small white long-coated terrier developed in Scotland"
     },
     "204": {
         "code": 56,
+        "cat": "Lhasa, Lhasa apso",
         "desc": "a breed of terrier having a long heavy coat raised in Tibet as watchdogs"
     },
     "205": {
         "code": 146,
+        "cat": "flat-coated retriever",
         "desc": "an English breed having a shiny black or liver-colored coat; retrieves game from land or water"
     },
     "206": {
         "code": 144,
+        "cat": "curly-coated retriever",
         "desc": "an English breed having a tightly curled black or liver-colored coat; retrieves game from land or water"
     },
     "207": {
         "code": 125,
+        "cat": "golden retriever",
         "desc": "an English breed having a long silky golden coat"
     },
     "208": {
         "code": 176,
+        "cat": "Labrador retriever",
         "desc": "breed originally from Labrador having a short black or golden-brown coat"
     },
     "209": {
         "code": 139,
+        "cat": "Chesapeake Bay retriever",
         "desc": "American breed having a short thick oily coat ranging from brown to light tan"
     },
     "210": {
         "code": 134,
+        "cat": "German short-haired pointer",
         "desc": "liver or liver-and-white hunting dog developed in Germany; 3/4 pointer and 1/4 bloodhound"
     },
     "211": {
         "code": 90,
+        "cat": "vizsla, Hungarian pointer",
         "desc": "Hungarian hunting dog resembling the Weimaraner but having a rich deep red coat"
     },
     "212": {
         "code": 2,
+        "cat": "English setter",
         "desc": "an English breed having a plumed tail and a soft silky coat that is chiefly white"
     },
     "213": {
         "code": 192,
+        "cat": "Irish setter, red setter",
         "desc": "an Irish breed with a chestnut-brown or mahogany-red coat"
     },
     "214": {
         "code": 154,
+        "cat": "Gordon setter",
         "desc": "a Scottish breed with a black-and-tan coat"
     },
     "215": {
         "code": 150,
+        "cat": "Brittany spaniel",
         "desc": "tall active short-tailed French breed of bird dog having a usually smooth orange- or liver-and-white coat"
     },
     "216": {
         "code": 94,
+        "cat": "clumber, clumber spaniel",
         "desc": "a thickset spaniel with longish silky hair"
     },
     "217": {
         "code": 5,
+        "cat": "English springer, English springer spaniel",
         "desc": "a breed having typically a black-and-white coat"
     },
     "218": {
         "code": 19,
+        "cat": "Welsh springer spaniel",
         "desc": "a red-and-white breed slightly smaller than the English springer spaniel"
     },
     "219": {
         "code": 191,
+        "cat": "cocker spaniel, English cocker spaniel, cocker",
         "desc": "a small breed with wavy silky hair; originally developed in England"
     },
     "220": {
         "code": 196,
+        "cat": "Sussex spaniel",
         "desc": "an English breed with short legs and a golden liver-colored coat"
     },
     "221": {
         "code": 117,
+        "cat": "Irish water spaniel",
         "desc": "breed of large spaniels developed in Ireland having a heavy coat of liver-colored curls and a topknot of long curls and a nearly hairless tail"
     },
     "222": {
         "code": 141,
+        "cat": "kuvasz",
         "desc": "long-established Hungarian breed of tall light-footed but sturdy white dog; used also as a hunting dog"
     },
     "223": {
         "code": 68,
+        "cat": "schipperke",
         "desc": "breed of small stocky black dogs originally used as watchdogs on boats in the Netherlands and Belgium"
     },
     "224": {
         "code": 93,
+        "cat": "groenendael",
         "desc": "black-coated sheepdog with a heavily plumed tail"
     },
     "225": {
         "code": 51,
+        "cat": "malinois",
         "desc": "fawn-colored short-haired sheepdog"
     },
     "226": {
         "code": 208,
+        "cat": "briard",
         "desc": "old French breed of large strong usually black dogs having a long tail and long wavy and slightly stiff coat"
     },
     "227": {
         "code": 184,
+        "cat": "kelpie",
         "desc": "an Australian sheepdog with pointed ears"
     },
     "228": {
         "code": 97,
+        "cat": "komondor",
         "desc": "Hungarian breed of large powerful shaggy-coated white dog; used also as guard dog"
     },
     "229": {
         "code": 29,
+        "cat": "Old English sheepdog, bobtail",
         "desc": "large sheepdog with a profuse shaggy bluish-grey-and-white coat and short tail; believed to trace back to the Roman occupation of Britain"
     },
     "230": {
         "code": 171,
+        "cat": "Shetland sheepdog, Shetland sheep dog, Shetland",
         "desc": "a small sheepdog resembling a collie that was developed in the Shetland Islands"
     },
     "231": {
         "code": 124,
+        "cat": "collie",
         "desc": "a silky-coated sheepdog with a long ruff and long narrow head developed in Scotland"
     },
     "232": {
         "code": 128,
+        "cat": "Border collie",
         "desc": "developed in the area between Scotland and England usually having a black coat with white on the head and tip of tail used for herding both sheep and cattle"
     },
     "233": {
         "code": 47,
+        "cat": "Bouvier des Flandres, Bouviers des Flandres",
         "desc": "rough-coated breed used originally in Belgium for herding and guarding cattle"
     },
     "234": {
         "code": 64,
+        "cat": "Rottweiler",
         "desc": "German breed of large vigorous short-haired cattle dogs"
     },
     "235": {
         "code": 211,
+        "cat": "German shepherd, German shepherd dog, German police dog, alsatian",
         "desc": "breed of large shepherd dogs used in police work and as a guide for the blind"
     },
     "236": {
         "code": 112,
+        "cat": "Doberman, Doberman pinscher",
         "desc": "medium large breed of dog of German origin with a glossy black and tan coat; used as a watchdog"
     },
     "237": {
         "code": 187,
+        "cat": "miniature pinscher",
         "desc": "small German version of a Doberman pinscher"
     },
     "238": {
         "code": 114,
+        "cat": "Greater Swiss Mountain dog",
         "desc": "the largest of the four Swiss breeds"
     },
     "239": {
         "code": 86,
+        "cat": "Bernese mountain dog",
         "desc": "large powerful long-haired black-coated Swiss dog with deep tan or russet markings on legs and white blaze and feet and chest marking; formerly used for draft"
     },
     "240": {
         "code": 115,
+        "cat": "Appenzeller",
         "desc": "a smaller of the four Swiss breeds"
     },
     "241": {
         "code": 79,
+        "cat": "EntleBucher",
         "desc": "the smallest of the Sennenhunde"
     },
     "242": {
         "code": 130,
+        "cat": "boxer",
         "desc": "a breed of stocky medium-sized short-haired dog with a brindled coat and square-jawed muzzle developed in Germany"
     },
     "243": {
         "code": 140,
+        "cat": "bull mastiff",
         "desc": "large powerful breed developed by crossing the bulldog and the mastiff"
     },
     "244": {
         "code": 110,
+        "cat": "Tibetan mastiff",
         "desc": "very large powerful rough-coated dog native to central Asia"
     },
     "245": {
         "code": 82,
+        "cat": "French bulldog",
         "desc": "small stocky version of the bulldog having a sleek coat and square head"
     },
     "246": {
         "code": 17,
+        "cat": "Great Dane",
         "desc": "very large powerful smooth-coated breed of dog"
     },
     "247": {
         "code": 177,
+        "cat": "Saint Bernard, St Bernard",
         "desc": "a Swiss alpine breed of large powerful dog with a thick coat of hair used as a rescue dog"
     },
     "248": {
         "code": 149,
+        "cat": "Eskimo dog, husky",
         "desc": "breed of heavy-coated Arctic sled dog"
     },
     "249": {
         "code": 15,
+        "cat": "malamute, malemute, Alaskan malamute",
         "desc": "breed of sled dog developed in Alaska"
     },
     "250": {
         "code": 3,
+        "cat": "Siberian husky",
         "desc": "breed of sled dog developed in northeastern Siberia; they resemble the larger Alaskan malamutes"
     },
     "251": {
         "code": 41,
+        "cat": "dalmatian, coach dog, carriage dog",
         "desc": "a large breed having a smooth white coat with black or brown spots; originated in Dalmatia"
     },
     "252": {
         "code": 127,
+        "cat": "affenpinscher, monkey pinscher, monkey dog",
         "desc": "European breed of small dog resembling a terrier with dark wiry hair and a tufted muzzle"
     },
     "253": {
         "code": 84,
+        "cat": "basenji",
         "desc": "small smooth-haired breed of African origin having a tightly curled tail and the inability to bark"
     },
     "254": {
         "code": 143,
+        "cat": "pug, pug-dog",
         "desc": "small compact smooth-coated breed of Asiatic origin having a tightly curled tail and broad flat wrinkled muzzle"
     },
     "255": {
         "code": 133,
+        "cat": "Leonberg",
         "desc": "a large dog (usually with a golden coat) produced by crossing a St Bernard and a Newfoundland"
     },
     "256": {
         "code": 60,
+        "cat": "Newfoundland, Newfoundland dog",
         "desc": "a breed of very large heavy dogs with a thick coarse usually black coat; highly intelligent dogs and vigorous swimmers; developed in Newfoundland"
     },
     "257": {
         "code": 172,
+        "cat": "Great Pyrenees",
         "desc": "bred of large heavy-coated white dogs resembling the Newfoundland"
     },
     "258": {
         "code": 179,
+        "cat": "Samoyed, Samoyede",
         "desc": "Siberian breed of white or cream-colored dog of the spitz family"
     },
     "259": {
         "code": 118,
+        "cat": "Pomeranian",
         "desc": "breed of very small compact long-haired dogs of the spitz type"
     },
     "260": {
         "code": 168,
+        "cat": "chow, chow chow",
         "desc": "breed of medium-sized dogs with a thick coat and fluffy curled tails and distinctive blue-black tongues; believed to have originated in northern China"
     },
     "261": {
         "code": 148,
+        "cat": "keeshond",
         "desc": "a spitz-like dog having a shaggy greyish coat and tightly curled tail originating in Holland"
     },
     "262": {
         "code": 70,
+        "cat": "Brabancon griffon",
         "desc": "a variety of Brussels griffon having a short smooth coat"
     },
     "263": {
         "code": 197,
+        "cat": "Pembroke, Pembroke Welsh corgi",
         "desc": "the smaller and straight-legged variety of corgi having pointed ears and a short tail"
     },
     "264": {
         "code": 50,
+        "cat": "Cardigan, Cardigan Welsh corgi",
         "desc": "slightly bowlegged variety of corgi having rounded ears and a long tail"
     },
     "265": {
         "code": 106,
+        "cat": "toy poodle",
         "desc": "the breed of very small poodles"
     },
     "266": {
         "code": 49,
+        "cat": "miniature poodle",
         "desc": "a breed of small poodles"
     },
     "267": {
         "code": 151,
+        "cat": "standard poodle",
         "desc": "a breed or medium-sized poodles"
     },
     "268": {
         "code": 46,
+        "cat": "Mexican hairless",
         "desc": "any of an old breed of small nearly hairless dogs of Mexico"
     },
     "269": {
         "code": 205,
+        "cat": "timber wolf, grey wolf, gray wolf, Canis lupus",
         "desc": "a wolf with a brindled grey coat living in forested northern regions of North America"
     },
     "270": {
         "code": 102,
+        "cat": "white wolf, Arctic wolf, Canis lupus tundrarum",
         "desc": "wolf of Arctic North America having white fur and a black-tipped tail"
     },
     "271": {
         "code": 28,
+        "cat": "red wolf, maned wolf, Canis rufus, Canis niger",
         "desc": "reddish-grey wolf of southwestern North America"
     },
     "272": {
         "code": 58,
+        "cat": "coyote, prairie wolf, brush wolf, Canis latrans",
         "desc": "small wolf native to western North America"
     },
     "273": {
         "code": 155,
+        "cat": "dingo, warrigal, warragal, Canis dingo",
         "desc": "wolflike yellowish-brown wild dog of Australia"
     },
     "274": {
         "code": 136,
+        "cat": "dhole, Cuon alpinus",
         "desc": "fierce wild dog of the forests of central and southeast Asia that hunts in packs"
     },
     "275": {
         "code": 202,
+        "cat": "African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus",
         "desc": "a powerful doglike mammal of southern and eastern Africa that hunts in large packs; now rare in settled area"
     },
     "276": {
         "code": 34,
+        "cat": "hyena, hyaena",
         "desc": "doglike nocturnal mammal of Africa and southern Asia that feeds chiefly on carrion"
     },
     "277": {
         "code": 62,
+        "cat": "red fox, Vulpes vulpes",
         "desc": "the common Old World fox; having reddish-brown fur; commonly considered a single circumpolar species"
     },
     "278": {
         "code": 1,
+        "cat": "kit fox, Vulpes macrotis",
         "desc": "small grey fox of southwestern United States; may be a subspecies of Vulpes velox"
     },
     "279": {
         "code": 159,
+        "cat": "Arctic fox, white fox, Alopex lagopus",
         "desc": "thickly-furred fox of Arctic regions; brownish in summer and white in winter"
     },
     "280": {
         "code": 67,
+        "cat": "grey fox, gray fox, Urocyon cinereoargenteus",
         "desc": "dark grey American fox; from Central America through southern United States"
     },
     "281": {
         "code": 174,
+        "cat": "tabby, tabby cat",
         "desc": "a cat with a grey or tawny coat mottled with black"
     },
     "282": {
         "code": 55,
+        "cat": "tiger cat",
         "desc": "a cat having a striped coat"
     },
     "283": {
         "code": 10,
+        "cat": "Persian cat",
         "desc": "a long-haired breed of cat"
     },
     "284": {
         "code": 95,
+        "cat": "Siamese cat, Siamese",
         "desc": "a slender short-haired blue-eyed breed of cat having a pale coat with dark ears paws face and tail tip"
     },
     "285": {
         "code": 8,
+        "cat": "Egyptian cat",
         "desc": "a domestic cat of Egypt"
     },
     "286": {
         "code": 11,
+        "cat": "cougar, puma, catamount, mountain lion, painter, panther, Felis concolor",
         "desc": "large American feline resembling a lion"
     },
     "287": {
         "code": 201,
+        "cat": "lynx, catamount",
         "desc": "short-tailed wildcats with usually tufted ears; valued for their fur"
     },
     "288": {
         "code": 85,
+        "cat": "leopard, Panthera pardus",
         "desc": "large feline of African and Asian forests usually having a tawny coat with black spots"
     },
     "289": {
         "code": 153,
+        "cat": "snow leopard, ounce, Panthera uncia",
         "desc": "large feline of upland central Asia having long thick whitish fur"
     },
     "290": {
         "code": 30,
+        "cat": "jaguar, panther, Panthera onca, Felis onca",
         "desc": "a large spotted feline of tropical America similar to the leopard; in some classifications considered a member of the genus Felis"
     },
     "291": {
         "code": 190,
+        "cat": "lion, king of beasts, Panthera leo",
         "desc": "large gregarious predatory feline of Africa and India having a tawny coat with a shaggy mane in the male"
     },
     "292": {
         "code": 76,
+        "cat": "tiger, Panthera tigris",
         "desc": "large feline of forests in most of Asia having a tawny coat with black stripes; endangered"
     },
     "293": {
         "code": 206,
+        "cat": "cheetah, chetah, Acinonyx jubatus",
         "desc": "long-legged spotted cat of Africa and southwestern Asia having nonretractile claws; the swiftest mammal; can be trained to run down game"
     },
     "294": {
         "code": 61,
+        "cat": "brown bear, bruin, Ursus arctos",
         "desc": "large ferocious bear of Eurasia"
     },
     "295": {
         "code": 163,
+        "cat": "American black bear, black bear, Ursus americanus, Euarctos americanus",
         "desc": "brown to black North American bear; smaller and less ferocious than the brown bear"
     },
     "296": {
         "code": 103,
+        "cat": "ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus",
         "desc": "white bear of Arctic regions"
     },
     "297": {
         "code": 209,
+        "cat": "sloth bear, Melursus ursinus, Ursus ursinus",
         "desc": "common coarse-haired long-snouted bear of south-central Asia"
     },
     "298": {
         "code": 74,
+        "cat": "mongoose",
         "desc": "agile grizzled Old World viverrine; preys on snakes and rodents"
     },
     "299": {
         "code": 35,
+        "cat": "meerkat, mierkat",
         "desc": "a mongoose-like viverrine of South Africa having a face like a lemur and only four toes"
     },
     "300": {
         "code": 621,
+        "cat": "tiger beetle",
         "desc": "active usually bright-colored beetle that preys on other insects"
     },
     "301": {
         "code": 622,
+        "cat": "ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle",
         "desc": "small round bright-colored and spotted beetle that usually feeds on aphids and other insect pests"
     },
     "302": {
         "code": 623,
+        "cat": "ground beetle, carabid beetle",
         "desc": "predacious shining black or metallic terrestrial beetle that destroys many injurious insects"
     },
     "303": {
         "code": 624,
+        "cat": "long-horned beetle, longicorn, longicorn beetle",
         "desc": "long-bodied beetle having very long antennae"
     },
     "304": {
         "code": 625,
+        "cat": "leaf beetle, chrysomelid",
         "desc": "brightly colored beetle that feeds on plant leaves; larvae infest roots and stems"
     },
     "305": {
         "code": 626,
+        "cat": "dung beetle",
         "desc": "any of numerous beetles that roll balls of dung on which they feed and in which they lay eggs"
     },
     "306": {
         "code": 627,
+        "cat": "rhinoceros beetle",
         "desc": "any of various large chiefly tropical beetles having horns on the head; pest on coconuts"
     },
     "307": {
         "code": 628,
+        "cat": "weevil",
         "desc": "any of several families of mostly small beetles that feed on plants and plant products; especially snout beetles and seed beetles"
     },
     "308": {
         "code": 629,
+        "cat": "fly",
         "desc": "two-winged insects characterized by active flight"
     },
     "309": {
         "code": 630,
+        "cat": "bee",
         "desc": "any of numerous hairy-bodied insects including social and solitary species"
     },
     "310": {
         "code": 224,
+        "cat": "ant, emmet, pismire",
         "desc": "social insect living in organized colonies; characteristically the males and fertile queen have wings during breeding season; wingless sterile females are the workers"
     },
     "311": {
         "code": 631,
+        "cat": "grasshopper, hopper",
         "desc": "terrestrial plant-eating insect with hind legs adapted for leaping"
     },
     "312": {
         "code": 632,
+        "cat": "cricket",
         "desc": "leaping insect; male makes chirping noises by rubbing the forewings together"
     },
     "313": {
         "code": 633,
+        "cat": "walking stick, walkingstick, stick insect",
         "desc": "any of various mostly tropical insects having long twiglike bodies"
     },
     "314": {
         "code": 634,
+        "cat": "cockroach, roach",
         "desc": "any of numerous chiefly nocturnal insects; some are domestic pests"
     },
     "315": {
         "code": 635,
+        "cat": "mantis, mantid",
         "desc": "predacious long-bodied large-eyed insect of warm regions; rests with forelimbs raised as in prayer"
     },
     "316": {
         "code": 636,
+        "cat": "cicada, cicala",
         "desc": "stout-bodied insect with large membranous wings; male has drum-like organs for producing a high-pitched drone"
     },
     "317": {
         "code": 637,
+        "cat": "leafhopper",
         "desc": "small leaping insect that sucks the juices of plants"
     },
     "318": {
         "code": 638,
+        "cat": "lacewing, lacewing fly",
         "desc": "any of two families of insects with gauzy wings (Chrysopidae and Hemerobiidae); larvae feed on insect pests such as aphids"
     },
     "319": {
         "code": 639,
+        "cat": "dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk",
         "desc": "slender-bodied non-stinging insect having iridescent wings that are outspread at rest; adults and nymphs feed on mosquitoes etc."
     },
     "320": {
         "code": 640,
+        "cat": "damselfly",
         "desc": "slender non-stinging insect similar to but smaller than the dragonfly but having wings folded when at rest"
     },
     "321": {
         "code": 641,
+        "cat": "admiral",
         "desc": "any of several brightly colored butterflies"
     },
     "322": {
         "code": 642,
+        "cat": "ringlet, ringlet butterfly",
         "desc": "any of various butterflies belonging to the family Satyridae"
     },
     "323": {
         "code": 643,
+        "cat": "monarch, monarch butterfly, milkweed butterfly, Danaus plexippus",
         "desc": "large migratory American butterfly having deep orange wings with black and white markings; the larvae feed on milkweed"
     },
     "324": {
         "code": 644,
+        "cat": "cabbage butterfly",
         "desc": "white butterfly whose larvae (cabbageworms) feed on cabbage"
     },
     "325": {
         "code": 645,
+        "cat": "sulphur butterfly, sulfur butterfly",
         "desc": "any of numerous yellow or orange butterflies"
     },
     "326": {
         "code": 646,
+        "cat": "lycaenid, lycaenid butterfly",
         "desc": "any of various butterflies of the family Lycaenidae"
     },
     "327": {
         "code": 225,
+        "cat": "starfish, sea star",
         "desc": "echinoderms characterized by five arms extending from a central disk"
     },
     "328": {
         "code": 657,
+        "cat": "sea urchin",
         "desc": "shallow-water echinoderms having soft bodies enclosed in thin spiny globular shells"
     },
     "329": {
         "code": 658,
+        "cat": "sea cucumber, holothurian",
         "desc": "echinoderm having a flexible sausage-shaped body, tentacles surrounding the mouth and tube feet; free-living mud feeders"
     },
     "330": {
         "code": 188,
+        "cat": "wood rabbit, cottontail, cottontail rabbit",
         "desc": "common small rabbit of North America having greyish or brownish fur and a tail with a white underside; a host for Ixodes pacificus and Ixodes scapularis (Lyme disease ticks)"
     },
     "331": {
         "code": 129,
+        "cat": "hare",
         "desc": "swift timid long-eared mammal larger than a rabbit having a divided upper lip and long hind legs; young born furred and with open eyes"
     },
     "332": {
         "code": 164,
+        "cat": "Angora, Angora rabbit",
         "desc": "domestic breed of rabbit with long white silky hair"
     },
     "333": {
         "code": 157,
+        "cat": "hamster",
         "desc": "short-tailed Old World burrowing rodent with large cheek pouches"
     },
     "334": {
         "code": 13,
+        "cat": "porcupine, hedgehog",
         "desc": "relatively large rodents with sharp erectile bristles mingled with the fur"
     },
     "335": {
         "code": 53,
+        "cat": "fox squirrel, eastern fox squirrel, Sciurus niger",
         "desc": "exceptionally large arboreal squirrel of eastern United States"
     },
     "336": {
         "code": 183,
+        "cat": "marmot",
         "desc": "stocky coarse-furred burrowing rodent with a short bushy tail found throughout the northern hemisphere; hibernates in winter"
     },
     "337": {
         "code": 195,
+        "cat": "beaver",
         "desc": "large semiaquatic rodent with webbed hind feet and a broad flat tail; construct complex dams and underwater lodges"
     },
     "338": {
         "code": 101,
+        "cat": "guinea pig, Cavia cobaya",
         "desc": "stout-bodied nearly tailless domesticated cavy; often kept as a pet and widely used in research"
     },
     "339": {
         "code": 39,
+        "cat": "sorrel",
         "desc": "a horse of a brownish orange to light brown color"
     },
     "340": {
         "code": 80,
+        "cat": "zebra",
         "desc": "any of several fleet black-and-white striped African equines"
     },
     "341": {
         "code": 147,
+        "cat": "hog, pig, grunter, squealer, Sus scrofa",
         "desc": "domestic swine"
     },
     "342": {
         "code": 78,
+        "cat": "wild boar, boar, Sus scrofa",
         "desc": "Old World wild swine having a narrow body and prominent tusks from which most domestic swine come; introduced in United States"
     },
     "343": {
         "code": 120,
+        "cat": "warthog",
         "desc": "African wild swine with warty protuberances on the face and large protruding tusks"
     },
     "344": {
         "code": 167,
+        "cat": "hippopotamus, hippo, river horse, Hippopotamus amphibius",
         "desc": "massive thick-skinned herbivorous animal living in or around rivers of tropical Africa"
     },
     "345": {
         "code": 108,
+        "cat": "ox",
         "desc": "an adult castrated bull of the genus Bos; especially Bos taurus"
     },
     "346": {
         "code": 162,
+        "cat": "water buffalo, water ox, Asiatic buffalo, Bubalus bubalis",
         "desc": "an Asian buffalo that is often domesticated for use as a draft animal"
     },
     "347": {
         "code": 165,
+        "cat": "bison",
         "desc": "any of several large humped bovids having shaggy manes and large heads and short horns"
     },
     "348": {
         "code": 81,
+        "cat": "ram, tup",
         "desc": "uncastrated adult male sheep; \"a British term is `tup'\""
     },
     "349": {
         "code": 52,
+        "cat": "bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis",
         "desc": "wild sheep of mountainous regions of western North America having massive curled horns"
     },
     "350": {
         "code": 9,
+        "cat": "ibex, Capra ibex",
         "desc": "wild goat of mountain areas of Eurasia and northern Africa having large recurved horns"
     },
     "351": {
         "code": 65,
+        "cat": "hartebeest",
         "desc": "a large African antelope with lyre-shaped horns that curve backward"
     },
     "352": {
         "code": 57,
+        "cat": "impala, Aepyceros melampus",
         "desc": "African antelope with ridged curved horns; moves with enormous leaps"
     },
     "353": {
         "code": 12,
+        "cat": "gazelle",
         "desc": "small swift graceful antelope of Africa and Asia having lustrous eyes"
     },
     "354": {
         "code": 121,
+        "cat": "Arabian camel, dromedary, Camelus dromedarius",
         "desc": "one-humped camel of the hot deserts of northern Africa and southwestern Asia"
     },
     "355": {
         "code": 186,
+        "cat": "llama",
         "desc": "wild or domesticated South American cud-chewing animal related to camels but smaller and lacking a hump"
     },
     "356": {
         "code": 48,
+        "cat": "weasel",
         "desc": "small carnivorous mammal with short legs and elongated body and neck"
     },
     "357": {
         "code": 23,
+        "cat": "mink",
         "desc": "slender-bodied semiaquatic mammal having partially webbed feet; valued for its fur"
     },
     "358": {
         "code": 182,
+        "cat": "polecat, fitch, foulmart, foumart, Mustela putorius",
         "desc": "dark brown mustelid of woodlands of Eurasia that gives off an unpleasant odor when threatened"
     },
     "359": {
         "code": 40,
+        "cat": "black-footed ferret, ferret, Mustela nigripes",
         "desc": "musteline mammal of prairie regions of United States; nearly extinct"
     },
     "360": {
         "code": 212,
+        "cat": "otter",
         "desc": "freshwater carnivorous mammal having webbed and clawed feet and dark brown fur"
     },
     "361": {
         "code": 44,
+        "cat": "skunk, polecat, wood pussy",
         "desc": "American musteline mammal typically ejecting an intensely malodorous fluid when startled; in some classifications put in a separate subfamily Mephitinae"
     },
     "362": {
         "code": 16,
+        "cat": "badger",
         "desc": "sturdy carnivorous burrowing mammal with strong claws; widely distributed in the northern hemisphere"
     },
     "363": {
         "code": 178,
+        "cat": "armadillo",
         "desc": "burrowing chiefly nocturnal mammal with body covered with strong horny plates"
     },
     "364": {
         "code": 38,
+        "cat": "three-toed sloth, ai, Bradypus tridactylus",
         "desc": "a sloth that has three long claws on each forefoot and each hindfoot"
     },
     "365": {
         "code": 83,
+        "cat": "orangutan, orang, orangutang, Pongo pygmaeus",
         "desc": "large long-armed ape of Borneo and Sumatra having arboreal habits"
     },
     "366": {
         "code": 104,
+        "cat": "gorilla, Gorilla gorilla",
         "desc": "largest anthropoid ape; terrestrial and vegetarian; of forests of central west Africa"
     },
     "367": {
         "code": 96,
+        "cat": "chimpanzee, chimp, Pan troglodytes",
         "desc": "intelligent somewhat arboreal ape of equatorial African forests"
     },
     "368": {
         "code": 185,
+        "cat": "gibbon, Hylobates lar",
         "desc": "smallest and most perfectly anthropoid arboreal ape having long arms and no tail; of southern Asia and East Indies"
     },
     "369": {
         "code": 122,
+        "cat": "siamang, Hylobates syndactylus, Symphalangus syndactylus",
         "desc": "large black gibbon of Sumatra having the 2nd and 3rd toes partially united by a web"
     },
     "370": {
         "code": 73,
+        "cat": "guenon, guenon monkey",
         "desc": "small slender African monkey having long hind limbs and tail and long hair around the face"
     },
     "371": {
         "code": 135,
+        "cat": "patas, hussar monkey, Erythrocebus patas",
         "desc": "reddish long-tailed monkey of west Africa"
     },
     "372": {
         "code": 137,
+        "cat": "baboon",
         "desc": "large terrestrial monkeys having doglike muzzles"
     },
     "373": {
         "code": 138,
+        "cat": "macaque",
         "desc": "short-tailed monkey of rocky regions of Asia and Africa"
     },
     "374": {
         "code": 203,
+        "cat": "langur",
         "desc": "slender long-tailed monkey of Asia"
     },
     "375": {
         "code": 54,
+        "cat": "colobus, colobus monkey",
         "desc": "arboreal monkey of western and central Africa with long silky fur and reduced thumbs"
     },
     "376": {
         "code": 100,
+        "cat": "proboscis monkey, Nasalis larvatus",
         "desc": "Borneo monkey having a long bulbous nose"
     },
     "377": {
         "code": 175,
+        "cat": "marmoset",
         "desc": "small soft-furred South American and Central American monkey with claws instead of nails"
     },
     "378": {
         "code": 142,
+        "cat": "capuchin, ringtail, Cebus capucinus",
         "desc": "monkey of Central America and South America having thick hair on the head that resembles a monk's cowl"
     },
     "379": {
         "code": 166,
+        "cat": "howler monkey, howler",
         "desc": "monkey of tropical South American forests having a loud howling cry"
     },
     "380": {
         "code": 37,
+        "cat": "titi, titi monkey",
         "desc": "small South American monkeys with long beautiful fur and long nonprehensile tail"
     },
     "381": {
         "code": 111,
+        "cat": "spider monkey, Ateles geoffroyi",
         "desc": "arboreal monkey of tropical America with long slender legs and long prehensile tail"
     },
     "382": {
         "code": 92,
+        "cat": "squirrel monkey, Saimiri sciureus",
         "desc": "small long-tailed monkey of Central American and South America with greenish fur and black muzzle"
     },
     "383": {
         "code": 199,
+        "cat": "Madagascar cat, ring-tailed lemur, Lemur catta",
         "desc": "small lemur having its tail barred with black"
     },
     "384": {
         "code": 75,
+        "cat": "indri, indris, Indri indri, Indri brevicaudatus",
         "desc": "large short-tailed lemur of Madagascar having thick silky fur in black and white and fawn"
     },
     "385": {
         "code": 194,
+        "cat": "Indian elephant, Elephas maximus",
         "desc": "Asian elephant having smaller ears and tusks primarily in the male"
     },
     "386": {
         "code": 24,
+        "cat": "African elephant, Loxodonta africana",
         "desc": "an elephant native to Africa having enormous flapping ears and ivory tusks"
     },
     "387": {
         "code": 7,
+        "cat": "lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens",
         "desc": "reddish-brown Old World raccoon-like carnivore; in some classifications considered unrelated to the giant pandas"
     },
     "388": {
         "code": 169,
+        "cat": "giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca",
         "desc": "large black-and-white herbivorous mammal of bamboo forests of China and Tibet; in some classifications considered a member of the bear family or of a separate family Ailuropodidae"
     },
     "389": {
         "code": 447,
+        "cat": "barracouta, snoek",
         "desc": "a large marine food fish common on the coasts of Australia, New Zealand, and southern Africa"
     },
     "390": {
         "code": 451,
+        "cat": "eel",
         "desc": "voracious snakelike marine or freshwater fishes with smooth slimy usually scaleless skin and having a continuous vertical fin but no ventral fins"
     },
     "391": {
         "code": 448,
+        "cat": "coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch",
         "desc": "small salmon of northern Pacific coasts and the Great Lakes"
     },
     "392": {
         "code": 452,
+        "cat": "rock beauty, Holocanthus tricolor",
         "desc": "gold and black butterflyfish found from West Indies to Brazil"
     },
     "393": {
         "code": 453,
+        "cat": "anemone fish",
         "desc": "live associated with sea anemones"
     },
     "394": {
         "code": 456,
+        "cat": "sturgeon",
         "desc": "large primitive fishes valued for their flesh and roe; widely distributed in the North Temperate Zone"
     },
     "395": {
         "code": 457,
+        "cat": "gar, garfish, garpike, billfish, Lepisosteus osseus",
         "desc": "primitive predaceous North American fish covered with hard scales and having long jaws with needlelike teeth"
     },
     "396": {
         "code": 454,
+        "cat": "lionfish",
         "desc": "brightly striped fish of the tropical Pacific having elongated spiny fins"
     },
     "397": {
         "code": 455,
+        "cat": "puffer, pufferfish, blowfish, globefish",
         "desc": "any of numerous marine fishes whose elongated spiny body can inflate itself with water or air to form a globe; several species contain a potent nerve poison; closely related to spiny puffers"
     },
     "398": {
         "code": 547,
+        "cat": "abacus",
         "desc": "a calculator that performs arithmetic functions by manually sliding counters on rods or in grooves"
     },
     "399": {
         "code": 853,
+        "cat": "abaya",
         "desc": "(Arabic) a loose black robe from head to toe; traditionally worn by Muslim women"
     },
     "400": {
         "code": 896,
+        "cat": "academic gown, academic robe, judge's robe",
         "desc": "a gown worn by academics or judges"
     },
     "401": {
         "code": 223,
+        "cat": "accordion, piano accordion, squeeze box",
         "desc": "a portable box-shaped free-reed instrument; the reeds are made to vibrate by air from the bellows controlled by the player"
     },
     "402": {
         "code": 345,
+        "cat": "acoustic guitar",
         "desc": "sound is not amplified by electrical means"
     },
     "403": {
         "code": 246,
+        "cat": "aircraft carrier, carrier, flattop, attack aircraft carrier",
         "desc": "a large warship that carries planes and has a long flat deck for takeoffs and landings"
     },
     "404": {
         "code": 230,
+        "cat": "airliner",
         "desc": "a commercial airplane that carries passengers"
     },
     "405": {
         "code": 232,
+        "cat": "airship, dirigible",
         "desc": "a steerable self-propelled aircraft"
     },
     "406": {
         "code": 677,
+        "cat": "altar",
         "desc": "a raised structure on which gifts or sacrifices to a god are made"
     },
     "407": {
         "code": 265,
+        "cat": "ambulance",
         "desc": "a vehicle that takes people to and from hospitals"
     },
     "408": {
         "code": 264,
+        "cat": "amphibian, amphibious vehicle",
         "desc": "a flat-bottomed motor vehicle that can travel on land or water"
     },
     "409": {
         "code": 522,
+        "cat": "analog clock",
         "desc": "a clock that displays the time of day by the position of hands on a dial"
     },
     "410": {
         "code": 688,
+        "cat": "apiary, bee house",
         "desc": "a shed containing a number of beehives"
     },
     "411": {
         "code": 845,
+        "cat": "apron",
         "desc": "a garment of cloth or leather or plastic that is tied about the waist and worn to protect your clothing"
     },
     "412": {
         "code": 752,
+        "cat": "ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin",
         "desc": "a bin that holds rubbish until it is collected"
     },
     "413": {
         "code": 540,
+        "cat": "assault rifle, assault gun",
         "desc": "any of the automatic rifles or semiautomatic rifles with large magazines designed for military use"
     },
     "414": {
         "code": 847,
+        "cat": "backpack, back pack, knapsack, packsack, rucksack, haversack",
         "desc": "a bag carried by a strap on your back or shoulder"
     },
     "415": {
         "code": 704,
+        "cat": "bakery, bakeshop, bakehouse",
         "desc": "a workplace where baked goods (breads and cakes and pastries) are produced or sold"
     },
     "416": {
         "code": 767,
+        "cat": "balance beam, beam",
         "desc": "a gymnastic apparatus used by women gymnasts"
     },
     "417": {
         "code": 233,
+        "cat": "balloon",
         "desc": "large tough nonrigid bag filled with gas or heated air"
     },
     "418": {
         "code": 907,
+        "cat": "ballpoint, ballpoint pen, ballpen, Biro",
         "desc": "a pen that has a small metal ball as the point of transfer of ink to paper"
     },
     "419": {
         "code": 967,
+        "cat": "Band Aid",
         "desc": "trade name for an adhesive bandage to cover small cuts or blisters"
     },
     "420": {
         "code": 341,
+        "cat": "banjo",
         "desc": "a stringed instrument of the guitar family that has long neck and circular body"
     },
     "421": {
         "code": 718,
+        "cat": "bannister, banister, balustrade, balusters, handrail",
         "desc": "a railing at the side of a staircase or balcony to prevent people from falling"
     },
     "422": {
         "code": 916,
+        "cat": "barbell",
         "desc": "a bar to which heavy discs are attached at each end; used in weightlifting"
     },
     "423": {
         "code": 307,
+        "cat": "barber chair",
         "desc": "a large fixed adjustable chair in which barbers seat their customers"
     },
     "424": {
         "code": 705,
+        "cat": "barbershop",
         "desc": "a shop where men can get their hair cut"
     },
     "425": {
         "code": 683,
+        "cat": "barn",
         "desc": "an outlying farm building for storing grain or animal feed and housing farm animals"
     },
     "426": {
         "code": 518,
+        "cat": "barometer",
         "desc": "an instrument that measures atmospheric pressure"
     },
     "427": {
         "code": 905,
+        "cat": "barrel, cask",
         "desc": "a cylindrical container that holds liquids"
     },
     "428": {
         "code": 258,
+        "cat": "barrow, garden cart, lawn cart, wheelbarrow",
         "desc": "a cart for carrying small loads; has handles and one or more wheels"
     },
     "429": {
         "code": 807,
+        "cat": "baseball",
         "desc": "a ball used in playing baseball"
     },
     "430": {
         "code": 908,
+        "cat": "basketball",
         "desc": "an inflated ball used in playing basketball"
     },
     "431": {
         "code": 296,
+        "cat": "bassinet",
         "desc": "a basket (usually hooded) used as a baby's bed"
     },
     "432": {
         "code": 353,
+        "cat": "bassoon",
         "desc": "a double-reed instrument; the tenor of the oboe family"
     },
     "433": {
         "code": 785,
+        "cat": "bathing cap, swimming cap",
         "desc": "a tight-fitting cap that keeps hair dry while swimming"
     },
     "434": {
         "code": 909,
+        "cat": "bath towel",
         "desc": "a large towel; to dry yourself after a bath"
     },
     "435": {
         "code": 884,
+        "cat": "bathtub, bathing tub, bath, tub",
         "desc": "a relatively large open container that you fill with water and use to wash the body"
     },
     "436": {
         "code": 266,
+        "cat": "beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon",
         "desc": "a car that has a long body and rear door with space behind rear seat"
     },
     "437": {
         "code": 733,
+        "cat": "beacon, lighthouse, beacon light, pharos",
         "desc": "a tower with a light that gives warning of shoals to passing ships"
     },
     "438": {
         "code": 991,
+        "cat": "beaker",
         "desc": "a flatbottomed jar made of glass or plastic; used for chemistry"
     },
     "439": {
         "code": 849,
+        "cat": "bearskin, busby, shako",
         "desc": "tall hat; worn by some British soldiers on ceremonial occasions"
     },
     "440": {
         "code": 777,
+        "cat": "beer bottle",
         "desc": "a bottle that holds beer"
     },
     "441": {
         "code": 811,
+        "cat": "beer glass",
         "desc": "a relatively large glass for serving beer"
     },
     "442": {
         "code": 933,
+        "cat": "bell cote, bell cot",
         "desc": "a small shelter for bells; has a gable or shed roof"
     },
     "443": {
         "code": 941,
+        "cat": "bib",
         "desc": "top part of an apron; covering the chest"
     },
     "444": {
         "code": 254,
+        "cat": "bicycle-built-for-two, tandem bicycle, tandem",
         "desc": "a bicycle with two sets of pedals and two seats"
     },
     "445": {
         "code": 985,
+        "cat": "bikini, two-piece",
         "desc": "a woman's very brief bathing suit"
     },
     "446": {
         "code": 835,
+        "cat": "binder, ring-binder",
         "desc": "holds loose papers or magazines"
     },
     "447": {
         "code": 533,
+        "cat": "binoculars, field glasses, opera glasses",
         "desc": "an optical instrument designed for simultaneous use by both eyes"
     },
     "448": {
         "code": 839,
+        "cat": "birdhouse",
         "desc": "a shelter for birds"
     },
     "449": {
         "code": 689,
+        "cat": "boathouse",
         "desc": "a shed at the edge of a river or lake; used to store boats"
     },
     "450": {
         "code": 252,
+        "cat": "bobsled, bobsleigh, bob",
         "desc": "a long racing sled (for 2 or more people) with a steering mechanism"
     },
     "451": {
         "code": 940,
+        "cat": "bolo tie, bolo, bola tie, bola",
         "desc": "a cord fastened around the neck with an ornamental clasp and worn as a necktie"
     },
     "452": {
         "code": 805,
+        "cat": "bonnet, poke bonnet",
         "desc": "a hat tied under the chin"
     },
     "453": {
         "code": 300,
+        "cat": "bookcase",
         "desc": "a piece of furniture with shelves for storing books"
     },
     "454": {
         "code": 706,
+        "cat": "bookshop, bookstore, bookstall",
         "desc": "a shop where books are sold"
     },
     "455": {
         "code": 779,
+        "cat": "bottlecap",
         "desc": "a cap that seals a bottle"
     },
     "456": {
         "code": 538,
+        "cat": "bow",
         "desc": "a weapon for shooting arrows, composed of a curved piece of resilient wood with a taut cord to propel the arrow"
     },
     "457": {
         "code": 817,
+        "cat": "bow tie, bow-tie, bowtie",
         "desc": "a man's tie that ties in a bow"
     },
     "458": {
         "code": 716,
+        "cat": "brass, memorial tablet, plaque",
         "desc": "a memorial made of brass"
     },
     "459": {
         "code": 872,
+        "cat": "brassiere, bra, bandeau",
         "desc": "an undergarment worn by women to support their breasts"
     },
     "460": {
         "code": 719,
+        "cat": "breakwater, groin, groyne, mole, bulwark, seawall, jetty",
         "desc": "a protective structure of stone or concrete; extends from shore into the water to prevent a beach from washing away"
     },
     "461": {
         "code": 949,
+        "cat": "breastplate, aegis, egis",
         "desc": "armor plate that protects the chest; the front part of a cuirass"
     },
     "462": {
         "code": 851,
+        "cat": "broom",
         "desc": "a cleaning implement for sweeping; bundle of straws or twigs attached to a long handle"
     },
     "463": {
         "code": 820,
+        "cat": "bucket, pail",
         "desc": "a roughly cylindrical vessel that is open at the top"
     },
     "464": {
         "code": 580,
+        "cat": "buckle",
         "desc": "fastener that fastens together two ends of a belt or strap; often has loose prong"
     },
     "465": {
         "code": 833,
+        "cat": "bulletproof vest",
         "desc": "a vest capable of resisting the impact of a bullet"
     },
     "466": {
         "code": 887,
+        "cat": "bullet train, bullet",
         "desc": "a high-speed passenger train"
     },
     "467": {
         "code": 707,
+        "cat": "butcher shop, meat market",
         "desc": "a shop in which meat and poultry (and sometimes fish) are sold"
     },
     "468": {
         "code": 267,
+        "cat": "cab, hack, taxi, taxicab",
         "desc": "a car driven by a person whose job is to take passengers where they want to go in exchange for money"
     },
     "469": {
         "code": 673,
+        "cat": "caldron, cauldron",
         "desc": "a very large pot that is used for boiling"
     },
     "470": {
         "code": 591,
+        "cat": "candle, taper, wax light",
         "desc": "stick of wax with a wick in the middle"
     },
     "471": {
         "code": 539,
+        "cat": "cannon",
         "desc": "heavy gun fired from a tank"
     },
     "472": {
         "code": 239,
+        "cat": "canoe",
         "desc": "small and light boat; pointed at both ends; propelled with a paddle"
     },
     "473": {
         "code": 377,
+        "cat": "can opener, tin opener",
         "desc": "a device for cutting cans open"
     },
     "474": {
         "code": 836,
+        "cat": "cardigan",
         "desc": "knitted jacket that is fastened up the front with buttons or a zipper"
     },
     "475": {
         "code": 576,
+        "cat": "car mirror",
         "desc": "a mirror that the driver of a car can use"
     },
     "476": {
         "code": 568,
+        "cat": "carousel, carrousel, merry-go-round, roundabout, whirligig",
         "desc": "a large, rotating machine with seats for children to ride or amusement"
     },
     "477": {
         "code": 891,
+        "cat": "carpenter's kit, tool kit",
         "desc": "a set of carpenter's tools"
     },
     "478": {
         "code": 749,
+        "cat": "carton",
         "desc": "a box made of cardboard; opens by flaps on top"
     },
     "479": {
         "code": 563,
+        "cat": "car wheel",
         "desc": "a wheel that has a tire and rim and hubcap; used to propel the car"
     },
     "480": {
         "code": 548,
+        "cat": "cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM",
         "desc": "an unattended machine (outside some banks) that dispenses money when a personal coded card is used"
     },
     "481": {
         "code": 890,
+        "cat": "cassette",
         "desc": "a container that holds a magnetic tape used for recording or playing sound or video"
     },
     "482": {
         "code": 929,
+        "cat": "cassette player",
         "desc": "electronic equipment for playing cassettes"
     },
     "483": {
         "code": 701,
+        "cat": "castle",
         "desc": "a large building formerly occupied by a ruler and fortified against attack"
     },
     "484": {
         "code": 241,
+        "cat": "catamaran",
         "desc": "a sailboat with two parallel hulls held together by single deck"
     },
     "485": {
         "code": 987,
+        "cat": "CD player",
         "desc": "a stand-alone piece of electronic equipment that either has its own display or attaches to a television set"
     },
     "486": {
         "code": 342,
+        "cat": "cello, violoncello",
         "desc": "a large stringed instrument; seated player holds it upright while playing"
     },
     "487": {
         "code": 914,
+        "cat": "cellular telephone, cellular phone, cellphone, cell, mobile phone",
         "desc": "a hand-held mobile radiotelephone for use in an area divided into small sections, each with its own short-range transmitter/receiver"
     },
     "488": {
         "code": 827,
+        "cat": "chain",
         "desc": "a series of (usually metal) rings or links fitted into one another to make a flexible ligament"
     },
     "489": {
         "code": 721,
+        "cat": "chainlink fence",
         "desc": "a fence of steel wires woven into a diamond pattern"
     },
     "490": {
         "code": 902,
+        "cat": "chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour",
         "desc": "(Middle Ages) flexible armor made of interlinked metal rings"
     },
     "491": {
         "code": 382,
+        "cat": "chain saw, chainsaw",
         "desc": "portable power saw; teeth linked to form an endless chain"
     },
     "492": {
         "code": 762,
+        "cat": "chest",
         "desc": "box with a lid; used for storage; usually large and sturdy"
     },
     "493": {
         "code": 303,
+        "cat": "chiffonier, commode",
         "desc": "a tall elegant chest of drawers"
     },
     "494": {
         "code": 335,
+        "cat": "chime, bell, gong",
         "desc": "a percussion instrument consisting of a set of tuned bells that are struck with a hammer; used as an orchestral instrument"
     },
     "495": {
         "code": 301,
+        "cat": "china cabinet, china closet",
         "desc": "a cabinet (usually with glass doors) for storing and displaying china"
     },
     "496": {
         "code": 801,
+        "cat": "Christmas stocking",
         "desc": "a stocking that is filled with small Christmas presents"
     },
     "497": {
         "code": 690,
+        "cat": "church, church building",
         "desc": "a place for public (especially Christian) worship; \"the church was empty\""
     },
     "498": {
         "code": 695,
+        "cat": "cinema, movie theater, movie theatre, movie house, picture palace",
         "desc": "a theater where films are shown"
     },
     "499": {
         "code": 370,
+        "cat": "cleaver, meat cleaver, chopper",
         "desc": "a butcher's knife having a large square blade"
     },
     "500": {
         "code": 713,
+        "cat": "cliff dwelling",
         "desc": "a rock and adobe dwelling built on sheltered ledges in the sides of a cliff; \"the Anasazi built cliff dwellings in the southwestern United States\""
     },
     "501": {
         "code": 797,
+        "cat": "cloak",
         "desc": "anything that covers or conceals"
     },
     "502": {
         "code": 979,
+        "cat": "clog, geta, patten, sabot",
         "desc": "footwear usually with wooden soles"
     },
     "503": {
         "code": 761,
+        "cat": "cocktail shaker",
         "desc": "a shaker for mixing cocktails"
     },
     "504": {
         "code": 996,
+        "cat": "coffee mug",
         "desc": "a mug intended for serving coffee"
     },
     "505": {
         "code": 674,
+        "cat": "coffeepot",
         "desc": "tall pot in which coffee is brewed"
     },
     "506": {
         "code": 698,
+        "cat": "coil, spiral, volute, whorl, helix",
         "desc": "a structure consisting of something wound in a continuous series of loops; \"a coil of rope\""
     },
     "507": {
         "code": 583,
+        "cat": "combination lock",
         "desc": "lock that can be opened only by turning dials in a special sequence"
     },
     "508": {
         "code": 543,
+        "cat": "computer keyboard, keypad",
         "desc": "a keyboard that is a data input device for computers; arrangement of keys is modelled after the typewriter keyboard"
     },
     "509": {
         "code": 708,
+        "cat": "confectionery, confectionary, candy store",
         "desc": "a confectioner's shop"
     },
     "510": {
         "code": 243,
+        "cat": "container ship, containership, container vessel",
         "desc": "a cargo ship designed to hold containerized cargoes; \"the weight of the documentation of all the consignments on board a contemporary container ship can exceed 90 pounds\""
     },
     "511": {
         "code": 268,
+        "cat": "convertible",
         "desc": "a car that has top that can be folded or removed"
     },
     "512": {
         "code": 376,
+        "cat": "corkscrew, bottle screw",
         "desc": "a bottle opener that pulls corks"
     },
     "513": {
         "code": 347,
+        "cat": "cornet, horn, trumpet, trump",
         "desc": "a brass musical instrument with a brilliant tone; has a narrow tube and a flared bell and is played by means of valves"
     },
     "514": {
         "code": 910,
+        "cat": "cowboy boot",
         "desc": "a boot with a high arch and fancy stitching; worn by American cowboys"
     },
     "515": {
         "code": 881,
+        "cat": "cowboy hat, ten-gallon hat",
         "desc": "a hat with a wide brim and a soft crown; worn by American ranch hands"
     },
     "516": {
         "code": 297,
+        "cat": "cradle",
         "desc": "a baby bed with sides and rockers"
     },
     "517": {
         "code": 545,
+        "cat": "crane",
         "desc": "lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis"
     },
     "518": {
         "code": 778,
+        "cat": "crash helmet",
         "desc": "a padded helmet worn by people riding bicycles or motorcycles; protects the head in case of accidents"
     },
     "519": {
         "code": 898,
+        "cat": "crate",
         "desc": "a rugged box (usually made of wood); used for shipping"
     },
     "520": {
         "code": 298,
+        "cat": "crib, cot",
         "desc": "baby bed with high sides made of slats"
     },
     "521": {
         "code": 670,
+        "cat": "Crock Pot",
         "desc": "an electric cooker that maintains a relatively low temperature"
     },
     "522": {
         "code": 756,
+        "cat": "croquet ball",
         "desc": "a wooden ball used in playing croquet"
     },
     "523": {
         "code": 856,
+        "cat": "crutch",
         "desc": "a wooden or metal staff that fits under the armpit and reaches to the ground; used by disabled person while walking"
     },
     "524": {
         "code": 865,
+        "cat": "cuirass",
         "desc": "medieval body armor that covers the chest and back"
     },
     "525": {
         "code": 720,
+        "cat": "dam, dike, dyke",
         "desc": "a barrier constructed to contain the flow of water or to keep out the sea"
     },
     "526": {
         "code": 313,
+        "cat": "desk",
         "desc": "a piece of furniture with a writing surface and usually drawers or other compartments"
     },
     "527": {
         "code": 550,
+        "cat": "desktop computer",
         "desc": "a personal computer small enough to fit conveniently in an individual workspace"
     },
     "528": {
         "code": 959,
+        "cat": "dial telephone, dial phone",
         "desc": "a telephone with a dial for registering the number to be called"
     },
     "529": {
         "code": 966,
+        "cat": "diaper, nappy, napkin",
         "desc": "garment consisting of a folded cloth drawn up between the legs and fastened at the waist; worn by infants to catch excrement"
     },
     "530": {
         "code": 523,
+        "cat": "digital clock",
         "desc": "a clock that displays the time of day digitally"
     },
     "531": {
         "code": 529,
+        "cat": "digital watch",
         "desc": "a watch with a digital display"
     },
     "532": {
         "code": 315,
+        "cat": "dining table, board",
         "desc": "a table at which meals are served; \"he helped her clear the dining table\"; \"a feast was spread upon the board\""
     },
     "533": {
         "code": 821,
+        "cat": "dishrag, dishcloth",
         "desc": "a cloth for washing dishes"
     },
     "534": {
         "code": 667,
+        "cat": "dishwasher, dish washer, dishwashing machine",
         "desc": "a machine for washing dishes"
     },
     "535": {
         "code": 579,
+        "cat": "disk brake, disc brake",
         "desc": "hydraulic brake in which friction is applied to both sides of a spinning disk by the brake pads"
     },
     "536": {
         "code": 715,
+        "cat": "dock, dockage, docking facility",
         "desc": "landing in a harbor next to a pier where ships are loaded and unloaded or repaired; may have gates to let water in or out; \"the ship arrived at the dock more than a day late\""
     },
     "537": {
         "code": 253,
+        "cat": "dogsled, dog sled, dog sleigh",
         "desc": "a sled pulled by dogs"
     },
     "538": {
         "code": 897,
+        "cat": "dome",
         "desc": "a hemispherical roof"
     },
     "539": {
         "code": 972,
+        "cat": "doormat, welcome mat",
         "desc": "a mat placed outside an exterior door for wiping the shoes before entering"
     },
     "540": {
         "code": 834,
+        "cat": "drilling platform, offshore rig",
         "desc": "drilling rig consisting of an offshore platform (floating or fixed to the sea bed) from which many oil wells can be bored radially"
     },
     "541": {
         "code": 336,
+        "cat": "drum, membranophone, tympan",
         "desc": "a musical percussion instrument; usually consists of a hollow cylinder with a membrane stretched across each end"
     },
     "542": {
         "code": 799,
+        "cat": "drumstick",
         "desc": "a stick used for playing a drum"
     },
     "543": {
         "code": 1000,
+        "cat": "dumbbell",
         "desc": "an exercising weight; two spheres connected by a short bar that serves as a handle"
     },
     "544": {
         "code": 662,
+        "cat": "Dutch oven",
         "desc": "an oven consisting of a metal box for cooking in front of a fire"
     },
     "545": {
         "code": 512,
+        "cat": "electric fan, blower",
         "desc": "a fan run by an electric motor"
     },
     "546": {
         "code": 346,
+        "cat": "electric guitar",
         "desc": "a guitar whose sound is amplified by electrical means"
     },
     "547": {
         "code": 262,
+        "cat": "electric locomotive",
         "desc": "a locomotive that is powered by an electric motor"
     },
     "548": {
         "code": 316,
+        "cat": "entertainment center",
         "desc": "a wall unit containing sound and television systems"
     },
     "549": {
         "code": 879,
+        "cat": "envelope",
         "desc": "a flat (usually rectangular) container for a letter, thin package, etc."
     },
     "550": {
         "code": 660,
+        "cat": "espresso maker",
         "desc": "a coffee maker that forces live steam under pressure through dark roasted coffee grounds"
     },
     "551": {
         "code": 808,
+        "cat": "face powder",
         "desc": "cosmetic powder for the face"
     },
     "552": {
         "code": 796,
+        "cat": "feather boa, boa",
         "desc": "a long thin fluffy scarf of feathers or fur"
     },
     "553": {
         "code": 305,
+        "cat": "file, file cabinet, filing cabinet",
         "desc": "office furniture consisting of a container for keeping papers in order"
     },
     "554": {
         "code": 235,
+        "cat": "fireboat",
         "desc": "a boat equipped to fight fires on ships or along a waterfront"
     },
     "555": {
         "code": 279,
+        "cat": "fire engine, fire truck",
         "desc": "any of various large trucks that carry firemen and equipment to the site of a fire"
     },
     "556": {
         "code": 919,
+        "cat": "fire screen, fireguard",
         "desc": "a metal screen before an open fire for protection (especially against flying sparks)"
     },
     "557": {
         "code": 995,
+        "cat": "flagpole, flagstaff",
         "desc": "a tall staff or pole on which a flag is raised"
     },
     "558": {
         "code": 356,
+        "cat": "flute, transverse flute",
         "desc": "a high-pitched woodwind instrument; a slender tube closed at one end with finger holes on one end and an opening near the closed end across which the breath is blown"
     },
     "559": {
         "code": 309,
+        "cat": "folding chair",
         "desc": "a chair that can be folded flat for storage"
     },
     "560": {
         "code": 784,
+        "cat": "football helmet",
         "desc": "a padded helmet with a face mask to protect the head of football players"
     },
     "561": {
         "code": 261,
+        "cat": "forklift",
         "desc": "a small industrial vehicle with a power operated forked platform in front that can be inserted under loads to lift and move them"
     },
     "562": {
         "code": 712,
+        "cat": "fountain",
         "desc": "a structure from which an artificially produced jet of water arises"
     },
     "563": {
         "code": 934,
+        "cat": "fountain pen",
         "desc": "a pen that is supplied with ink from a reservoir in its barrel"
     },
     "564": {
         "code": 299,
+        "cat": "four-poster",
         "desc": "a bed with posts at the four corners that can be used to support a canopy or curtains"
     },
     "565": {
         "code": 256,
+        "cat": "freight car",
         "desc": "a railway car that carries freight"
     },
     "566": {
         "code": 348,
+        "cat": "French horn, horn",
         "desc": "a brass musical instrument consisting of a conical tube that is coiled into a spiral and played by means of valves"
     },
     "567": {
         "code": 671,
+        "cat": "frying pan, frypan, skillet",
         "desc": "a pan used for frying foods"
     },
     "568": {
         "code": 757,
+        "cat": "fur coat",
         "desc": "a coat made of fur"
     },
     "569": {
         "code": 280,
+        "cat": "garbage truck, dustcart",
         "desc": "a truck for collecting domestic refuse; \"in Britain a garbage truck is called a dustcart\""
     },
     "570": {
         "code": 971,
+        "cat": "gasmask, respirator, gas helmet",
         "desc": "a protective mask with a filter; protects the face and lungs against poisonous gases"
     },
     "571": {
         "code": 567,
+        "cat": "gas pump, gasoline pump, petrol pump, island dispenser",
         "desc": "a pump in a service station that draws gasoline from underground storage tanks"
     },
     "572": {
         "code": 955,
+        "cat": "goblet",
         "desc": "a drinking glass with a base and stem"
     },
     "573": {
         "code": 275,
+        "cat": "go-kart",
         "desc": "a small low motor vehicle with four wheels and an open framework; used for racing"
     },
     "574": {
         "code": 792,
+        "cat": "golf ball",
         "desc": "a small hard ball used in playing golf; dimpled to reduce wind resistance"
     },
     "575": {
         "code": 276,
+        "cat": "golfcart, golf cart",
         "desc": "a small motor vehicle in which golfers can ride between shots"
     },
     "576": {
         "code": 236,
+        "cat": "gondola",
         "desc": "long narrow flat-bottomed boat propelled by sculling; traditionally used on canals of Venice"
     },
     "577": {
         "code": 337,
+        "cat": "gong, tam-tam",
         "desc": "a percussion instrument consisting of a metal plate that is struck with a softheaded drumstick"
     },
     "578": {
         "code": 911,
+        "cat": "gown",
         "desc": "a woman's dress, usually with a close-fitting bodice and a long flared skirt, often worn on formal occasions"
     },
     "579": {
         "code": 227,
+        "cat": "grand piano, grand",
         "desc": "a piano with the strings on a horizontal harp-shaped frame; usually supported by three legs"
     },
     "580": {
         "code": 684,
+        "cat": "greenhouse, nursery, glasshouse",
         "desc": "a building with glass walls and roof; for the cultivation and exhibition of plants under controlled conditions"
     },
     "581": {
         "code": 725,
+        "cat": "grille, radiator grille",
         "desc": "grating that admits cooling air to car's radiator"
     },
     "582": {
         "code": 703,
+        "cat": "grocery store, grocery, food market, market",
         "desc": "a marketplace where groceries are sold; \"the grocery store included a meat market\""
     },
     "583": {
         "code": 517,
+        "cat": "guillotine",
         "desc": "instrument of execution that consists of a weighted blade between two vertical poles; used for beheading people"
     },
     "584": {
         "code": 581,
+        "cat": "hair slide",
         "desc": "a decorative hinged clip that girls and women put in their hair to hold it in place"
     },
     "585": {
         "code": 895,
+        "cat": "hair spray",
         "desc": "toiletry consisting of a commercial preparation that is sprayed on the hair to hold it in place"
     },
     "586": {
         "code": 249,
+        "cat": "half track",
         "desc": "a motor vehicle propelled by half tracks; frequently used by the military"
     },
     "587": {
         "code": 375,
+        "cat": "hammer",
         "desc": "a hand tool with a heavy rigid head and a handle; used to deliver an impulsive force by striking"
     },
     "588": {
         "code": 840,
+        "cat": "hamper",
         "desc": "a basket usually with a cover"
     },
     "589": {
         "code": 505,
+        "cat": "hand blower, blow dryer, blow drier, hair dryer, hair drier",
         "desc": "a hand-held electric blower that can blow warm air onto the hair; used for styling hair"
     },
     "590": {
         "code": 551,
+        "cat": "hand-held computer, hand-held microcomputer",
         "desc": "a portable battery-powered computer small enough to be carried in your pocket"
     },
     "591": {
         "code": 750,
+        "cat": "handkerchief, hankie, hanky, hankey",
         "desc": "a square piece of cloth used for wiping the eyes or nose or as a costume accessory"
     },
     "592": {
         "code": 573,
+        "cat": "hard disc, hard disk, fixed disk",
         "desc": "a rigid magnetic disk mounted permanently in a drive unit"
     },
     "593": {
         "code": 350,
+        "cat": "harmonica, mouth organ, harp, mouth harp",
         "desc": "a small rectangular free-reed instrument having a row of free reeds set back in air holes and played by blowing into the desired hole"
     },
     "594": {
         "code": 344,
+        "cat": "harp",
         "desc": "a chordophone that has a triangular frame consisting of a sounding board and a pillar and a curved neck; the strings stretched between the neck and the soundbox are plucked with the fingers"
     },
     "595": {
         "code": 554,
+        "cat": "harvester, reaper",
         "desc": "farm machine that gathers a food crop from the fields"
     },
     "596": {
         "code": 369,
+        "cat": "hatchet",
         "desc": "a small ax with a short handle used with one hand (usually to chop wood)"
     },
     "597": {
         "code": 787,
+        "cat": "holster",
         "desc": "a sheath (usually leather) for carrying a handgun"
     },
     "598": {
         "code": 696,
+        "cat": "home theater, home theatre",
         "desc": "television and video equipment designed to reproduce in the home the experience of being in a movie theater"
     },
     "599": {
         "code": 730,
+        "cat": "honeycomb",
         "desc": "a framework of hexagonal cells resembling the honeycomb built by bees"
     },
     "600": {
         "code": 562,
+        "cat": "hook, claw",
         "desc": "a mechanical device that is curved or bent to suspend or hold or pull something"
     },
     "601": {
         "code": 802,
+        "cat": "hoopskirt, crinoline",
         "desc": "a skirt stiffened with hoops"
     },
     "602": {
         "code": 924,
+        "cat": "horizontal bar, high bar",
         "desc": "gymnastic apparatus consisting of a bar supported in a horizontal position by uprights at both ends"
     },
     "603": {
         "code": 293,
+        "cat": "horse cart, horse-cart",
         "desc": "heavy cart; drawn by a horse; used for farm work"
     },
     "604": {
         "code": 525,
+        "cat": "hourglass",
         "desc": "a sandglass that runs for sixty minutes"
     },
     "605": {
         "code": 980,
+        "cat": "iPod",
         "desc": "(trademark) a pocket-sized device used to play music files"
     },
     "606": {
         "code": 659,
+        "cat": "iron, smoothing iron",
         "desc": "home appliance consisting of a flat metal base that is heated and used to smooth cloth"
     },
     "607": {
         "code": 592,
+        "cat": "jack-o'-lantern",
         "desc": "lantern carved from a pumpkin"
     },
     "608": {
         "code": 748,
+        "cat": "jean, blue jean, denim",
         "desc": "(usually plural) close-fitting trousers of heavy denim for manual work or casual wear"
     },
     "609": {
         "code": 269,
+        "cat": "jeep, landrover",
         "desc": "a car suitable for traveling over rough terrain"
     },
     "610": {
         "code": 961,
+        "cat": "jersey, T-shirt, tee shirt",
         "desc": "a close-fitting pullover shirt"
     },
     "611": {
         "code": 963,
+        "cat": "jigsaw puzzle",
         "desc": "a puzzle that requires you to reassemble a picture that has been mounted on a stiff base and cut into interlocking pieces"
     },
     "612": {
         "code": 294,
+        "cat": "jinrikisha, ricksha, rickshaw",
         "desc": "a small two-wheeled cart for one passenger; pulled by one person"
     },
     "613": {
         "code": 560,
+        "cat": "joystick",
         "desc": "a manual control consisting of a vertical handle that can move freely in two directions; used as an input device to computers or to devices controlled by computers"
     },
     "614": {
         "code": 770,
+        "cat": "kimono",
         "desc": "a loose robe; imitated from robes originally worn by Japanese"
     },
     "615": {
         "code": 773,
+        "cat": "knee pad",
         "desc": "protective garment consisting of a pad worn by football or baseball or hockey players"
     },
     "616": {
         "code": 582,
+        "cat": "knot",
         "desc": "any of various fastenings formed by looping and tying a rope (or cord) upon itself or to another rope or to another object"
     },
     "617": {
         "code": 918,
+        "cat": "lab coat, laboratory coat",
         "desc": "a light coat worn to protect clothing from substances used while working in a laboratory"
     },
     "618": {
         "code": 892,
+        "cat": "ladle",
         "desc": "a spoon-shaped vessel with a long handle; frequently used to transfer liquids from one container to another"
     },
     "619": {
         "code": 814,
+        "cat": "lampshade, lamp shade",
         "desc": "a protective ornamental shade used to screen a light bulb from direct view"
     },
     "620": {
         "code": 228,
+        "cat": "laptop, laptop computer",
         "desc": "a portable computer small enough to use in your lap"
     },
     "621": {
         "code": 374,
+        "cat": "lawn mower, mower",
         "desc": "garden tool for mowing grass on lawns"
     },
     "622": {
         "code": 988,
+        "cat": "lens cap, lens cover",
         "desc": "cap used to keep lens free of dust when not in use"
     },
     "623": {
         "code": 371,
+        "cat": "letter opener, paper knife, paperknife",
         "desc": "dull knife used to cut open the envelopes in which letters are mailed or to slit uncut pages of books"
     },
     "624": {
         "code": 687,
+        "cat": "library",
         "desc": "a building that houses a collection of books and other materials"
     },
     "625": {
         "code": 238,
+        "cat": "lifeboat",
         "desc": "a strong sea boat designed to rescue people from a sinking ship"
     },
     "626": {
         "code": 546,
+        "cat": "lighter, light, igniter, ignitor",
         "desc": "a device for lighting or igniting fuel or charges or fires; \"do you have a light?\""
     },
     "627": {
         "code": 270,
+        "cat": "limousine, limo",
         "desc": "large luxurious car; usually driven by a chauffeur"
     },
     "628": {
         "code": 244,
+        "cat": "liner, ocean liner",
         "desc": "a large commercial ship (especially one that carries passengers on a regular schedule)"
     },
     "629": {
         "code": 867,
+        "cat": "lipstick, lip rouge",
         "desc": "makeup that is used to color the lips"
     },
     "630": {
         "code": 973,
+        "cat": "Loafer",
         "desc": "a low leather step-in shoe; the top resembles a moccasin but it has a broad flat heel"
     },
     "631": {
         "code": 894,
+        "cat": "lotion",
         "desc": "any of various cosmetic preparations that are applied to the skin"
     },
     "632": {
         "code": 508,
+        "cat": "loudspeaker, speaker, speaker unit, loudspeaker system, speaker system",
         "desc": "electro-acoustic transducer that converts electrical signals into sounds loud enough to be heard at a distance"
     },
     "633": {
         "code": 536,
+        "cat": "loupe, jeweler's loupe",
         "desc": "small magnifying glass (usually set in an eyepiece) used by jewelers and horologists"
     },
     "634": {
         "code": 697,
+        "cat": "lumbermill, sawmill",
         "desc": "a mill for dressing logs and lumber"
     },
     "635": {
         "code": 532,
+        "cat": "magnetic compass",
         "desc": "compass based on an indicator (as a magnetic needle) that points to the magnetic north"
     },
     "636": {
         "code": 818,
+        "cat": "mailbag, postbag",
         "desc": "letter carrier's shoulder bag; \"in Britain they call a mailbag a postbag\""
     },
     "637": {
         "code": 917,
+        "cat": "mailbox, letter box",
         "desc": "a private box for delivery of mail"
     },
     "638": {
         "code": 782,
+        "cat": "maillot",
         "desc": "tights for dancers or gymnasts"
     },
     "639": {
         "code": 977,
+        "cat": "maillot, tank suit",
         "desc": "a woman's one-piece bathing suit"
     },
     "640": {
         "code": 763,
+        "cat": "manhole cover",
         "desc": "a flush iron cover for a manhole (as in a street)"
     },
     "641": {
         "code": 338,
+        "cat": "maraca",
         "desc": "a percussion instrument consisting of a hollow gourd containing pebbles or beans; often played in pairs"
     },
     "642": {
         "code": 339,
+        "cat": "marimba, xylophone",
         "desc": "a percussion instrument with wooden bars tuned to produce a chromatic scale and with resonators; played with small mallets"
     },
     "643": {
         "code": 781,
+        "cat": "mask",
         "desc": "a covering to disguise or conceal the face"
     },
     "644": {
         "code": 984,
+        "cat": "matchstick",
         "desc": "a short thin stick of wood used in making matches"
     },
     "645": {
         "code": 598,
+        "cat": "maypole",
         "desc": "a vertical pole or post decorated with streamers that can be held by dancers celebrating May Day"
     },
     "646": {
         "code": 922,
+        "cat": "maze, labyrinth",
         "desc": "complex system of paths or tunnels in which it is easy to get lost"
     },
     "647": {
         "code": 946,
+        "cat": "measuring cup",
         "desc": "graduated cup used to measure liquid or granular ingredients"
     },
     "648": {
         "code": 302,
+        "cat": "medicine chest, medicine cabinet",
         "desc": "cabinet that holds medicines and toiletries"
     },
     "649": {
         "code": 717,
+        "cat": "megalith, megalithic structure",
         "desc": "memorial consisting of a very large stone forming part of a prehistoric structure (especially in western Europe)"
     },
     "650": {
         "code": 509,
+        "cat": "microphone, mike",
         "desc": "device for converting sound waves into electrical energy"
     },
     "651": {
         "code": 661,
+        "cat": "microwave, microwave oven",
         "desc": "kitchen appliance that cooks food by passing an electromagnetic wave through it; heat results from the absorption of energy by the water molecules in the food"
     },
     "652": {
         "code": 866,
+        "cat": "military uniform",
         "desc": "prescribed identifying uniform for soldiers"
     },
     "653": {
         "code": 875,
+        "cat": "milk can",
         "desc": "large can for transporting milk"
     },
     "654": {
         "code": 920,
+        "cat": "minibus",
         "desc": "a light bus (4 to 10 passengers)"
     },
     "655": {
         "code": 880,
+        "cat": "miniskirt, mini",
         "desc": "a very short skirt"
     },
     "656": {
         "code": 271,
+        "cat": "minivan",
         "desc": "a small box-shaped passenger van; usually has removable seats; used as a family car"
     },
     "657": {
         "code": 251,
+        "cat": "missile",
         "desc": "a rocket carrying a warhead of conventional or nuclear explosives; may be ballistic or directed by remote control"
     },
     "658": {
         "code": 871,
+        "cat": "mitten",
         "desc": "glove that encases the thumb separately and the other four fingers together"
     },
     "659": {
         "code": 829,
+        "cat": "mixing bowl",
         "desc": "bowl used with an electric mixer"
     },
     "660": {
         "code": 290,
+        "cat": "mobile home, manufactured home",
         "desc": "a large house trailer that can be connected to utilities and can be parked in one place and used as permanent housing"
     },
     "661": {
         "code": 272,
+        "cat": "Model T",
         "desc": "the first widely available automobile powered by a gasoline engine; mass-produced by Henry Ford from 1908 to 1927"
     },
     "662": {
         "code": 764,
+        "cat": "modem",
         "desc": "(from a combination of MOdulate and DEModulate) electronic equipment consisting of a device used to connect computers by a telephone line"
     },
     "663": {
         "code": 686,
+        "cat": "monastery",
         "desc": "the residence of a religious community"
     },
     "664": {
         "code": 869,
+        "cat": "monitor",
         "desc": "electronic equipment that is used to check the quality or content of electronic transmissions"
     },
     "665": {
         "code": 277,
+        "cat": "moped",
         "desc": "a motorbike that can be pedaled or driven by a low-powered gasoline engine"
     },
     "666": {
         "code": 824,
+        "cat": "mortar",
         "desc": "a bowl-shaped vessel in which substances can be ground and mixed with a pestle"
     },
     "667": {
         "code": 854,
+        "cat": "mortarboard",
         "desc": "an academic cap with a flat square with a tassel on top"
     },
     "668": {
         "code": 691,
+        "cat": "mosque",
         "desc": "(Islam) a Muslim place of worship that usually has a minaret"
     },
     "669": {
         "code": 852,
+        "cat": "mosquito net",
         "desc": "a fine net or screen (especially around beds) to protect against mosquitos"
     },
     "670": {
         "code": 260,
+        "cat": "motor scooter, scooter",
         "desc": "a wheeled vehicle with small wheels and a low-powered gasoline engine geared to the rear wheel"
     },
     "671": {
         "code": 255,
+        "cat": "mountain bike, all-terrain bike, off-roader",
         "desc": "a bicycle with a sturdy frame and fat tires; originally designed for riding in mountainous country"
     },
     "672": {
         "code": 728,
+        "cat": "mountain tent",
         "desc": "a lightweight tent with a floor; flaps close with a zipper"
     },
     "673": {
         "code": 511,
+        "cat": "mouse, computer mouse",
         "desc": "a hand-operated electronic device that controls the coordinates of a cursor on your computer screen as you move it around on a pad; on the bottom of the device is a ball that rolls on the surface of the pad; \"a mouse takes much more room than a trackball\""
     },
     "674": {
         "code": 599,
+        "cat": "mousetrap",
         "desc": "a trap for catching mice"
     },
     "675": {
         "code": 284,
+        "cat": "moving van",
         "desc": "a van used for moving home or office furniture"
     },
     "676": {
         "code": 588,
+        "cat": "muzzle",
         "desc": "a leather or wire restraint that fits over an animal's snout (especially a dog's nose and jaws) and prevents it from eating or biting"
     },
     "677": {
         "code": 585,
+        "cat": "nail",
         "desc": "a thin pointed piece of metal that is hammered into materials as a fastener"
     },
     "678": {
         "code": 595,
+        "cat": "neck brace",
         "desc": "a brace worn to steady the neck"
     },
     "679": {
         "code": 755,
+        "cat": "necklace",
         "desc": "jewelry consisting of a cord or chain (often bearing gems) worn about the neck as an ornament (especially by women)"
     },
     "680": {
         "code": 915,
+        "cat": "nipple",
         "desc": "a flexible cap on a baby's feeding bottle or pacifier"
     },
     "681": {
         "code": 552,
+        "cat": "notebook, notebook computer",
         "desc": "a small compact portable computer"
     },
     "682": {
         "code": 699,
+        "cat": "obelisk",
         "desc": "a stone pillar having a rectangular cross section tapering towards a pyramidal top"
     },
     "683": {
         "code": 354,
+        "cat": "oboe, hautboy, hautbois",
         "desc": "a slender double-reed instrument; a woodwind with a conical bore and a double-reed mouthpiece"
     },
     "684": {
         "code": 351,
+        "cat": "ocarina, sweet potato",
         "desc": "egg-shaped terra cotta wind instrument with a mouthpiece and finger holes"
     },
     "685": {
         "code": 520,
+        "cat": "odometer, hodometer, mileometer, milometer",
         "desc": "a meter that shows mileage traversed"
     },
     "686": {
         "code": 513,
+        "cat": "oil filter",
         "desc": "a filter that removes impurities from the oil used to lubricate an internal-combustion engine"
     },
     "687": {
         "code": 333,
+        "cat": "organ, pipe organ",
         "desc": "wind instrument whose sound is produced by means of pipes arranged in sets supplied with air from a bellows and controlled from a large complex musical keyboard"
     },
     "688": {
         "code": 870,
+        "cat": "oscilloscope, scope, cathode-ray oscilloscope, CRO",
         "desc": "electronic equipment that provides visual images of varying electrical quantities"
     },
     "689": {
         "code": 937,
+        "cat": "overskirt",
         "desc": "an outer skirt worn over another skirt"
     },
     "690": {
         "code": 295,
+        "cat": "oxcart",
         "desc": "a cart that is drawn by an ox"
     },
     "691": {
         "code": 506,
+        "cat": "oxygen mask",
         "desc": "a breathing device that is placed over the mouth and nose; supplies oxygen from an attached storage tank"
     },
     "692": {
         "code": 921,
+        "cat": "packet",
         "desc": "a small package or bundle"
     },
     "693": {
         "code": 826,
+        "cat": "paddle, boat paddle",
         "desc": "a short light oar used without an oarlock to propel a canoe or small boat"
     },
     "694": {
         "code": 564,
+        "cat": "paddlewheel, paddle wheel",
         "desc": "a large wheel fitted with paddles and driven by an engine in order to propel a boat"
     },
     "695": {
         "code": 584,
+        "cat": "padlock",
         "desc": "a detachable lock; has a hinged shackle that can be passed through the staple of a hasp or the links in a chain and then snapped shut"
     },
     "696": {
         "code": 504,
+        "cat": "paintbrush",
         "desc": "a brush used as an applicator (to apply paint)"
     },
     "697": {
         "code": 759,
+        "cat": "pajama, pyjama, pj's, jammies",
         "desc": "(usually plural) loose-fitting nightclothes worn for sleeping or lounging; have a jacket top and trousers"
     },
     "698": {
         "code": 685,
+        "cat": "palace",
         "desc": "official residence of an exalted person (as a sovereign)"
     },
     "699": {
         "code": 352,
+        "cat": "panpipe, pandean pipe, syrinx",
         "desc": "a primitive wind instrument consisting of several parallel pipes bound together"
     },
     "700": {
         "code": 877,
+        "cat": "paper towel",
         "desc": "a disposable towel made of absorbent paper"
     },
     "701": {
         "code": 942,
+        "cat": "parachute, chute",
         "desc": "rescue equipment consisting of a device that fills with air and retards your fall"
     },
     "702": {
         "code": 994,
+        "cat": "parallel bars, bars",
         "desc": "gymnastic apparatus consisting of two parallel wooden rods supported on uprights"
     },
     "703": {
         "code": 306,
+        "cat": "park bench",
         "desc": "a bench in a public park"
     },
     "704": {
         "code": 527,
+        "cat": "parking meter",
         "desc": "a coin-operated timer located next to a parking space; depositing money into it entitles you to park your car there for a specified length of time"
     },
     "705": {
         "code": 257,
+        "cat": "passenger car, coach, carriage",
         "desc": "a railcar where passengers ride"
     },
     "706": {
         "code": 679,
+        "cat": "patio, terrace",
         "desc": "usually paved outdoor area adjoining a residence"
     },
     "707": {
         "code": 843,
+        "cat": "pay-phone, pay-station",
         "desc": "a coin-operated telephone"
     },
     "708": {
         "code": 732,
+        "cat": "pedestal, plinth, footstall",
         "desc": "an architectural support or base (as for a column or statue)"
     },
     "709": {
         "code": 842,
+        "cat": "pencil box, pencil case",
         "desc": "a box for holding pencils"
     },
     "710": {
         "code": 850,
+        "cat": "pencil sharpener",
         "desc": "a rotary implement for sharpening the point on pencils"
     },
     "711": {
         "code": 883,
+        "cat": "perfume, essence",
         "desc": "a toiletry that emits and diffuses a fragrant odor"
     },
     "712": {
         "code": 783,
+        "cat": "Petri dish",
         "desc": "a shallow dish used to culture bacteria"
     },
     "713": {
         "code": 789,
+        "cat": "photocopier",
         "desc": "a copier that uses photographic methods of making copies"
     },
     "714": {
         "code": 575,
+        "cat": "pick, plectrum, plectron",
         "desc": "a small thin device (of metal or plastic or ivory) used to pluck a stringed instrument"
     },
     "715": {
         "code": 926,
+        "cat": "pickelhaube",
         "desc": "a spiked helmet worn by German soldiers"
     },
     "716": {
         "code": 722,
+        "cat": "picket fence, paling",
         "desc": "a fence made of upright pickets"
     },
     "717": {
         "code": 281,
+        "cat": "pickup, pickup truck",
         "desc": "a light truck with an open body and low sides and a tailboard"
     },
     "718": {
         "code": 596,
+        "cat": "pier",
         "desc": "a support for two adjacent bridge spans"
     },
     "719": {
         "code": 931,
+        "cat": "piggy bank, penny bank",
         "desc": "a child's coin bank (often shaped like a pig)"
     },
     "720": {
         "code": 901,
+        "cat": "pill bottle",
         "desc": "a small bottle for holding pills"
     },
     "721": {
         "code": 888,
+        "cat": "pillow",
         "desc": "a cushion to support the head of a sleeping person"
     },
     "722": {
         "code": 841,
+        "cat": "ping-pong ball",
         "desc": "light hollow ball used in playing table tennis"
     },
     "723": {
         "code": 565,
+        "cat": "pinwheel",
         "desc": "a wheel that has numerous pins that are set at right angles to its rim; \"he spun the pinwheel and it stopped with the pointer on `Go'\""
     },
     "724": {
         "code": 245,
+        "cat": "pirate, pirate ship",
         "desc": "a ship that is manned by pirates"
     },
     "725": {
         "code": 983,
+        "cat": "pitcher, ewer",
         "desc": "an open vessel with a handle and a spout for pouring"
     },
     "726": {
         "code": 372,
+        "cat": "plane, carpenter's plane, woodworking plane",
         "desc": "a carpenter's hand tool with an adjustable blade for smoothing or shaping wood; \"the cabinetmaker used a plane for the finish work\""
     },
     "727": {
         "code": 693,
+        "cat": "planetarium",
         "desc": "a building housing an instrument for projecting the positions of the planets onto a domed ceiling"
     },
     "728": {
         "code": 964,
+        "cat": "plastic bag",
         "desc": "a bag made of thin plastic material"
     },
     "729": {
         "code": 731,
+        "cat": "plate rack",
         "desc": "a rack for holding plates to dry after they have been washed"
     },
     "730": {
         "code": 381,
+        "cat": "plow, plough",
         "desc": "a farm tool having one or more heavy blades to break the soil and cut a furrow prior to sowing"
     },
     "731": {
         "code": 378,
+        "cat": "plunger, plumber's helper",
         "desc": "hand tool consisting of a stick with a rubber suction cup at one end; used to clean clogged drains"
     },
     "732": {
         "code": 857,
+        "cat": "Polaroid camera, Polaroid Land camera",
         "desc": "a camera that develops and produces a positive print within seconds"
     },
     "733": {
         "code": 923,
+        "cat": "pole",
         "desc": "a long (usually round) rod of wood or metal or plastic"
     },
     "734": {
         "code": 285,
+        "cat": "police van, police wagon, paddy wagon, patrol wagon, wagon, black Maria",
         "desc": "van used by police to transport prisoners"
     },
     "735": {
         "code": 855,
+        "cat": "poncho",
         "desc": "a blanket-like cloak with a hole in the center for the head"
     },
     "736": {
         "code": 314,
+        "cat": "pool table, billiard table, snooker table",
         "desc": "game equipment consisting of a heavy table on which pool is played"
     },
     "737": {
         "code": 788,
+        "cat": "pop bottle, soda bottle",
         "desc": "a bottle for holding soft drinks"
     },
     "738": {
         "code": 838,
+        "cat": "pot, flowerpot",
         "desc": "a container in which plants are cultivated"
     },
     "739": {
         "code": 566,
+        "cat": "potter's wheel",
         "desc": "a horizontal rotating wheel holding the clay being shaped by a potter; \"the potter's wheel was invented in Asia Minor around 6500 BC\""
     },
     "740": {
         "code": 373,
+        "cat": "power drill",
         "desc": "a power tool for drilling holes into hard materials"
     },
     "741": {
         "code": 769,
+        "cat": "prayer rug, prayer mat",
         "desc": "a small rug used by Muslims during their devotions"
     },
     "742": {
         "code": 556,
+        "cat": "printer",
         "desc": "(computer science) an output device that prints the results of data processing"
     },
     "743": {
         "code": 702,
+        "cat": "prison, prison house",
         "desc": "a correctional institution where persons are confined while on trial or for punishment"
     },
     "744": {
         "code": 542,
+        "cat": "projectile, missile",
         "desc": "a weapon that is forcibly thrown or projected at a targets but is not self-propelled"
     },
     "745": {
         "code": 534,
+        "cat": "projector",
         "desc": "an optical instrument that projects an enlarged image onto a screen"
     },
     "746": {
         "code": 572,
+        "cat": "puck, hockey puck",
         "desc": "a vulcanized rubber disk 3 inches in diameter that is used instead of a ball in ice hockey"
     },
     "747": {
         "code": 846,
+        "cat": "punching bag, punch bag, punching ball, punchball",
         "desc": "an inflated ball or bag that is suspended and punched for training in boxing"
     },
     "748": {
         "code": 939,
+        "cat": "purse",
         "desc": "a small bag for carrying money"
     },
     "749": {
         "code": 862,
+        "cat": "quill, quill pen",
         "desc": "pen made from a bird's feather"
     },
     "750": {
         "code": 976,
+        "cat": "quilt, comforter, comfort, puff",
         "desc": "bedding made of two layers of cloth filled with stuffing and stitched together"
     },
     "751": {
         "code": 273,
+        "cat": "racer, race car, racing car",
         "desc": "a fast car that competes in races"
     },
     "752": {
         "code": 860,
+        "cat": "racket, racquet",
         "desc": "a sports implement (usually consisting of a handle and an oval frame with a tightly interlaced network of strings) used to strike a ball (or shuttlecock) in various games"
     },
     "753": {
         "code": 571,
+        "cat": "radiator",
         "desc": "a mechanism consisting of a metal honeycomb through which hot fluids circulate; heat is transferred from the fluid through the honeycomb to the airstream that is created either by the motion of the vehicle or by a fan"
     },
     "754": {
         "code": 863,
+        "cat": "radio, wireless",
         "desc": "a communication system based on broadcasting electromagnetic waves"
     },
     "755": {
         "code": 537,
+        "cat": "radio telescope, radio reflector",
         "desc": "astronomical telescope that picks up electromagnetic radiations in the radio-frequency range from extraterrestrial sources"
     },
     "756": {
         "code": 927,
+        "cat": "rain barrel",
         "desc": "a barrel used as a cistern to hold rainwater"
     },
     "757": {
         "code": 286,
+        "cat": "recreational vehicle, RV, R.V.",
         "desc": "a motorized wheeled vehicle used for camping or other recreational activities"
     },
     "758": {
         "code": 570,
+        "cat": "reel",
         "desc": "winder consisting of a revolving spool with a handle; attached to a fishing rod"
     },
     "759": {
         "code": 965,
+        "cat": "reflex camera",
         "desc": "camera that allows the photographer to view and focus the exact scene being photographed"
     },
     "760": {
         "code": 668,
+        "cat": "refrigerator, icebox",
         "desc": "white goods in which food can be stored at low temperatures"
     },
     "761": {
         "code": 578,
+        "cat": "remote control, remote",
         "desc": "a device that can be used to control a machine or apparatus from a distance; \"he lost the remote for his TV\""
     },
     "762": {
         "code": 694,
+        "cat": "restaurant, eating house, eating place, eatery",
         "desc": "a building where people go to eat"
     },
     "763": {
         "code": 219,
+        "cat": "revolver, six-gun, six-shooter",
         "desc": "a pistol with a revolving cylinder (usually having six chambers for bullets)"
     },
     "764": {
         "code": 541,
+        "cat": "rifle",
         "desc": "a shoulder firearm with a long barrel and a rifled bore; \"he lifted the rifle to his shoulder and fired\""
     },
     "765": {
         "code": 310,
+        "cat": "rocking chair, rocker",
         "desc": "a chair mounted on rockers"
     },
     "766": {
         "code": 663,
+        "cat": "rotisserie",
         "desc": "an oven or broiler equipped with a rotating spit on which meat cooks as it turns"
     },
     "767": {
         "code": 997,
+        "cat": "rubber eraser, rubber, pencil eraser",
         "desc": "an eraser made of rubber (or of a synthetic material with properties similar to rubber); commonly mounted at one end of a pencil"
     },
     "768": {
         "code": 876,
+        "cat": "rugby ball",
         "desc": "inflated oval ball used in playing rugby"
     },
     "769": {
         "code": 519,
+        "cat": "rule, ruler",
         "desc": "measuring stick consisting of a strip of wood or metal or plastic with a straight edge that is used for drawing straight lines and measuring lengths"
     },
     "770": {
         "code": 760,
+        "cat": "running shoe",
         "desc": "a light comfortable shoe designed for running"
     },
     "771": {
         "code": 753,
+        "cat": "safe",
         "desc": "strongbox where valuables can be safely kept"
     },
     "772": {
         "code": 586,
+        "cat": "safety pin",
         "desc": "a pin in the form of a clasp; has a guard so the point of the pin will not stick the user"
     },
     "773": {
         "code": 952,
+        "cat": "saltshaker, salt shaker",
         "desc": "a shaker with a perforated top for sprinkling salt"
     },
     "774": {
         "code": 751,
+        "cat": "sandal",
         "desc": "a shoe consisting of a sole fastened by straps to the foot"
     },
     "775": {
         "code": 938,
+        "cat": "sarong",
         "desc": "a loose skirt consisting of brightly colored fabric wrapped around the body; worn by both women and men in the South Pacific"
     },
     "776": {
         "code": 355,
+        "cat": "sax, saxophone",
         "desc": "a single-reed woodwind with a conical bore"
     },
     "777": {
         "code": 809,
+        "cat": "scabbard",
         "desc": "a sheath for a sword or dagger or bayonet"
     },
     "778": {
         "code": 521,
+        "cat": "scale, weighing machine",
         "desc": "a measuring instrument for weighing; shows amount of mass"
     },
     "779": {
         "code": 962,
+        "cat": "school bus",
         "desc": "a bus used to transport children to or from school"
     },
     "780": {
         "code": 221,
+        "cat": "schooner",
         "desc": "sailing vessel used in former times"
     },
     "781": {
         "code": 729,
+        "cat": "scoreboard",
         "desc": "a large board for displaying the score of a contest (and some other information)"
     },
     "782": {
         "code": 510,
+        "cat": "screen, CRT screen",
         "desc": "the display that is electronically created on the surface of the large end of a cathode-ray tube"
     },
     "783": {
         "code": 587,
+        "cat": "screw",
         "desc": "a fastener with a tapered threaded shank and a slotted head"
     },
     "784": {
         "code": 379,
+        "cat": "screwdriver",
         "desc": "a hand tool for driving screws; has a tip that fits into the head of a screw"
     },
     "785": {
         "code": 589,
+        "cat": "seat belt, seatbelt",
         "desc": "a safety belt used in a car or plane to hold you in your seat in case of an accident"
     },
     "786": {
         "code": 559,
+        "cat": "sewing machine",
         "desc": "a textile machine used as a home appliance for sewing"
     },
     "787": {
         "code": 800,
+        "cat": "shield, buckler",
         "desc": "armor carried on the arm to intercept blows"
     },
     "788": {
         "code": 709,
+        "cat": "shoe shop, shoe-shop, shoe store",
         "desc": "a shop where shoes are sold"
     },
     "789": {
         "code": 832,
+        "cat": "shoji",
         "desc": "a translucent screen made of a wooden frame covered with rice paper"
     },
     "790": {
         "code": 950,
+        "cat": "shopping basket",
         "desc": "a handbasket used to carry goods while shopping"
     },
     "791": {
         "code": 259,
+        "cat": "shopping cart",
         "desc": "a handcart that holds groceries or other goods while shopping"
     },
     "792": {
         "code": 380,
+        "cat": "shovel",
         "desc": "a hand tool for lifting loose material; consists of a curved container or scoop and a handle"
     },
     "793": {
         "code": 868,
+        "cat": "shower cap",
         "desc": "a tight cap worn to keep hair dry while showering"
     },
     "794": {
         "code": 747,
+        "cat": "shower curtain",
         "desc": "a curtain that keeps water from splashing out of the shower area"
     },
     "795": {
         "code": 590,
+        "cat": "ski",
         "desc": "narrow wood or metal or plastic runners used in pairs for gliding over snow"
     },
     "796": {
         "code": 776,
+        "cat": "ski mask",
         "desc": "a woolen face mask to protect the face from cold while skiing on snow"
     },
     "797": {
         "code": 943,
+        "cat": "sleeping bag",
         "desc": "large padded bag designed to be slept in outdoors; usually rolls up like a bedroll"
     },
     "798": {
         "code": 549,
+        "cat": "slide rule, slipstick",
         "desc": "analog computer consisting of a handheld instrument used for rapid calculations; have been replaced by pocket calculators"
     },
     "799": {
         "code": 726,
+        "cat": "sliding door",
         "desc": "a door that opens by sliding instead of swinging"
     },
     "800": {
         "code": 557,
+        "cat": "slot, one-armed bandit",
         "desc": "a slot machine that is used for gambling; \"they spend hours and hours just playing the slots\""
     },
     "801": {
         "code": 507,
+        "cat": "snorkel",
         "desc": "breathing device consisting of a bent tube fitting into a swimmer's mouth and extending above the surface; allows swimmer to breathe while face down in the water"
     },
     "802": {
         "code": 288,
+        "cat": "snowmobile",
         "desc": "tracked vehicle for travel on snow having skis in front"
     },
     "803": {
         "code": 278,
+        "cat": "snowplow, snowplough",
         "desc": "a vehicle used to push snow from roads"
     },
     "804": {
         "code": 960,
+        "cat": "soap dispenser",
         "desc": "dispenser of liquid soap"
     },
     "805": {
         "code": 222,
+        "cat": "soccer ball",
         "desc": "an inflated ball used in playing soccer"
     },
     "806": {
         "code": 986,
+        "cat": "sock",
         "desc": "hosiery consisting of a cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee"
     },
     "807": {
         "code": 577,
+        "cat": "solar dish, solar collector, solar furnace",
         "desc": "a concave mirror that concentrates the rays of the sun; can produce high temperatures"
     },
     "808": {
         "code": 925,
+        "cat": "sombrero",
         "desc": "a straw hat with a tall crown and broad brim; worn in American southwest and in Mexico"
     },
     "809": {
         "code": 822,
+        "cat": "soup bowl",
         "desc": "a bowl for serving soup"
     },
     "810": {
         "code": 858,
+        "cat": "space bar",
         "desc": "the bar-shaped typewriter key that introduces spaces when used"
     },
     "811": {
         "code": 515,
+        "cat": "space heater",
         "desc": "heater consisting of a self-contained (usually portable) unit to warm a room"
     },
     "812": {
         "code": 234,
+        "cat": "space shuttle",
         "desc": "a reusable spacecraft with wings for a controlled descent through the Earth's atmosphere"
     },
     "813": {
         "code": 676,
+        "cat": "spatula",
         "desc": "a turner with a narrow flexible blade"
     },
     "814": {
         "code": 237,
+        "cat": "speedboat",
         "desc": "a fast motorboat"
     },
     "815": {
         "code": 600,
+        "cat": "spider web, spider's web",
         "desc": "a web resembling the webs spun by spiders"
     },
     "816": {
         "code": 775,
+        "cat": "spindle",
         "desc": "a stick or pin used to twist the yarn in spinning"
     },
     "817": {
         "code": 274,
+        "cat": "sports car, sport car",
         "desc": "a small low car with a high-powered engine; usually seats two persons"
     },
     "818": {
         "code": 593,
+        "cat": "spotlight, spot",
         "desc": "a lamp that produces a strong beam of light to illuminate a restricted area; used to focus attention of a stage performer"
     },
     "819": {
         "code": 804,
+        "cat": "stage",
         "desc": "a large platform on which people can stand and can be seen by an audience; \"he clambered up onto the stage and got the actors to help him into the box\""
     },
     "820": {
         "code": 263,
+        "cat": "steam locomotive",
         "desc": "a locomotive powered by a steam engine"
     },
     "821": {
         "code": 680,
+        "cat": "steel arch bridge",
         "desc": "a steel bridge constructed in the form of an arch"
     },
     "822": {
         "code": 340,
+        "cat": "steel drum",
         "desc": "a concave percussion instrument made from the metal top of an oil drum; has an array of flattened areas that produce different tones when struck (of Caribbean origin)"
     },
     "823": {
         "code": 530,
+        "cat": "stethoscope",
         "desc": "a medical instrument for listening to the sounds generated inside the body"
     },
     "824": {
         "code": 998,
+        "cat": "stole",
         "desc": "a wide scarf worn about their shoulders by women"
     },
     "825": {
         "code": 724,
+        "cat": "stone wall",
         "desc": "a fence built of rough stones; used to separate fields"
     },
     "826": {
         "code": 528,
+        "cat": "stopwatch, stop watch",
         "desc": "a timepiece that can be started or stopped for exact timing (as of a race)"
     },
     "827": {
         "code": 516,
+        "cat": "stove",
         "desc": "any heating apparatus"
     },
     "828": {
         "code": 514,
+        "cat": "strainer",
         "desc": "a filter to retain larger pieces while smaller pieces and liquids pass through"
     },
     "829": {
         "code": 287,
+        "cat": "streetcar, tram, tramcar, trolley, trolley car",
         "desc": "a wheeled vehicle that runs on rails and is propelled by electricity"
     },
     "830": {
         "code": 957,
+        "cat": "stretcher",
         "desc": "a litter for transporting people who are ill or wounded or dead; usually consists of a sheet of canvas stretched between two poles"
     },
     "831": {
         "code": 311,
+        "cat": "studio couch, day bed",
         "desc": "convertible consisting of an upholstered couch that can be converted into a double bed"
     },
     "832": {
         "code": 692,
+        "cat": "stupa, tope",
         "desc": "a dome-shaped shrine erected by Buddhists"
     },
     "833": {
         "code": 247,
+        "cat": "submarine, pigboat, sub, U-boat",
         "desc": "a submersible warship usually armed with torpedoes"
     },
     "834": {
         "code": 794,
+        "cat": "suit, suit of clothes",
         "desc": "a set of garments (usually including a jacket and trousers or skirt) for outerwear all of the same fabric and color; \"they buried him in his best suit\""
     },
     "835": {
         "code": 526,
+        "cat": "sundial",
         "desc": "timepiece that indicates the daylight hours by the shadow that the gnomon casts on a calibrated dial"
     },
     "836": {
         "code": 574,
+        "cat": "sunglass",
         "desc": "a convex lens that focuses the rays of the sun; used to start a fire"
     },
     "837": {
         "code": 535,
+        "cat": "sunglasses, dark glasses, shades",
         "desc": "spectacles that are darkened or polarized to protect the eyes from the glare of the sun; \"he was wearing a pair of mirrored shades\""
     },
     "838": {
         "code": 810,
+        "cat": "sunscreen, sunblock, sun blocker",
         "desc": "a cream spread on the skin; contains a chemical (as PABA) to filter out ultraviolet light and so protect from sunburn"
     },
     "839": {
         "code": 681,
+        "cat": "suspension bridge",
         "desc": "a bridge that has a roadway supported by cables that are anchored at both ends"
     },
     "840": {
         "code": 828,
+        "cat": "swab, swob, mop",
         "desc": "cleaning implement consisting of absorbent material fastened to a handle; for cleaning floors"
     },
     "841": {
         "code": 837,
+        "cat": "sweatshirt",
         "desc": "cotton knit pullover with long sleeves worn during athletic activity"
     },
     "842": {
         "code": 945,
+        "cat": "swimming trunks, bathing trunks",
         "desc": "swimsuit worn by men while swimming"
     },
     "843": {
         "code": 569,
+        "cat": "swing",
         "desc": "mechanical device used as a plaything to support someone swinging back and forth"
     },
     "844": {
         "code": 561,
+        "cat": "switch, electric switch, electrical switch",
         "desc": "control consisting of a mechanical or electrical or electronic device for making or breaking or changing the connections in a circuit"
     },
     "845": {
         "code": 531,
+        "cat": "syringe",
         "desc": "a medical instrument used to inject or withdraw fluids"
     },
     "846": {
         "code": 304,
+        "cat": "table lamp",
         "desc": "a lamp that sits on a table"
     },
     "847": {
         "code": 250,
+        "cat": "tank, army tank, armored combat vehicle, armoured combat vehicle",
         "desc": "an enclosed armored military vehicle; has a cannon and moves on caterpillar treads"
     },
     "848": {
         "code": 978,
+        "cat": "tape player",
         "desc": "electronic equipment for playing back magnetic tapes"
     },
     "849": {
         "code": 675,
+        "cat": "teapot",
         "desc": "pot for brewing tea; usually has a spout and handle"
     },
     "850": {
         "code": 786,
+        "cat": "teddy, teddy bear",
         "desc": "plaything consisting of a child's toy bear (usually plush and stuffed with soft materials)"
     },
     "851": {
         "code": 944,
+        "cat": "television, television system",
         "desc": "a telecommunication system that transmits images of objects (stationary or moving) between distant points"
     },
     "852": {
         "code": 970,
+        "cat": "tennis ball",
         "desc": "ball about the size of a fist used in playing tennis"
     },
     "853": {
         "code": 989,
+        "cat": "thatch, thatched roof",
         "desc": "a house roof made with a plant material (as straw)"
     },
     "854": {
         "code": 903,
+        "cat": "theater curtain, theatre curtain",
         "desc": "a hanging cloth that conceals the stage from the view of the audience; rises or parts at the beginning and descends or closes between acts and at the end of a performance"
     },
     "855": {
         "code": 758,
+        "cat": "thimble",
         "desc": "a small metal cap to protect the finger while sewing; can be used as a small container"
     },
     "856": {
         "code": 555,
+        "cat": "thresher, thrasher, threshing machine",
         "desc": "a farm machine for separating seeds or grain from the husks and straw"
     },
     "857": {
         "code": 308,
+        "cat": "throne",
         "desc": "the chair of state for a monarch, bishop, etc.; \"the king sat on his throne\""
     },
     "858": {
         "code": 780,
+        "cat": "tile roof",
         "desc": "a roof made of fired clay tiles"
     },
     "859": {
         "code": 664,
+        "cat": "toaster",
         "desc": "a kitchen appliance (usually electric) for toasting bread"
     },
     "860": {
         "code": 710,
+        "cat": "tobacco shop, tobacconist shop, tobacconist",
         "desc": "a shop that sells pipes and pipe tobacco and cigars and cigarettes"
     },
     "861": {
         "code": 312,
+        "cat": "toilet seat",
         "desc": "the hinged seat on a toilet"
     },
     "862": {
         "code": 594,
+        "cat": "torch",
         "desc": "a light usually carried in the hand; consists of some flammable substance"
     },
     "863": {
         "code": 700,
+        "cat": "totem pole",
         "desc": "a tribal emblem consisting of a pillar carved and painted with totemic figures; erected by Indian tribes of the northwest Pacific coast"
     },
     "864": {
         "code": 282,
+        "cat": "tow truck, tow car, wrecker",
         "desc": "a truck equipped to hoist and pull wrecked cars (or to remove cars from no-parking zones)"
     },
     "865": {
         "code": 711,
+        "cat": "toyshop",
         "desc": "shop where toys are sold"
     },
     "866": {
         "code": 289,
+        "cat": "tractor",
         "desc": "a wheeled vehicle with large wheels; used in farming and other applications"
     },
     "867": {
         "code": 283,
+        "cat": "trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi",
         "desc": "a truck consisting of a tractor and trailer together"
     },
     "868": {
         "code": 766,
+        "cat": "tray",
         "desc": "an open receptacle for holding or displaying or serving articles or food"
     },
     "869": {
         "code": 825,
+        "cat": "trench coat",
         "desc": "a military style raincoat; belted with deep pockets"
     },
     "870": {
         "code": 291,
+        "cat": "tricycle, trike, velocipede",
         "desc": "a vehicle with three wheels that is moved by foot pedals"
     },
     "871": {
         "code": 242,
+        "cat": "trimaran",
         "desc": "a fast sailboat with 3 parallel hulls"
     },
     "872": {
         "code": 597,
+        "cat": "tripod",
         "desc": "a three-legged rack used for support"
     },
     "873": {
         "code": 678,
+        "cat": "triumphal arch",
         "desc": "a monumental archway; usually they are built to commemorate some notable victory"
     },
     "874": {
         "code": 882,
+        "cat": "trolleybus, trolley coach, trackless trolley",
         "desc": "a passenger bus with an electric motor that draws power from overhead wires"
     },
     "875": {
         "code": 349,
+        "cat": "trombone",
         "desc": "a brass instrument consisting of a long tube whose length can be varied by a U-shaped slide"
     },
     "876": {
         "code": 765,
+        "cat": "tub, vat",
         "desc": "a large open vessel for holding or storing liquids"
     },
     "877": {
         "code": 727,
+        "cat": "turnstile",
         "desc": "a gate consisting of a post that acts as a pivot for rotating arms; set in a passageway for controlling the persons entering"
     },
     "878": {
         "code": 544,
+        "cat": "typewriter keyboard",
         "desc": "a keyboard for manually entering characters to be printed"
     },
     "879": {
         "code": 220,
+        "cat": "umbrella",
         "desc": "a lightweight handheld collapsible canopy"
     },
     "880": {
         "code": 292,
+        "cat": "unicycle, monocycle",
         "desc": "a vehicle with a single wheel that is driven by pedals"
     },
     "881": {
         "code": 334,
+        "cat": "upright, upright piano",
         "desc": "a piano with a vertical sounding board"
     },
     "882": {
         "code": 666,
+        "cat": "vacuum, vacuum cleaner",
         "desc": "an electrical home appliance that cleans by suction"
     },
     "883": {
         "code": 874,
+        "cat": "vase",
         "desc": "an open jar of glass or porcelain used as an ornament or to hold flowers"
     },
     "884": {
         "code": 990,
+        "cat": "vault",
         "desc": "an arched brick or stone ceiling or roof"
     },
     "885": {
         "code": 969,
+        "cat": "velvet",
         "desc": "a silky densely piled fabric with a plain back"
     },
     "886": {
         "code": 558,
+        "cat": "vending machine",
         "desc": "a slot machine for selling goods"
     },
     "887": {
         "code": 790,
+        "cat": "vestment",
         "desc": "gown (especially ceremonial garments) worn by the clergy"
     },
     "888": {
         "code": 682,
+        "cat": "viaduct",
         "desc": "bridge consisting of a series of arches supported by piers used to carry a road (or railroad) over a valley"
     },
     "889": {
         "code": 343,
+        "cat": "violin, fiddle",
         "desc": "bowed stringed instrument that is the highest member of the violin family; this instrument has four strings and a hollow body and an unfretted fingerboard and is played with a bow"
     },
     "890": {
         "code": 936,
+        "cat": "volleyball",
         "desc": "an inflated ball used in playing volleyball"
     },
     "891": {
         "code": 665,
+        "cat": "waffle iron",
         "desc": "a kitchen appliance for baking waffles; the appliance usually consists of two indented metal pans hinged together so that they create a pattern on the waffle"
     },
     "892": {
         "code": 524,
+        "cat": "wall clock",
         "desc": "a clock mounted on a wall"
     },
     "893": {
         "code": 928,
+        "cat": "wallet, billfold, notecase, pocketbook",
         "desc": "a pocket-size case for holding papers and paper money"
     },
     "894": {
         "code": 317,
+        "cat": "wardrobe, closet, press",
         "desc": "a tall piece of furniture that provides storage space for clothes; has a door and rails or hooks for hanging clothes"
     },
     "895": {
         "code": 231,
+        "cat": "warplane, military plane",
         "desc": "an aircraft designed and used for combat"
     },
     "896": {
         "code": 906,
+        "cat": "washbasin, handbasin, washbowl, lavabo, wash-hand basin",
         "desc": "a basin for washing the hands (`wash-hand basin' is a British expression)"
     },
     "897": {
         "code": 669,
+        "cat": "washer, automatic washer, washing machine",
         "desc": "a home appliance for washing clothes and linens automatically"
     },
     "898": {
         "code": 958,
+        "cat": "water bottle",
         "desc": "a bottle for holding water"
     },
     "899": {
         "code": 819,
+        "cat": "water jug",
         "desc": "a jug that holds water"
     },
     "900": {
         "code": 795,
+        "cat": "water tower",
         "desc": "a large reservoir for water"
     },
     "901": {
         "code": 772,
+        "cat": "whiskey jug",
         "desc": "a jug that contains whiskey"
     },
     "902": {
         "code": 502,
+        "cat": "whistle",
         "desc": "acoustic device that forces air or steam against an edge or into a cavity and so produces a loud shrill sound"
     },
     "903": {
         "code": 899,
+        "cat": "wig",
         "desc": "hairpiece covering the head and made of real or synthetic hair"
     },
     "904": {
         "code": 912,
+        "cat": "window screen",
         "desc": "screen to keep insects from entering a building through the open window"
     },
     "905": {
         "code": 904,
+        "cat": "window shade",
         "desc": "an opaque window blind that can cover or uncover a window"
     },
     "906": {
         "code": 935,
+        "cat": "Windsor tie",
         "desc": "a wide necktie worn in a loose bow"
     },
     "907": {
         "code": 831,
+        "cat": "wine bottle",
         "desc": "a bottle for holding wine"
     },
     "908": {
         "code": 503,
+        "cat": "wing",
         "desc": "one of the horizontal airfoils on either side of the fuselage of an airplane"
     },
     "909": {
         "code": 672,
+        "cat": "wok",
         "desc": "pan with a convex bottom; used for frying in Chinese cooking"
     },
     "910": {
         "code": 951,
+        "cat": "wooden spoon",
         "desc": "a spoon made of wood"
     },
     "911": {
         "code": 815,
+        "cat": "wool, woolen, woollen",
         "desc": "a fabric made from the hair of sheep"
     },
     "912": {
         "code": 723,
+        "cat": "worm fence, snake fence, snake-rail fence, Virginia fence",
         "desc": "rail fence consisting of a zigzag of interlocking rails"
     },
     "913": {
         "code": 248,
+        "cat": "wreck",
         "desc": "a ship that has been destroyed at sea"
     },
     "914": {
         "code": 240,
+        "cat": "yawl",
         "desc": "a ship's small boat (usually rowed by 4 or 6 oars)"
     },
     "915": {
         "code": 714,
+        "cat": "yurt",
         "desc": "a circular domed dwelling that is portable and self-supporting; originally used by nomadic Mongol and Turkic people of central Asia but now used as inexpensive alternative or temporary housing"
     },
     "916": {
         "code": 553,
+        "cat": "web site, website, internet site, site",
         "desc": "a computer connected to the internet that maintains a series of web pages on the World Wide Web; \"the Israeli web site was damaged by hostile hackers\""
     },
     "917": {
         "code": 930,
+        "cat": "comic book",
         "desc": "a magazine devoted to comic strips"
     },
     "918": {
         "code": 791,
+        "cat": "crossword puzzle, crossword",
         "desc": "a puzzle in which words corresponding to numbered clues are to be found and written in to squares in the puzzle"
     },
     "919": {
         "code": 932,
+        "cat": "street sign",
         "desc": "a sign visible from the street"
     },
     "920": {
         "code": 861,
+        "cat": "traffic light, traffic signal, stoplight",
         "desc": "a visual signal to control the flow of traffic at intersections"
     },
     "921": {
         "code": 774,
+        "cat": "book jacket, dust cover, dust jacket, dust wrapper",
         "desc": "a paper jacket for a book; a jacket on which promotional information is usually printed"
     },
     "922": {
         "code": 803,
+        "cat": "menu",
         "desc": "the dishes making up a meal"
     },
     "923": {
         "code": 754,
+        "cat": "plate",
         "desc": "a main course served on a plate; \"a vegetable plate\"; \"the blue plate special\""
     },
     "924": {
         "code": 813,
+        "cat": "guacamole",
         "desc": "a dip made of mashed avocado mixed with chopped onions and other seasonings"
     },
     "925": {
         "code": 844,
+        "cat": "consomme",
         "desc": "clear soup usually of beef or veal or chicken"
     },
     "926": {
         "code": 771,
+        "cat": "hot pot, hotpot",
         "desc": "a stew of meat and potatoes cooked in a tightly covered pot"
     },
     "927": {
         "code": 793,
+        "cat": "trifle",
         "desc": "a cold pudding made of layers of sponge cake spread with fruit or jelly; may be decorated with nuts, cream, or chocolate"
     },
     "928": {
         "code": 974,
+        "cat": "ice cream, icecream",
         "desc": "frozen dessert containing cream and sugar and flavoring"
     },
     "929": {
         "code": 968,
+        "cat": "ice lolly, lolly, lollipop, popsicle",
         "desc": "ice cream or water ice on a small wooden stick; \"in England a popsicle is called an ice lolly\""
     },
     "930": {
         "code": 873,
+        "cat": "French loaf",
         "desc": "a loaf of French bread"
     },
     "931": {
         "code": 768,
+        "cat": "bagel, beigel",
         "desc": "(Yiddish) glazed yeast-raised doughnut-shaped roll with hard crust"
     },
     "932": {
         "code": 975,
+        "cat": "pretzel",
         "desc": "glazed and salted cracker typically in the shape of a loose knot"
     },
     "933": {
         "code": 993,
+        "cat": "cheeseburger",
         "desc": "a hamburger with melted cheese on it"
     },
     "934": {
         "code": 885,
+        "cat": "hotdog, hot dog, red hot",
         "desc": "a frankfurter served hot on a bun"
     },
     "935": {
         "code": 734,
+        "cat": "mashed potato",
         "desc": "potato that has been peeled and boiled and then mashed"
     },
     "936": {
         "code": 736,
+        "cat": "head cabbage",
         "desc": "any of several varieties of cabbage having a large compact globular head; may be steamed or boiled or stir-fried or used raw in coleslaw"
     },
     "937": {
         "code": 737,
+        "cat": "broccoli",
         "desc": "branched green undeveloped flower heads"
     },
     "938": {
         "code": 738,
+        "cat": "cauliflower",
         "desc": "compact head of white undeveloped flowers"
     },
     "939": {
         "code": 739,
+        "cat": "zucchini, courgette",
         "desc": "small cucumber-shaped vegetable marrow; typically dark green"
     },
     "940": {
         "code": 740,
+        "cat": "spaghetti squash",
         "desc": "medium-sized oval squash with flesh in the form of strings that resemble spaghetti"
     },
     "941": {
         "code": 741,
+        "cat": "acorn squash",
         "desc": "small dark green or yellow ribbed squash with yellow to orange flesh"
     },
     "942": {
         "code": 742,
+        "cat": "butternut squash",
         "desc": "buff-colored squash with a long usually straight neck and sweet orange flesh"
     },
     "943": {
         "code": 743,
+        "cat": "cucumber, cuke",
         "desc": "cylindrical green fruit with thin green rind and white flesh eaten as a vegetable; related to melons"
     },
     "944": {
         "code": 744,
+        "cat": "artichoke, globe artichoke",
         "desc": "a thistlelike flower head with edible fleshy leaves and heart"
     },
     "945": {
         "code": 735,
+        "cat": "bell pepper",
         "desc": "large bell-shaped sweet pepper in green or red or yellow or orange or black varieties"
     },
     "946": {
         "code": 745,
+        "cat": "cardoon",
         "desc": "only parts eaten are roots and especially stalks (blanched and used as celery); related to artichokes"
     },
     "947": {
         "code": 746,
+        "cat": "mushroom",
         "desc": "fleshy body of any of numerous edible fungi"
     },
     "948": {
         "code": 318,
+        "cat": "Granny Smith",
         "desc": "apple with a green skin and hard tart flesh"
     },
     "949": {
         "code": 229,
+        "cat": "strawberry",
         "desc": "sweet fleshy red fruit"
     },
     "950": {
         "code": 319,
+        "cat": "orange",
         "desc": "round yellow to orange fruit of any of several citrus trees"
     },
     "951": {
         "code": 320,
+        "cat": "lemon",
         "desc": "yellow oval fruit with juicy acidic flesh"
     },
     "952": {
         "code": 321,
+        "cat": "fig",
         "desc": "fleshy sweet pear-shaped yellowish or purple multiple fruit eaten fresh or preserved or dried"
     },
     "953": {
         "code": 322,
+        "cat": "pineapple, ananas",
         "desc": "large sweet fleshy tropical fruit with a terminal tuft of stiff leaves; widely cultivated"
     },
     "954": {
         "code": 323,
+        "cat": "banana",
         "desc": "elongated crescent-shaped yellow fruit with soft sweet flesh"
     },
     "955": {
         "code": 324,
+        "cat": "jackfruit, jak, jack",
         "desc": "immense East Indian fruit resembling breadfruit; it contains an edible pulp and nutritious seeds that are commonly roasted"
     },
     "956": {
         "code": 325,
+        "cat": "custard apple",
         "desc": "the fruit of any of several tropical American trees of the genus Annona having soft edible pulp"
     },
     "957": {
         "code": 326,
+        "cat": "pomegranate",
         "desc": "large globular fruit having many seeds with juicy red pulp in a tough brownish-red rind"
     },
     "958": {
         "code": 816,
+        "cat": "hay",
         "desc": "grass mowed and cured for use as fodder"
     },
     "959": {
         "code": 999,
+        "cat": "carbonara",
         "desc": "sauce for pasta; contains eggs and bacon or ham and grated cheese"
     },
     "960": {
         "code": 953,
+        "cat": "chocolate sauce, chocolate syrup",
         "desc": "sauce made with unsweetened chocolate or cocoa and sugar and water"
     },
     "961": {
         "code": 864,
+        "cat": "dough",
         "desc": "a flour mixture stiff enough to knead or roll"
     },
     "962": {
         "code": 806,
+        "cat": "meat loaf, meatloaf",
         "desc": "a baked loaf of ground meat"
     },
     "963": {
         "code": 948,
+        "cat": "pizza, pizza pie",
         "desc": "Italian open pie made of thin bread dough spread with a spiced mixture of e.g. tomato sauce and cheese"
     },
     "964": {
         "code": 830,
+        "cat": "potpie",
         "desc": "deep-dish meat and vegetable pie or a meat stew with dumplings"
     },
     "965": {
         "code": 900,
+        "cat": "burrito",
         "desc": "a flour tortilla folded around a filling"
     },
     "966": {
         "code": 798,
+        "cat": "red wine",
         "desc": "wine having a red color derived from skins of dark-colored grapes"
     },
     "967": {
         "code": 947,
+        "cat": "espresso",
         "desc": "strong black coffee brewed by forcing hot water under pressure through finely ground coffee beans"
     },
     "968": {
         "code": 859,
+        "cat": "cup",
         "desc": "a punch served in a pitcher instead of a punch bowl"
     },
     "969": {
         "code": 823,
+        "cat": "eggnog",
         "desc": "a punch made of sweetened milk or cream mixed with eggs and usually alcoholic liquor"
     },
     "970": {
         "code": 361,
+        "cat": "alp",
         "desc": "any high mountain"
     },
     "971": {
         "code": 992,
+        "cat": "bubble",
         "desc": "a hollow globule of gas (e.g., air or carbon dioxide)"
     },
     "972": {
         "code": 359,
+        "cat": "cliff, drop, drop-off",
         "desc": "a steep high face of rock; \"he stood on a high cliff overlooking the town\"; \"a steep drop\""
     },
     "973": {
         "code": 365,
+        "cat": "coral reef",
         "desc": "a reef consisting of coral consolidated into limestone"
     },
     "974": {
         "code": 368,
+        "cat": "geyser",
         "desc": "a spring that discharges hot water and steam"
     },
     "975": {
         "code": 366,
+        "cat": "lakeside, lakeshore",
         "desc": "the shore of a lake"
     },
     "976": {
         "code": 363,
+        "cat": "promontory, headland, head, foreland",
         "desc": "a natural elevation (especially a rocky one that juts out into the sea)"
     },
     "977": {
         "code": 364,
+        "cat": "sandbar, sand bar",
         "desc": "a bar of sand"
     },
     "978": {
         "code": 367,
+        "cat": "seashore, coast, seacoast, sea-coast",
         "desc": "the shore of a sea or ocean"
     },
     "979": {
         "code": 360,
+        "cat": "valley, vale",
         "desc": "a long depression in the surface of the land that usually contains a river"
     },
     "980": {
         "code": 362,
+        "cat": "volcano",
         "desc": "a mountain formed by volcanic material"
     },
     "981": {
         "code": 954,
+        "cat": "ballplayer, baseball player",
         "desc": "an athlete who plays baseball"
     },
     "982": {
         "code": 848,
+        "cat": "groom, bridegroom",
         "desc": "a man participant in his own marriage ceremony"
     },
     "983": {
         "code": 982,
+        "cat": "scuba diver",
         "desc": "an underwater diver who uses scuba gear"
     },
     "984": {
         "code": 330,
+        "cat": "rapeseed",
         "desc": "seed of rape plants; source of an edible oil"
     },
     "985": {
         "code": 357,
+        "cat": "daisy",
         "desc": "any of numerous composite plants having flower heads with well-developed ray flowers usually arranged in a single whorl"
     },
     "986": {
         "code": 358,
+        "cat": "yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum",
         "desc": "maroon to purple-brown orchid with yellow lip; Europe, North America and Japan"
     },
     "987": {
         "code": 331,
+        "cat": "corn",
         "desc": "the dried grains or kernels or corn used as animal feed or ground for meal"
     },
     "988": {
         "code": 327,
+        "cat": "acorn",
         "desc": "fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base"
     },
     "989": {
         "code": 328,
+        "cat": "hip, rose hip, rosehip",
         "desc": "the fruit of a rose plant"
     },
     "990": {
         "code": 332,
+        "cat": "buckeye, horse chestnut, conker",
         "desc": "the inedible nutlike seed of the horse chestnut"
     },
     "991": {
         "code": 886,
+        "cat": "coral fungus",
         "desc": "any of numerous fungi of the family Clavariaceae often brightly colored that grow in often intricately branched clusters like coral"
     },
     "992": {
         "code": 913,
+        "cat": "agaric",
         "desc": "a saprophytic fungus of the order Agaricales having an umbrellalike cap with gills on the underside"
     },
     "993": {
         "code": 956,
+        "cat": "gyromitra",
         "desc": "any fungus of the genus Gyromitra"
     },
     "994": {
         "code": 893,
+        "cat": "stinkhorn, carrion fungus",
         "desc": "any of various ill-smelling brown-capped fungi of the order Phallales; \"the foul smell of the stinkhorn attracts insects that carry the spores away on their feet\""
     },
     "995": {
         "code": 878,
+        "cat": "earthstar",
         "desc": "any fungus of the family Geastraceae; in form suggesting a puffball whose outer peridium splits into the shape of a star"
     },
     "996": {
         "code": 812,
+        "cat": "hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa",
         "desc": "large greyish-brown edible fungus forming a mass of overlapping caps that somewhat resembles a hen at the base of trees"
     },
     "997": {
         "code": 981,
+        "cat": "bolete",
         "desc": "any fungus of the family Boletaceae"
     },
     "998": {
         "code": 329,
+        "cat": "ear, spike, capitulum",
         "desc": "fruiting spike of a cereal plant especially corn"
     },
     "999": {
         "code": 889,
+        "cat": "toilet tissue, toilet paper, bathroom tissue",
         "desc": "a soft thin absorbent paper for use in toilets"
     }
 }

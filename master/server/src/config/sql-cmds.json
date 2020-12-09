@@ -1,6 +1,6 @@
 {
     "jobs": {
-        "create_job_queue": "CREATE TABLE IF NOT EXISTS job_queue (job_id CHAR(36) NOT NULL PRIMARY KEY, worker_id CHAR(36), status CHAR(8) NOT NULL, submit_time DATETIME(2), schedule_time DATETIME(2), finish_time DATETIME(2), result CHAR(64), img_name CHAR(50), description VARCHAR(256))",
+        "create_job_queue": "CREATE TABLE IF NOT EXISTS job_queue (job_id CHAR(36) NOT NULL PRIMARY KEY, worker_id CHAR(36), status CHAR(8) NOT NULL, submit_time DATETIME(2), schedule_time DATETIME(2), finish_time DATETIME(2), result CHAR(64), img_name CHAR(50), category VARCHAR(64), description VARCHAR(256))",
         "get_job": "SELECT * from job_queue WHERE job_id=?",
         "get_jobs": "SELECT * from job_queue WHERE job_id IN (?)",
         "get_all_jobs": "SELECT * from job_queue",
@@ -8,7 +8,7 @@
         "get_running_jobs": "SELECT * from job_queue WHERE status='RUNNING'",
         "get_jobs_no_finish": "SELECT * from job_queue WHERE status='QUEUED' OR status='RUNNING' LIMIT 1",
         "insert_job": "INSERT IGNORE INTO job_queue (job_id, status, submit_time, img_name) VALUES (?)",
-        "update_job": "UPDATE job_queue SET status=?, finish_time=?, result=?, description=? WHERE job_id=?",
+        "update_job": "UPDATE job_queue SET status=?, finish_time=?, result=?, category=?, description=? WHERE job_id=?",
         "update_job_worker": "UPDATE job_queue SET worker_id=?, schedule_time=?, status=? WHERE job_id=?",
         "reset_jobs": "UPDATE job_queue SET status='QUEUED', worker_id=null, schedule_time=null, finish_time=null WHERE job_id IN (?)",
         "delete_jobs": "DELETE IGNORE FROM job_queue WHERE (job_id) IN (?)",
