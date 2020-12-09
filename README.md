@@ -139,7 +139,7 @@ Though we did a great job, due to the limited time, there are still many points 
 [Worker Server API documentation](./worker/server/README.md)
 
 ## **Step-by-Step Instructions**
-* Reserve resources on GEINI by using this ![RSpec file](./rspec.xml)
+* Reserve resources on GEINI by using this [**RSpec file**](./rspec.xml)
 * Clone codes into the **master** node and the **worker** nodes.
   * `git clone https://github.com/jin-qin/cs655-image-recognition.git`
 * Set up MariaDB in the **master** node
