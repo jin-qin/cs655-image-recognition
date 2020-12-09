@@ -48,6 +48,22 @@ The general purpose of this project is to implement an image recognition service
     * The loss rates were set on the link between client and the master node.
   * Graph: 
     ![](./tests/all_results.jpg)
+  * Table:
+    | Loss rate | Goodput(req/sec) | Throughput(req/sec) | Accracy | avg execution time(sec)|
+    |---|---|---|---|---|
+    | 0.0 | 21.133923636182242 | 21.133923636182242 | 0.73 | 3.13 |
+    |0.06666666666666667 | 21.060821040334172 | 21.060821040334172 | 0.73 | 3.24 |
+    |0.13333333333333333 | 10.557886199572378 | 10.557886199572378 | 0.73 | 3.21 | 
+    |0.2 | 10.454490879142757 | 10.454490879142757 | 0.73 | 3.0 | 
+    |0.26666666666666666 | 8.012231961410967 | 8.012231961410967 | 0.73 | 3.25 | 
+    |0.3333333333333333 | 5.593806842991822 | 5.593806842991822 | 0.73 | 3.18 |
+    |0.4 | 2.439768127831754 | 2.4895593141140346 | 0.7346938775510204 | 3.2551020408163267 |
+    |0.4666666666666667 | 1.4549013067652907 | 1.5155221945471777 | 0.71875 | 3.125 |
+    |0.5333333333333333 | 1.1125849069466953| 1.1711420073123107 | 0.7473684210526316 | 3.2842105263157895 |
+    |0.6 | 0.40831502507439266 | 0.5040926235486329 | 0.7407407407407407 | 3.308641975308642 |
+    |mean | 8.22287299262525 | 8.24934766991565 | 0.732155303934439 | 3.19829545424408 |
+    |maximum | 21.1339236361822 | 21.1339236361822 | 0.747368421052632 | 3.30864197530864 |
+    |minimum | 0.408315025074393 | 0.504092623548633 | 0.71875 | 3.0 |
   * Analysis: 
     * In the goodput graph, it indicates that with the loss rate increasing, goodput is smaller. When the loss rate gets larger, there are more packets lost during the transmission and then total time will increase. Thus, the goodput becomes smaller.
     * In the throughput graph, it also indicates that with the loss rate increasing, throughput is smaller. The reason is same as goodput.
