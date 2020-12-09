@@ -183,9 +183,3 @@ Though we did a great job, due to the limited time, there are still many points 
 * You can choose an image from your local machine.
 * Click `SUBMIT`
 * Back to the Job Board and wait for the result.
-## **Demo**
-### **Job Board**
-<!-- ![](./docs/demos/demo-job-board.gif) -->
-
-### **Job Submit**
-<!-- ![](./docs/demos/demo-job-submit.gif) -->
