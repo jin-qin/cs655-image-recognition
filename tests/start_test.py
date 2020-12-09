@@ -145,7 +145,7 @@ if __name__ == '__main__':
 
         url = 'http://{}:{}/jobs/clear'.format(HOST, PORT)
         res = requests.delete(url)
-        avg_time, accuracy, valid_http_req, total_http_req, req_duration = test_code(imgs_paths, gt, synset_map)
+        avg_time, accuracy, valid_http_req, total_http_req, req_duration = test_code(imgs_paths[:100], gt, synset_map)
         goodput = valid_http_req / req_duration
         throughput = total_http_req / req_duration
         avg_times.append(avg_time)
