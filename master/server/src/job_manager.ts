@@ -107,7 +107,11 @@ class JobManager {
 
         if (jobs_id.length <= 0) return;
 
-        this.reset_jobs(jobs_id);
+        const ret_reset = await this.reset_jobs(jobs_id);
+        if (!ret_reset.success) {
+            console.warn(`reset_timeout_jobs: failed to reset jobs due to ${ret.result}`);
+            return;
+        }
     }
 
     private async schedule_next_job() {
