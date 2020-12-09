@@ -50,7 +50,7 @@ def test_code(imgs_paths, gt, synste_map):
         # if failed (timeout, status code not 201 etc.), skip
         # only count valid http requets here, used to compute goodput
         try:
-            res = sess.post(url=url_submit, files=data)
+            res = sess.post(url=url_submit, files=data, timeout=3)
             if res.status_code == 201:
                 job_id = res.json()['id']
                 imgs_idx_map[job_id] = idx
@@ -68,7 +68,7 @@ def test_code(imgs_paths, gt, synste_map):
     check_count = 0
     while True:
         try:
-            res = sess.get(url_check_all_finished)
+            res = sess.get(url_check_all_finished, timeout=3)
             if res.status_code != 200: continue
             all_finished = res.json()
 
@@ -88,7 +88,7 @@ def test_code(imgs_paths, gt, synste_map):
     url_get_all_jobs =' http://{}:{}/jobs/all'.format(HOST, PORT)
     while True:
         try:
-            res = sess.get(url_get_all_jobs)
+            res = sess.get(url_get_all_jobs, timeout=3)
             if res.status_code != 200: continue
             break
         except:
@@ -172,5 +172,5 @@ if __name__ == '__main__':
     with open('results.csv', 'w') as csvfile:
         csvwriter = csv.writer(csvfile, delimiter=' ', quotechar='|')
         for i in range(len(loss_rates)):
-            csvwriter.writerow([loss_rates[i], goodputs[i], throughputs[i], accuracies[i], avg_times[i]], total_runtime)
+            csvwriter.writerow([loss_rates[i], goodputs[i], throughputs[i], accuracies[i], avg_times[i], total_runtime])
     

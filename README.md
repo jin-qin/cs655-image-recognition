@@ -37,14 +37,14 @@ The general purpose of this project is to implement an image recognition service
   * Web interface’s language / framework: React.js, TypeScript
   * Relational database: Maria DB
   * Pre-trained image recognition model: MobileNet V2, since we do not have GPUs on our worker nodes.
-  * Testing data set: [ILSVRC2012 validation images (first 1000 images)](https://drive.google.com/file/d/1-X6t402uX-4Ol7EtszGdA7-_ywSstCV8/view?usp=sharing), since this data set cannot be published, so the download link here can only be accessible by Boston University members, log in your BU account to get it.
+  * Testing data set: [ILSVRC2012 validation images (first 100 images)](https://drive.google.com/file/d/1-X6t402uX-4Ol7EtszGdA7-_ywSstCV8/view?usp=sharing), since this data set cannot be published, so the download link here can only be accessible by Boston University members, log in your BU account to get it.
 
 ## **Execution & results**
 * Configuration & usage
   * See [**Step-by-Step Instructions**](#step-by-step-instructions) below.
 * Metrics, graphs and analysis
   * Metrics:
-    * We measured the throughput (number of HTTP requests per second), goodput, accuracy, average job execution time over the loss rates = [0 , 0.067, 0.13, 0.2, 0.27, 0.33, 0.4, 0.47, 0.53, 0.6], and tested with 1000 images per loss rate.
+    * We measured the throughput (number of HTTP requests per second), goodput, accuracy, average job execution time over the loss rates = [0 , 0.067, 0.13, 0.2, 0.27, 0.33, 0.4, 0.47, 0.53, 0.6], and tested with 100 images per loss rate.
     * The loss rates were set on the link between client and the master node.
   * Graph: coming soon
   * Analysis: coming sson
