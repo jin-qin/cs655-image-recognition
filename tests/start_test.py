@@ -103,17 +103,19 @@ def test_code(imgs_paths, gt, synste_map):
     for row in all_data['data']:
         if row['finish_time'] is None: continue
         if row['schedule_time'] is None: continue
-        
-        img_idx = imgs_idx_map[row['job_id']]
-        finish_time = date2ts(row['finish_time'])
-        schedule_time = date2ts(row['schedule_time'])
-        submit_time = date2ts(row['submit_time'])
-        pred_label = synset_map[int(row['result'])]
+        try:
+            img_idx = imgs_idx_map[row['job_id']]
+            finish_time = date2ts(row['finish_time'])
+            schedule_time = date2ts(row['schedule_time'])
+            submit_time = date2ts(row['submit_time'])
+            pred_label = synset_map[int(row['result'])]
 
-        preds.append(is_predict_correct(gt, img_idx, pred_label))
+            preds.append(is_predict_correct(gt, img_idx, pred_label))
 
-        duration = finish_time - schedule_time    # second
-        avg_times.append(duration)
+            duration = finish_time - schedule_time    # second
+            avg_times.append(duration)
+        except:
+            pass
 
     avg_time = np.mean(avg_times)
     accuracy = np.mean(preds)
