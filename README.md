@@ -1,5 +1,11 @@
 # **CS655 Image Recognition System**
 
+> **Manually submit jobs**
+![](./docs/demo-job-submit-manual.gif)
+
+> **Submit batch jobs (100 jobs with 4 workers here)**
+![](./docs/demo-job-submit-batch.gif)
+
 ## **Project Description**
 The general purpose of this project is to implement an image recognition service (**scalable**) with a web interface. In our design, we plan to implement a server node which manages all jobs and schedules them to worker nodes.  Users will use the web interface to submit jobs to the service node and get results. In worker nodes, we will implement a worker service to interact with the server node and image recognition component. 
 
